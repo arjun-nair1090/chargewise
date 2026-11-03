@@ -109,8 +109,11 @@ through 10,000 requests cannot overflow the thread stack; a test runs that case 
 Power allocation is modelled as a flow network:
 
 ```text
-source ─► feeders ─► stations (grid limit) ─► sessions (min of connector, vehicle and requested power) ─► sink
+source ─► feeders ─► stations ─► sessions ─► sink
 ```
+
+Feeder edges carry feeder capacity, station edges the station's grid limit, and each session edge the smallest of
+connector rating, vehicle limit and requested power.
 
 Edmonds-Karp finds augmenting paths with breadth-first search, so it terminates in `O(V·E²)` regardless of capacities,
 and its result is a **maximum** feasible allocation: the reported minimum cut equals the total flow. The greedy

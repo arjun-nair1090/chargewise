@@ -1,0 +1,2 @@
+# Only scripts/plot_benchmarks.py needs a third-party package; generate_dataset.py uses the standard library.
+matplotlib>=3.8  # tested with 3.10.8

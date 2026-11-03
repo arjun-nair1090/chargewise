@@ -1,0 +1,166 @@
+@import 'tailwindcss';
+@import './styles/tokens.css';
+@import 'leaflet/dist/leaflet.css';
+
+@layer base {
+  html {
+    color-scheme: dark;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scrollbar-color: var(--color-border-strong) transparent;
+    caret-color: var(--color-accent);
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--color-bg);
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-accent) 32%, transparent);
+    color: var(--color-text);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  a {
+    text-underline-offset: 3px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-muted);
+    opacity: 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* The outcome bar's segments grow once after a run; reduced motion collapses this to an instant change. */
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@layer components {
+  /* Dense ledger tables: 40 px rows, ruled, tabular numerals. */
+  .data-table {
+    /* Contains visually hidden (absolutely positioned) labels so they scroll with the table instead of widening the page. */
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .data-table th {
+    height: 2.5rem;
+    padding: 0 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-muted);
+    font-weight: 500;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .data-table td {
+    height: 2.5rem;
+    padding: 0.375rem 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+  }
+
+  /* Right-aligned cells hold quantities; a value and its unit never split across lines. */
+  .data-table td.text-right {
+    white-space: nowrap;
+  }
+
+  /* Row headers (th scope="row") sit in body rows and share their padding and rules. */
+  .data-table tbody th {
+    height: 2.5rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+  }
+
+  .data-table tbody tr:last-child td,
+  .data-table tbody tr:last-child th {
+    border-bottom: 0;
+  }
+
+  .data-table tbody tr:hover td,
+  .data-table tbody tr:hover th {
+    background-color: color-mix(in srgb, var(--color-surface-raised) 60%, transparent);
+  }
+
+  .data-table th:first-child,
+  .data-table td:first-child {
+    padding-left: 1.25rem;
+  }
+
+  .data-table th:last-child,
+  .data-table td:last-child {
+    padding-right: 1.25rem;
+  }
+
+  /* Leaflet is themed from the palette so the map reads as part of the console. */
+  .leaflet-container {
+    background-color: var(--color-surface);
+    font-family: var(--font-sans);
+  }
+
+  .leaflet-control-attribution {
+    background-color: color-mix(in srgb, var(--color-bg) 80%, transparent) !important;
+    color: var(--color-muted) !important;
+  }
+
+  .leaflet-control-attribution a {
+    color: var(--color-text) !important;
+  }
+
+  .leaflet-bar a {
+    background-color: var(--color-surface-raised) !important;
+    border-color: var(--color-border) !important;
+    color: var(--color-text) !important;
+  }
+
+  .leaflet-tile-pane {
+    filter: grayscale(1) invert(1) brightness(0.62) contrast(1.15);
+  }
+
+  .leaflet-tooltip {
+    background-color: var(--color-surface-raised);
+    border-color: var(--color-border-strong);
+    color: var(--color-text);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 0.4);
+  }
+
+  .leaflet-tooltip-top::before {
+    border-top-color: var(--color-border-strong);
+  }
+}

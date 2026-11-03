@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: chargewise-backend
+  config:
+    # Local runs read the repository-root .env (see .env.example); real environment variables win.
+    import: optional:file:../.env[.properties]
+  datasource:
+    url: ${CHARGEWISE_DB_URL:jdbc:postgresql://localhost:5432/chargewise}
+    username: ${CHARGEWISE_DB_USER:chargewise}
+    password: ${CHARGEWISE_DB_PASSWORD:}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        # Loads lazy associations (vehicles, connector types, stations) of an allocation batch in groups.
+        default_batch_fetch_size: 50
+
+server:
+  error:
+    include-stacktrace: never
+    include-message: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+springdoc:
+  # Interactive API documentation is a required project deliverable (project brief §5).
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+chargewise:
+  version: '@project.version@'
+  jwt:
+    # HS256 signing secret, at least 32 bytes; startup fails without it (architecture D7).
+    secret: ${CHARGEWISE_JWT_SECRET:}
+  bootstrap-operator:
+    email: ${CHARGEWISE_BOOTSTRAP_OPERATOR_EMAIL:}
+    password: ${CHARGEWISE_BOOTSTRAP_OPERATOR_PASSWORD:}
+  lifecycle:
+    # Advances simulated charging sessions every 60 s (architecture D3).
+    enabled: ${CHARGEWISE_LIFECYCLE_ENABLED:true}
+  demo:
+    # Synthetic dataset written by scripts/generate_dataset.py (path relative to backend/).
+    dataset-dir: ${CHARGEWISE_DEMO_DATASET_DIR:../datasets}
+    # Shared password of every @demo.chargewise.test account; seeding refuses to run while it is blank.
+    password: ${CHARGEWISE_DEMO_PASSWORD:}
+    seed-on-startup: ${CHARGEWISE_DEMO_SEED_ON_STARTUP:false}

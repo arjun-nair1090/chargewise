@@ -1,0 +1,27 @@
+/*
+ * ChargeWise design tokens (project specification §14).
+ * Lime is reserved for primary actions, focus rings and the single most important figure per view.
+ */
+@theme {
+  --color-bg: #090b0a;
+  --color-surface: #171b19;
+  --color-surface-raised: #1f2421;
+  --color-border: #2a302c;
+  --color-border-strong: #3a423d;
+  --color-text: #f2f5f3;
+  --color-muted: #8b9690;
+  --color-accent: #b8f34a;
+  --color-accent-hover: #c8f86e;
+  --color-accent-ink: #0d1203;
+  --color-warning: #f2c14e;
+  --color-danger: #ff6b5e;
+
+  /* Chart series (dataviz validator, dark mode on #171b19: all checks pass). Slot 1 is the algorithm, slot 2 the baseline. */
+  --color-series-1: #3987e5;
+  --color-series-2: #d95926;
+
+  --font-sans: ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+}

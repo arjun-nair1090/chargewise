@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Segment tree range-maximum query and point update">
+<title>Segment tree range-maximum query and point update</title>
+<style>
+text { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'Cascadia Mono', SFMono-Regular, Consolas, Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+@keyframes s1 { 0% { opacity: 0; } 7.273% { opacity: 0; } 10.455% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s1 { animation: s1 11.0s linear infinite; }
+@keyframes s2 { 0% { opacity: 0; } 67.727% { opacity: 0; } 70.909% { opacity: 1; } 94.545% { opacity: 1; } 97.727% { opacity: 0; } 100% { opacity: 0; } }
+.s2 { animation: s2 11.0s linear infinite; }
+@keyframes s3 { 0% { opacity: 0; } 11.364% { opacity: 0; } 14.545% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s3 { animation: s3 11.0s linear infinite; }
+@keyframes s4 { 0% { opacity: 0; } 15.455% { opacity: 0; } 18.636% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s4 { animation: s4 11.0s linear infinite; }
+@keyframes s5 { 0% { opacity: 0; } 63.636% { opacity: 0; } 66.818% { opacity: 1; } 94.545% { opacity: 1; } 97.727% { opacity: 0; } 100% { opacity: 0; } }
+.s5 { animation: s5 11.0s linear infinite; }
+@keyframes s6 { 0% { opacity: 0; } 19.545% { opacity: 0; } 22.727% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s6 { animation: s6 11.0s linear infinite; }
+@keyframes s7 { 0% { opacity: 0; } 27.727% { opacity: 0; } 30.909% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s7 { animation: s7 11.0s linear infinite; }
+@keyframes s8 { 0% { opacity: 0; } 59.545% { opacity: 0; } 62.727% { opacity: 1; } 94.545% { opacity: 1; } 97.727% { opacity: 0; } 100% { opacity: 0; } }
+.s8 { animation: s8 11.0s linear infinite; }
+@keyframes s9 { 0% { opacity: 0; } 0.000% { opacity: 0; } 1.818% { opacity: 1; } 59.545% { opacity: 1; } 61.364% { opacity: 0; } 100% { opacity: 0; } }
+.s9 { animation: s9 11.0s linear infinite; }
+@keyframes s10 { 0% { opacity: 0; } 59.545% { opacity: 0; } 61.364% { opacity: 1; } 94.545% { opacity: 1; } 96.364% { opacity: 0; } 100% { opacity: 0; } }
+.s10 { animation: s10 11.0s linear infinite; }
+@keyframes s11 { 0% { opacity: 0; } 23.636% { opacity: 0; } 26.818% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s11 { animation: s11 11.0s linear infinite; }
+@keyframes s12 { 0% { opacity: 0; } 55.455% { opacity: 0; } 58.636% { opacity: 1; } 94.545% { opacity: 1; } 97.727% { opacity: 0; } 100% { opacity: 0; } }
+.s12 { animation: s12 11.0s linear infinite; }
+@keyframes s13 { 0% { opacity: 0; } 0.000% { opacity: 0; } 1.818% { opacity: 1; } 55.455% { opacity: 1; } 57.273% { opacity: 0; } 100% { opacity: 0; } }
+.s13 { animation: s13 11.0s linear infinite; }
+@keyframes s14 { 0% { opacity: 0; } 55.455% { opacity: 0; } 57.273% { opacity: 1; } 94.545% { opacity: 1; } 96.364% { opacity: 0; } 100% { opacity: 0; } }
+.s14 { animation: s14 11.0s linear infinite; }
+@keyframes s15 { 0% { opacity: 0; } 7.273% { opacity: 0; } 10.455% { opacity: 1; } 45.455% { opacity: 1; } 48.636% { opacity: 0; } 100% { opacity: 0; } }
+.s15 { animation: s15 11.0s linear infinite; }
+@keyframes s16 { 0% { opacity: 0; } 9.091% { opacity: 0; } 12.273% { opacity: 1; } 27.273% { opacity: 1; } 30.455% { opacity: 0; } 100% { opacity: 0; } }
+.s16 { animation: s16 11.0s linear infinite; }
+@keyframes s17 { 0% { opacity: 0; } 32.727% { opacity: 0; } 35.909% { opacity: 1; } 41.818% { opacity: 1; } 45.000% { opacity: 0; } 100% { opacity: 0; } }
+.s17 { animation: s17 11.0s linear infinite; }
+@keyframes s18 { 0% { opacity: 0; } 52.727% { opacity: 0; } 55.909% { opacity: 1; } 90.909% { opacity: 1; } 94.091% { opacity: 0; } 100% { opacity: 0; } }
+.s18 { animation: s18 11.0s linear infinite; }</style>
+<rect x="0.5" y="0.5" width="1199" height="469" rx="18" fill="#090B0A" stroke="#2A302C"/>
+<text x="40" y="52" font-size="22" fill="#F2F5F3" font-weight="600" text-anchor="start" >Segment tree: range maximum in O(log n), point updates in O(log n)</text>
+<text x="40" y="78" font-size="15" fill="#8B9690" font-weight="400" text-anchor="start" >Booked connectors per 15-minute slot. Query MAX over slots 3 to 5, then add 3 bookings to slot 4.</text>
+<line x1="600.0" y1="148" x2="375.0" y2="187" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="600.0" y1="148" x2="825.0" y2="187" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="375.0" y1="223" x2="262.5" y2="262" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="375.0" y1="223" x2="487.5" y2="262" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="825.0" y1="223" x2="712.5" y2="262" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="825.0" y1="223" x2="937.5" y2="262" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="262.5" y1="298" x2="206.25" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="262.5" y1="298" x2="318.75" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="487.5" y1="298" x2="431.25" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="487.5" y1="298" x2="543.75" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="712.5" y1="298" x2="656.25" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="712.5" y1="298" x2="768.75" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="937.5" y1="298" x2="881.25" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="937.5" y1="298" x2="993.75" y2="337" stroke="#3A423D" stroke-width="1.5"/>
+<rect x="568.0" y="112" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s1" x="568.0" y="112" width="64" height="36" rx="9" fill="none" fill-opacity="0" stroke="#3987E5" stroke-width="2.5"/>
+<rect class="s2" x="568.0" y="112" width="64" height="36" rx="9" fill="none" stroke="#F2C14E" stroke-width="2.5"/>
+<text x="600.0" y="136" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >5</text>
+<text x="640.0" y="134" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[0,7]</text>
+<rect x="343.0" y="187" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s3" x="343.0" y="187" width="64" height="36" rx="9" fill="none" fill-opacity="0" stroke="#3987E5" stroke-width="2.5"/>
+<text x="375.0" y="211" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >4</text>
+<text x="415.0" y="209" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[0,3]</text>
+<rect x="793.0" y="187" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s4" x="793.0" y="187" width="64" height="36" rx="9" fill="none" fill-opacity="0" stroke="#3987E5" stroke-width="2.5"/>
+<rect class="s5" x="793.0" y="187" width="64" height="36" rx="9" fill="none" stroke="#F2C14E" stroke-width="2.5"/>
+<text x="825.0" y="211" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >5</text>
+<text x="865.0" y="209" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[4,7]</text>
+<rect x="230.5" y="262" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="262.5" y="286" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >3</text>
+<text x="302.5" y="284" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[0,1]</text>
+<rect x="455.5" y="262" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s6" x="455.5" y="262" width="64" height="36" rx="9" fill="none" fill-opacity="0" stroke="#3987E5" stroke-width="2.5"/>
+<text x="487.5" y="286" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >4</text>
+<text x="527.5" y="284" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[2,3]</text>
+<rect x="680.5" y="262" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s7" x="680.5" y="262" width="64" height="36" rx="9" fill="#B8F34A" fill-opacity="0.18" stroke="#B8F34A" stroke-width="2.5"/>
+<rect class="s8" x="680.5" y="262" width="64" height="36" rx="9" fill="none" stroke="#F2C14E" stroke-width="2.5"/>
+<g class="s9"><text x="712.5" y="286" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >2</text></g>
+<g class="s10"><text x="712.5" y="286" font-size="16" fill="#F2C14E" font-weight="700" text-anchor="middle" class="mono" >3</text></g>
+<text x="752.5" y="284" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[4,5]</text>
+<rect x="905.5" y="262" width="64" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="937.5" y="286" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >5</text>
+<text x="977.5" y="284" font-size="11" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >[6,7]</text>
+<rect x="180.25" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="206.25" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >1</text>
+<rect x="292.75" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="318.75" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >3</text>
+<rect x="405.25" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="431.25" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >2</text>
+<rect x="517.75" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s11" x="517.75" y="337" width="52" height="36" rx="9" fill="#B8F34A" fill-opacity="0.18" stroke="#B8F34A" stroke-width="2.5"/>
+<text x="543.75" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >4</text>
+<rect x="630.25" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<rect class="s12" x="630.25" y="337" width="52" height="36" rx="9" fill="none" stroke="#F2C14E" stroke-width="2.5"/>
+<g class="s13"><text x="656.25" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >0</text></g>
+<g class="s14"><text x="656.25" y="361" font-size="16" fill="#F2C14E" font-weight="700" text-anchor="middle" class="mono" >3</text></g>
+<rect x="742.75" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="768.75" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >2</text>
+<rect x="855.25" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="881.25" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >5</text>
+<rect x="967.75" y="337" width="52" height="36" rx="9" fill="#1F2421" stroke="#3A423D" stroke-width="1.5"/>
+<text x="993.75" y="361" font-size="16" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >1</text>
+<text x="206.25" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 0</text>
+<text x="318.75" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 1</text>
+<text x="431.25" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 2</text>
+<text x="543.75" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 3</text>
+<text x="656.25" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 4</text>
+<text x="768.75" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 5</text>
+<text x="881.25" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 6</text>
+<text x="993.75" y="392" font-size="11" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >slot 7</text>
+<g class="s15"><path d="M513.75 402 V410 H798.75 V402" fill="none" stroke="#B8F34A" stroke-width="2"/></g>
+<g class="s16"><text x="600.0" y="444" font-size="15" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >query MAX[3, 5]: walk down, keeping only nodes that overlap the range</text></g>
+<g class="s17"><text x="600.0" y="444" font-size="15" fill="#B8F34A" font-weight="600" text-anchor="middle" class="mono" >two covering nodes, [3,3] = 4 and [4,5] = 2, so the answer is 4</text></g>
+<g class="s18"><text x="600.0" y="444" font-size="15" fill="#F2C14E" font-weight="600" text-anchor="middle" class="mono" >ADD 3 at slot 4: update the leaf, then recompute 3 ancestors up to the root</text></g>
+</svg>

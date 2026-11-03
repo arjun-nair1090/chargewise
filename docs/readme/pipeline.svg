@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="The nine steps of an allocation run">
+<title>The nine steps of an allocation run</title>
+<style>
+text { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'Cascadia Mono', SFMono-Regular, Consolas, Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+@keyframes p1 { 0% { opacity: 0; } 3.333% { opacity: 0; } 7.222% { opacity: 1; } 17.654% { opacity: 1; } 21.543% { opacity: 0; } 100% { opacity: 0; } }
+.p1 { animation: p1 9.0s linear infinite; }
+@keyframes p2 { 0% { opacity: 0; } 13.210% { opacity: 0; } 17.099% { opacity: 1; } 27.531% { opacity: 1; } 31.420% { opacity: 0; } 100% { opacity: 0; } }
+.p2 { animation: p2 9.0s linear infinite; }
+@keyframes p3 { 0% { opacity: 0; } 23.086% { opacity: 0; } 26.975% { opacity: 1; } 37.407% { opacity: 1; } 41.296% { opacity: 0; } 100% { opacity: 0; } }
+.p3 { animation: p3 9.0s linear infinite; }
+@keyframes p4 { 0% { opacity: 0; } 32.963% { opacity: 0; } 36.852% { opacity: 1; } 47.284% { opacity: 1; } 51.173% { opacity: 0; } 100% { opacity: 0; } }
+.p4 { animation: p4 9.0s linear infinite; }
+@keyframes p5 { 0% { opacity: 0; } 42.840% { opacity: 0; } 46.728% { opacity: 1; } 57.160% { opacity: 1; } 61.049% { opacity: 0; } 100% { opacity: 0; } }
+.p5 { animation: p5 9.0s linear infinite; }
+@keyframes p6 { 0% { opacity: 0; } 52.716% { opacity: 0; } 56.605% { opacity: 1; } 67.037% { opacity: 1; } 70.926% { opacity: 0; } 100% { opacity: 0; } }
+.p6 { animation: p6 9.0s linear infinite; }
+@keyframes p7 { 0% { opacity: 0; } 62.593% { opacity: 0; } 66.481% { opacity: 1; } 76.914% { opacity: 1; } 80.802% { opacity: 0; } 100% { opacity: 0; } }
+.p7 { animation: p7 9.0s linear infinite; }
+@keyframes p8 { 0% { opacity: 0; } 72.469% { opacity: 0; } 76.358% { opacity: 1; } 86.790% { opacity: 1; } 90.679% { opacity: 0; } 100% { opacity: 0; } }
+.p8 { animation: p8 9.0s linear infinite; }
+@keyframes p9 { 0% { opacity: 0; } 82.346% { opacity: 0; } 86.235% { opacity: 1; } 96.667% { opacity: 1; } 100.000% { opacity: 0; } 100% { opacity: 0; } }
+.p9 { animation: p9 9.0s linear infinite; }
+@keyframes p10 { 0.000% { transform: translateX(0.0px); } 8.272% { transform: translateX(0.0px); } 18.148% { transform: translateX(126.0px); } 28.025% { transform: translateX(252.0px); } 37.901% { transform: translateX(378.0px); } 47.778% { transform: translateX(504.0px); } 57.654% { transform: translateX(630.0px); } 67.531% { transform: translateX(756.0px); } 77.407% { transform: translateX(882.0px); } 87.284% { transform: translateX(1008.0px); } 95.556% { transform: translateX(1008.0px); } 100.000% { transform: translateX(1008.0px); } }
+.p10 { animation: p10 9.0s linear infinite; }</style>
+<rect x="0.5" y="0.5" width="1199" height="329" rx="18" fill="#090B0A" stroke="#2A302C"/>
+<text x="40" y="50" font-size="22" fill="#F2F5F3" font-weight="600" text-anchor="start" >One allocation run, one transaction</text>
+<text x="40" y="76" font-size="15" fill="#8B9690" font-weight="400" text-anchor="start" >Any failure rolls back everything, including the run record.</text>
+<line x1="96.0" y1="256" x2="1104.0" y2="256" stroke="#3A423D" stroke-width="2"/>
+<rect x="38.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p1" x="38.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="52.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >01</text>
+<text x="52.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Advisory lock</text>
+<text x="52.0" y="204" font-size="10.5" fill="#8B9690" font-weight="500" text-anchor="start" class="mono" >pg_advisory</text>
+<line x1="96.0" y1="222" x2="96.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="96.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="164.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p2" x="164.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="178.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >02</text>
+<text x="178.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Load queue</text>
+<text x="178.0" y="204" font-size="10.5" fill="#8B9690" font-weight="500" text-anchor="start" class="mono" >FOR UPDATE</text>
+<line x1="222.0" y1="222" x2="222.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="222.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="290.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p3" x="290.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="304.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >03</text>
+<text x="304.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Validate</text>
+<text x="304.0" y="204" font-size="10.5" fill="#8B9690" font-weight="500" text-anchor="start" class="mono" >expire windows</text>
+<line x1="348.0" y1="222" x2="348.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="348.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="416.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p4" x="416.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="430.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >04</text>
+<text x="430.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Percentiles</text>
+<text x="430.0" y="204" font-size="10.5" fill="#3987E5" font-weight="500" text-anchor="start" class="mono" >Quickselect</text>
+<line x1="474.0" y1="222" x2="474.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="474.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="542.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p5" x="542.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="556.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >05</text>
+<text x="556.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Compatibility</text>
+<text x="556.0" y="204" font-size="10.5" fill="#8B9690" font-weight="500" text-anchor="start" class="mono" >graph, reasons</text>
+<line x1="600.0" y1="222" x2="600.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="600.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="668.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p6" x="668.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="682.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >06</text>
+<text x="682.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Assign</text>
+<text x="682.0" y="204" font-size="10.5" fill="#3987E5" font-weight="500" text-anchor="start" class="mono" >Kuhn matching</text>
+<line x1="726.0" y1="222" x2="726.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="726.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="794.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p7" x="794.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="808.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >07</text>
+<text x="808.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Headroom</text>
+<text x="808.0" y="204" font-size="10.5" fill="#3987E5" font-weight="500" text-anchor="start" class="mono" >Segment tree</text>
+<line x1="852.0" y1="222" x2="852.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="852.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="920.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p8" x="920.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="934.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >08</text>
+<text x="934.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Share power</text>
+<text x="934.0" y="204" font-size="10.5" fill="#3987E5" font-weight="500" text-anchor="start" class="mono" >Edmonds-Karp</text>
+<line x1="978.0" y1="222" x2="978.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="978.0" cy="256" r="4" fill="#3A423D"/>
+<rect x="1046.0" y="130" width="116" height="92" rx="12" fill="#171B19" stroke="#2A302C"/>
+<rect class="p9" x="1046.0" y="130" width="116" height="92" rx="12" fill="#B8F34A" fill-opacity="0.08" stroke="#B8F34A" stroke-width="2"/>
+<text x="1060.0" y="156" font-size="12" fill="#B8F34A" font-weight="600" text-anchor="start" class="mono" >09</text>
+<text x="1060.0" y="182" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" >Verify, commit</text>
+<text x="1060.0" y="204" font-size="10.5" fill="#8B9690" font-weight="500" text-anchor="start" class="mono" >verifier</text>
+<line x1="1104.0" y1="222" x2="1104.0" y2="256" stroke="#3A423D" stroke-width="1.5"/>
+<circle cx="1104.0" cy="256" r="4" fill="#3A423D"/>
+<g class="p10"><circle cx="96.0" cy="256" r="7" fill="#B8F34A"/><circle cx="96.0" cy="256" r="13" fill="#B8F34A" fill-opacity="0.18"/></g>
+<text x="38.0" y="302" font-size="12" fill="#8B9690" font-weight="400" text-anchor="start" class="mono" >blue = an assessed algorithm, implemented from scratch in Java</text>
+</svg>

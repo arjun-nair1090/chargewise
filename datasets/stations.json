@@ -1,0 +1,122 @@
+[
+  {
+    "id": "S-01",
+    "name": "ChargeWise Demo Hub Andheri East",
+    "address": "Synthetic site, Andheri East, Mumbai, Maharashtra",
+    "latitude": 19.1136,
+    "longitude": 72.8697,
+    "gridCapacityKw": 420.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-02",
+    "name": "ChargeWise Demo Hub Bandra Kurla Complex",
+    "address": "Synthetic site, Bandra Kurla Complex, Mumbai, Maharashtra",
+    "latitude": 19.0662,
+    "longitude": 72.8654,
+    "gridCapacityKw": 100.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-03",
+    "name": "ChargeWise Demo Hub Lower Parel",
+    "address": "Synthetic site, Lower Parel, Mumbai, Maharashtra",
+    "latitude": 18.9953,
+    "longitude": 72.83,
+    "gridCapacityKw": 300.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-04",
+    "name": "ChargeWise Demo Hub Powai",
+    "address": "Synthetic site, Powai, Mumbai, Maharashtra",
+    "latitude": 19.1176,
+    "longitude": 72.906,
+    "gridCapacityKw": 460.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-05",
+    "name": "ChargeWise Demo Hub Vashi",
+    "address": "Synthetic site, Vashi, Navi Mumbai, Maharashtra",
+    "latitude": 19.0771,
+    "longitude": 72.9986,
+    "gridCapacityKw": 470.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-06",
+    "name": "ChargeWise Demo Hub Thane West",
+    "address": "Synthetic site, Thane West, Thane, Maharashtra",
+    "latitude": 19.2183,
+    "longitude": 72.9781,
+    "gridCapacityKw": 160.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-07",
+    "name": "ChargeWise Demo Hub Goregaon East",
+    "address": "Synthetic site, Goregaon East, Mumbai, Maharashtra",
+    "latitude": 19.1663,
+    "longitude": 72.8526,
+    "gridCapacityKw": 130.0,
+    "status": "MAINTENANCE",
+    "synthetic": true
+  },
+  {
+    "id": "S-08",
+    "name": "ChargeWise Demo Hub Hinjewadi Phase 1",
+    "address": "Synthetic site, Hinjewadi Phase 1, Pune, Maharashtra",
+    "latitude": 18.5913,
+    "longitude": 73.7389,
+    "gridCapacityKw": 320.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-09",
+    "name": "ChargeWise Demo Hub Kharadi",
+    "address": "Synthetic site, Kharadi, Pune, Maharashtra",
+    "latitude": 18.5515,
+    "longitude": 73.9348,
+    "gridCapacityKw": 80.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-10",
+    "name": "ChargeWise Demo Hub Baner",
+    "address": "Synthetic site, Baner, Pune, Maharashtra",
+    "latitude": 18.559,
+    "longitude": 73.7868,
+    "gridCapacityKw": 540.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-11",
+    "name": "ChargeWise Demo Hub Viman Nagar",
+    "address": "Synthetic site, Viman Nagar, Pune, Maharashtra",
+    "latitude": 18.5679,
+    "longitude": 73.9143,
+    "gridCapacityKw": 590.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "S-12",
+    "name": "ChargeWise Demo Hub Kothrud",
+    "address": "Synthetic site, Kothrud, Pune, Maharashtra",
+    "latitude": 18.5074,
+    "longitude": 73.8077,
+    "gridCapacityKw": 470.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  }
+]

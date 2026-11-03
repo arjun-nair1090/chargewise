@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-label="4 algorithms, 328 tests, 88.9x faster range queries, 200 kW vs 100 kW">
+<title>4 algorithms, 328 tests, 88.9x faster range queries, 200 kW vs 100 kW</title>
+<style>
+text { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'Cascadia Mono', SFMono-Regular, Consolas, Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+.rise { animation: rise 0.8s cubic-bezier(0.22,1,0.36,1) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+.bar { animation: bar 1.4s cubic-bezier(0.22,1,0.36,1) both; transform-box: fill-box; transform-origin: left; }
+@keyframes bar { from { transform: scaleX(0); } to { transform: none; } }
+</style>
+<g class="rise" style="animation-delay:0.10s"><rect x="0.5" y="0.5" width="287.0" height="155" rx="14" fill="#171B19" stroke="#2A302C"/><rect class="bar" style="animation-delay:0.40s" x="24.0" y="22" width="40" height="3" rx="1.5" fill="#B8F34A"/><text x="24.0" y="82" font-size="44" fill="#F2F5F3" font-weight="700" text-anchor="start" letter-spacing="-1">4</text><text x="24.0" y="112" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >algorithms written from scratch,</text><text x="24.0" y="132" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >each with a baseline and a verifier</text></g>
+<g class="rise" style="animation-delay:0.25s"><rect x="304.5" y="0.5" width="287.0" height="155" rx="14" fill="#171B19" stroke="#2A302C"/><rect class="bar" style="animation-delay:0.55s" x="328.0" y="22" width="40" height="3" rx="1.5" fill="#B8F34A"/><text x="328.0" y="82" font-size="44" fill="#F2F5F3" font-weight="700" text-anchor="start" letter-spacing="-1">328</text><text x="328.0" y="112" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >automated tests: 186 unit,</text><text x="328.0" y="132" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >85 integration, 57 frontend</text></g>
+<g class="rise" style="animation-delay:0.40s"><rect x="608.5" y="0.5" width="287.0" height="155" rx="14" fill="#171B19" stroke="#2A302C"/><rect class="bar" style="animation-delay:0.70s" x="632.0" y="22" width="40" height="3" rx="1.5" fill="#B8F34A"/><text x="632.0" y="82" font-size="44" fill="#B8F34A" font-weight="700" text-anchor="start" letter-spacing="-1">88.9×</text><text x="632.0" y="112" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >faster range queries than a naive</text><text x="632.0" y="132" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >scan at 100,000 slots (JMH)</text></g>
+<g class="rise" style="animation-delay:0.55s"><rect x="912.5" y="0.5" width="287.0" height="155" rx="14" fill="#171B19" stroke="#2A302C"/><rect class="bar" style="animation-delay:0.85s" x="936.0" y="22" width="40" height="3" rx="1.5" fill="#B8F34A"/><text x="936.0" y="82" font-size="44" fill="#F2F5F3" font-weight="700" text-anchor="start" letter-spacing="-1">200 kW</text><text x="936.0" y="112" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >served by Edmonds-Karp where</text><text x="936.0" y="132" font-size="14" fill="#8B9690" font-weight="400" text-anchor="start" >greedy allocation serves 100 kW</text></g>
+</svg>

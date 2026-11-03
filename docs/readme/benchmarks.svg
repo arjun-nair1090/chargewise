@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="JMH speed-ups: segment tree up to 88.9x, Quickselect up to 4.4x">
+<title>JMH speed-ups: segment tree up to 88.9x, Quickselect up to 4.4x</title>
+<style>
+text { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'Cascadia Mono', SFMono-Regular, Consolas, Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+.grow { animation: grow 1.3s cubic-bezier(0.22,1,0.36,1) both; transform-box: fill-box; }
+@keyframes grow { from { transform: scaleX(0); } to { transform: none; } }
+.rise { animation: rise 0.6s ease-out both; }
+@keyframes rise { from { opacity: 0; } to { opacity: 1; } }
+</style>
+<rect x="0.5" y="0.5" width="1199" height="559" rx="18" fill="#090B0A" stroke="#2A302C"/>
+<text x="40" y="52" font-size="22" fill="#F2F5F3" font-weight="600" text-anchor="start" >Speed-up over the baseline</text>
+<text x="40" y="78" font-size="15" fill="#8B9690" font-weight="400" text-anchor="start" >JMH average time per call, forked JVM, 99.9% confidence intervals. Log scale; the 1× line is parity.</text>
+<line x1="360.0" y1="110" x2="360.0" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="360.0" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >0.5×</text>
+<line x1="446.8" y1="110" x2="446.8" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="446.7668299349097" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >1×</text>
+<line x1="533.5" y1="110" x2="533.5" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="533.5336598698194" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >2×</text>
+<line x1="648.2" y1="110" x2="648.2" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="648.2331700650902" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >5×</text>
+<line x1="735.0" y1="110" x2="735.0" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="735.0" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >10×</text>
+<line x1="821.8" y1="110" x2="821.8" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="821.7668299349098" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >20×</text>
+<line x1="936.5" y1="110" x2="936.5" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="936.4663401301806" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >50×</text>
+<line x1="1023.2" y1="110" x2="1023.2" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="1023.2331700650902" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >100×</text>
+<line x1="1110.0" y1="110" x2="1110.0" y2="454" stroke="#2A302C" stroke-width="1"/>
+<text x="1110.0" y="476" font-size="12" fill="#8B9690" font-weight="400" text-anchor="middle" class="mono" >200×</text>
+<line x1="446.8" y1="106" x2="446.8" y2="454" stroke="#8B9690" stroke-width="1.5"/>
+<text x="40" y="134" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="start" >Segment tree vs naive scan, 1,000 operations</text>
+<text x="342" y="170" font-size="13" fill="#8B9690" font-weight="400" text-anchor="end" class="mono" >n = 1,000</text>
+<rect class="grow" style="animation-delay:0.20s; transform-origin:left" x="446.8" y="156" width="92.9" height="22" rx="4" fill="#3987E5"/>
+<g class="rise" style="animation-delay:0.90s"><text x="549.641118712205" y="172" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" class="mono" >2.1× faster</text></g>
+<text x="342" y="214" font-size="13" fill="#8B9690" font-weight="400" text-anchor="end" class="mono" >n = 10,000</text>
+<rect class="grow" style="animation-delay:0.32s; transform-origin:left" x="446.8" y="200" width="330.4" height="22" rx="4" fill="#3987E5"/>
+<g class="rise" style="animation-delay:1.02s"><text x="787.1189469589232" y="216" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" class="mono" >14.0× faster</text></g>
+<text x="342" y="258" font-size="13" fill="#8B9690" font-weight="400" text-anchor="end" class="mono" >n = 100,000</text>
+<rect class="grow" style="animation-delay:0.44s; transform-origin:left" x="446.8" y="244" width="561.7" height="22" rx="4" fill="#3987E5"/>
+<g class="rise" style="animation-delay:1.14s"><text x="1018.5049626447912" y="260" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" class="mono" >88.9× faster</text></g>
+<text x="40" y="296" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="start" >Quickselect vs full sort, uniform data</text>
+<text x="342" y="332" font-size="13" fill="#8B9690" font-weight="400" text-anchor="end" class="mono" >n = 1,000</text>
+<rect class="grow" style="animation-delay:0.56s; transform-origin:right" x="434.8" y="318" width="11.9" height="22" rx="4" fill="#D95926"/>
+<g class="rise" style="animation-delay:1.26s"><text x="456.7668299349097" y="334" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" class="mono" >1.1× slower</text></g>
+<text x="342" y="376" font-size="13" fill="#8B9690" font-weight="400" text-anchor="end" class="mono" >n = 10,000</text>
+<rect class="grow" style="animation-delay:0.68s; transform-origin:left" x="446.8" y="362" width="104.3" height="22" rx="4" fill="#3987E5"/>
+<g class="rise" style="animation-delay:1.38s"><text x="561.0287908110456" y="378" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" class="mono" >2.3× faster</text></g>
+<text x="342" y="420" font-size="13" fill="#8B9690" font-weight="400" text-anchor="end" class="mono" >n = 100,000</text>
+<rect class="grow" style="animation-delay:0.80s; transform-origin:left" x="446.8" y="406" width="185.5" height="22" rx="4" fill="#3987E5"/>
+<g class="rise" style="animation-delay:1.50s"><text x="642.2312346653905" y="422" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="start" class="mono" >4.4× faster</text></g>
+<rect x="40" y="493" width="12" height="12" rx="2" fill="#3987E5"/><text x="60" y="504" font-size="13" fill="#8B9690" font-weight="400" text-anchor="start" >algorithm faster</text>
+<rect x="200" y="493" width="12" height="12" rx="2" fill="#D95926"/><text x="220" y="504" font-size="13" fill="#8B9690" font-weight="400" text-anchor="start" >baseline faster</text>
+</svg>

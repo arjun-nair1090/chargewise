@@ -1,0 +1,442 @@
+[
+  {
+    "id": "C-001",
+    "stationId": "S-01",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-002",
+    "stationId": "S-01",
+    "connectorType": "BHARAT_AC001",
+    "maxPowerKw": 3.3,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-003",
+    "stationId": "S-01",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-004",
+    "stationId": "S-01",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-005",
+    "stationId": "S-02",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-006",
+    "stationId": "S-02",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-007",
+    "stationId": "S-02",
+    "connectorType": "CHADEMO",
+    "maxPowerKw": 50.0,
+    "status": "OUT_OF_SERVICE",
+    "synthetic": true
+  },
+  {
+    "id": "C-008",
+    "stationId": "S-02",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-009",
+    "stationId": "S-03",
+    "connectorType": "CCS2",
+    "maxPowerKw": 120.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-010",
+    "stationId": "S-03",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-011",
+    "stationId": "S-03",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-012",
+    "stationId": "S-04",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-013",
+    "stationId": "S-04",
+    "connectorType": "BHARAT_AC001",
+    "maxPowerKw": 3.3,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-014",
+    "stationId": "S-04",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-015",
+    "stationId": "S-04",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-016",
+    "stationId": "S-04",
+    "connectorType": "CHADEMO",
+    "maxPowerKw": 50.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-017",
+    "stationId": "S-04",
+    "connectorType": "CHADEMO",
+    "maxPowerKw": 50.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-018",
+    "stationId": "S-05",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-019",
+    "stationId": "S-05",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-020",
+    "stationId": "S-05",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-021",
+    "stationId": "S-06",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-022",
+    "stationId": "S-06",
+    "connectorType": "BHARAT_AC001",
+    "maxPowerKw": 3.3,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-023",
+    "stationId": "S-06",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-024",
+    "stationId": "S-06",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-025",
+    "stationId": "S-07",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-026",
+    "stationId": "S-07",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-027",
+    "stationId": "S-07",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-028",
+    "stationId": "S-07",
+    "connectorType": "CCS2",
+    "maxPowerKw": 60.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-029",
+    "stationId": "S-08",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-030",
+    "stationId": "S-08",
+    "connectorType": "CCS2",
+    "maxPowerKw": 120.0,
+    "status": "OUT_OF_SERVICE",
+    "synthetic": true
+  },
+  {
+    "id": "C-031",
+    "stationId": "S-08",
+    "connectorType": "BHARAT_DC001",
+    "maxPowerKw": 15.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-032",
+    "stationId": "S-08",
+    "connectorType": "BHARAT_DC001",
+    "maxPowerKw": 15.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-033",
+    "stationId": "S-08",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-034",
+    "stationId": "S-08",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 7.4,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-035",
+    "stationId": "S-09",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-036",
+    "stationId": "S-09",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-037",
+    "stationId": "S-09",
+    "connectorType": "CHADEMO",
+    "maxPowerKw": 50.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-038",
+    "stationId": "S-09",
+    "connectorType": "CHADEMO",
+    "maxPowerKw": 50.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-039",
+    "stationId": "S-09",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-040",
+    "stationId": "S-09",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-041",
+    "stationId": "S-10",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-042",
+    "stationId": "S-10",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-043",
+    "stationId": "S-10",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-044",
+    "stationId": "S-10",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-045",
+    "stationId": "S-10",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-046",
+    "stationId": "S-11",
+    "connectorType": "CCS2",
+    "maxPowerKw": 120.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-047",
+    "stationId": "S-11",
+    "connectorType": "TYPE2_AC",
+    "maxPowerKw": 22.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-048",
+    "stationId": "S-11",
+    "connectorType": "BHARAT_DC001",
+    "maxPowerKw": 15.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-049",
+    "stationId": "S-11",
+    "connectorType": "BHARAT_AC001",
+    "maxPowerKw": 3.3,
+    "status": "OUT_OF_SERVICE",
+    "synthetic": true
+  },
+  {
+    "id": "C-050",
+    "stationId": "S-12",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-051",
+    "stationId": "S-12",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-052",
+    "stationId": "S-12",
+    "connectorType": "BHARAT_DC001",
+    "maxPowerKw": 15.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-053",
+    "stationId": "S-12",
+    "connectorType": "BHARAT_AC001",
+    "maxPowerKw": 3.3,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-054",
+    "stationId": "S-12",
+    "connectorType": "CCS2",
+    "maxPowerKw": 30.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  },
+  {
+    "id": "C-055",
+    "stationId": "S-12",
+    "connectorType": "BHARAT_DC001",
+    "maxPowerKw": 15.0,
+    "status": "OPERATIONAL",
+    "synthetic": true
+  }
+]

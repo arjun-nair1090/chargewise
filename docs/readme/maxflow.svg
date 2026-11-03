@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Shared feeders: greedy serves 100 kW, Edmonds-Karp serves 200 kW">
+<title>Shared feeders: greedy serves 100 kW, Edmonds-Karp serves 200 kW</title>
+<style>
+text { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'Cascadia Mono', SFMono-Regular, Consolas, Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+.flow { stroke-dasharray: 4 10; animation: flow 1s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -14; } }
+.rise { animation: rise 0.8s cubic-bezier(0.22,1,0.36,1) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+</style>
+<rect x="0.5" y="0.5" width="1199" height="429" rx="18" fill="#090B0A" stroke="#2A302C"/>
+<text x="40" y="52" font-size="22" fill="#F2F5F3" font-weight="600" text-anchor="start" >Shared feeders: where greedy power allocation runs out</text>
+<text x="40" y="78" font-size="15" fill="#8B9690" font-weight="400" text-anchor="start" >Feeders F0 and F1 supply 100 kW each. Station A is wired to both; station B only to F0.</text>
+<rect x="40" y="100" width="540" height="300" rx="14" fill="#171B19" stroke="#2A302C"/>
+<rect x="60" y="122" width="10" height="10" rx="2" fill="#D95926"/><text x="78" y="132" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="start" >Greedy priority</text>
+<line x1="130" y1="200" x2="310" y2="200" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="130" y1="200" x2="310" y2="300" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="130" y1="300" x2="310" y2="200" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="310" y1="200" x2="480" y2="200" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="310" y1="300" x2="480" y2="300" stroke="#3A423D" stroke-width="1.5"/>
+<line class="flow" x1="130" y1="200" x2="310" y2="200" stroke="#D95926" stroke-width="4" stroke-linecap="round"/>
+<line class="flow" x1="310" y1="200" x2="480" y2="200" stroke="#D95926" stroke-width="4" stroke-linecap="round"/>
+<circle cx="130" cy="200" r="22" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="130" y="205" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >F0</text>
+<circle cx="130" cy="300" r="22" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="130" y="305" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >F1</text>
+<rect x="288" y="178" width="44" height="44" rx="10" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="310" y="205" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >A</text>
+<rect x="288" y="278" width="44" height="44" rx="10" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="310" y="305" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >B</text>
+<circle cx="480" cy="200" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="480" y="205" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >a1</text>
+<text x="512" y="205" font-size="13" fill="#8B9690" font-weight="600" text-anchor="start" class="mono" >100 kW</text>
+<circle cx="480" cy="300" r="20" fill="#1F2421" stroke="#FF6B5E" stroke-width="2"/><text x="480" y="305" font-size="13" fill="#FF6B5E" font-weight="600" text-anchor="middle" class="mono" >b1</text>
+<text x="512" y="305" font-size="13" fill="#FF6B5E" font-weight="600" text-anchor="start" class="mono" >0 kW</text>
+<text x="130" y="150" font-size="11" fill="#8B9690" font-weight="500" text-anchor="middle" class="mono" >feeders</text>
+<text x="310" y="150" font-size="11" fill="#8B9690" font-weight="500" text-anchor="middle" class="mono" >stations</text>
+<text x="480" y="150" font-size="11" fill="#8B9690" font-weight="500" text-anchor="middle" class="mono" >sessions</text>
+<g class="rise" style="animation-delay:0.4s"><text x="310" y="362" font-size="20" fill="#F2F5F3" font-weight="700" text-anchor="middle" >100 kW served</text><text x="310" y="384" font-size="13" fill="#8B9690" font-weight="400" text-anchor="middle" >A takes F0 first, so B has nothing left</text></g>
+<rect x="620" y="100" width="540" height="300" rx="14" fill="#171B19" stroke="#2A302C"/>
+<rect x="640" y="122" width="10" height="10" rx="2" fill="#3987E5"/><text x="658" y="132" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="start" >Edmonds-Karp maximum flow</text>
+<line x1="710" y1="200" x2="890" y2="200" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="710" y1="200" x2="890" y2="300" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="710" y1="300" x2="890" y2="200" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="890" y1="200" x2="1060" y2="200" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="890" y1="300" x2="1060" y2="300" stroke="#3A423D" stroke-width="1.5"/>
+<line class="flow" x1="710" y1="300" x2="890" y2="200" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<line class="flow" x1="890" y1="200" x2="1060" y2="200" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<line class="flow" x1="710" y1="200" x2="890" y2="300" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<line class="flow" x1="890" y1="300" x2="1060" y2="300" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<circle cx="710" cy="200" r="22" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="710" y="205" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >F0</text>
+<circle cx="710" cy="300" r="22" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="710" y="305" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >F1</text>
+<rect x="868" y="178" width="44" height="44" rx="10" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="890" y="205" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >A</text>
+<rect x="868" y="278" width="44" height="44" rx="10" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="890" y="305" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >B</text>
+<circle cx="1060" cy="200" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="1060" y="205" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >a1</text>
+<text x="1092" y="205" font-size="13" fill="#8B9690" font-weight="600" text-anchor="start" class="mono" >100 kW</text>
+<circle cx="1060" cy="300" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="1060" y="305" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >b1</text>
+<text x="1092" y="305" font-size="13" fill="#8B9690" font-weight="600" text-anchor="start" class="mono" >100 kW</text>
+<text x="710" y="150" font-size="11" fill="#8B9690" font-weight="500" text-anchor="middle" class="mono" >feeders</text>
+<text x="890" y="150" font-size="11" fill="#8B9690" font-weight="500" text-anchor="middle" class="mono" >stations</text>
+<text x="1060" y="150" font-size="11" fill="#8B9690" font-weight="500" text-anchor="middle" class="mono" >sessions</text>
+<g class="rise" style="animation-delay:0.4s"><text x="890" y="362" font-size="20" fill="#B8F34A" font-weight="700" text-anchor="middle" >200 kW served</text><text x="890" y="384" font-size="13" fill="#8B9690" font-weight="400" text-anchor="middle" >A draws from F1, leaving F0 for B</text></g>
+</svg>

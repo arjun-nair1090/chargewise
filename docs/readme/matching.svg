@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Greedy serves 1 of 2 requests; an augmenting path serves both">
+<title>Greedy serves 1 of 2 requests; an augmenting path serves both</title>
+<style>
+text { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'Cascadia Mono', SFMono-Regular, Consolas, Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+@keyframes m1 { 0% { opacity: 0; } 8.000% { opacity: 0; } 11.500% { opacity: 1; } 94.000% { opacity: 1; } 97.500% { opacity: 0; } 100% { opacity: 0; } }
+.m1 { animation: m1 10.0s linear infinite; }
+@keyframes m2 { 0% { opacity: 0; } 24.000% { opacity: 0; } 27.500% { opacity: 1; } 36.000% { opacity: 1; } 39.500% { opacity: 0; } 100% { opacity: 0; } }
+.m2 { animation: m2 10.0s linear infinite; }
+@keyframes m3 { 0% { opacity: 0; } 36.000% { opacity: 0; } 39.500% { opacity: 1; } 94.000% { opacity: 1; } 97.500% { opacity: 0; } 100% { opacity: 0; } }
+.m3 { animation: m3 10.0s linear infinite; }
+@keyframes m4 { 0% { opacity: 0; } 42.000% { opacity: 0; } 45.500% { opacity: 1; } 94.000% { opacity: 1; } 97.500% { opacity: 0; } 100% { opacity: 0; } }
+.m4 { animation: m4 10.0s linear infinite; }
+@keyframes m5 { 0% { opacity: 0; } 8.000% { opacity: 0; } 11.500% { opacity: 1; } 59.000% { opacity: 1; } 62.500% { opacity: 0; } 100% { opacity: 0; } }
+.m5 { animation: m5 10.0s linear infinite; }
+@keyframes m6 { 0% { opacity: 0; } 24.000% { opacity: 0; } 27.500% { opacity: 1; } 59.000% { opacity: 1; } 62.500% { opacity: 0; } 100% { opacity: 0; } }
+.m6 { animation: m6 10.0s linear infinite; }
+@keyframes m7 { 0% { opacity: 0; } 32.000% { opacity: 0; } 35.500% { opacity: 1; } 59.000% { opacity: 1; } 62.500% { opacity: 0; } 100% { opacity: 0; } }
+.m7 { animation: m7 10.0s linear infinite; }
+@keyframes m8 { 0% { opacity: 0; } 40.000% { opacity: 0; } 43.500% { opacity: 1; } 59.000% { opacity: 1; } 62.500% { opacity: 0; } 100% { opacity: 0; } }
+.m8 { animation: m8 10.0s linear infinite; }
+@keyframes m9 { 0% { opacity: 0; } 24.000% { opacity: 0; } 27.500% { opacity: 1; } 59.000% { opacity: 1; } 62.500% { opacity: 0; } 100% { opacity: 0; } }
+.m9 { animation: m9 10.0s linear infinite; }
+@keyframes m10 { 0% { opacity: 0; } 60.000% { opacity: 0; } 63.500% { opacity: 1; } 94.000% { opacity: 1; } 97.500% { opacity: 0; } 100% { opacity: 0; } }
+.m10 { animation: m10 10.0s linear infinite; }
+@keyframes m11 { 0% { opacity: 0; } 60.000% { opacity: 0; } 63.500% { opacity: 1; } 94.000% { opacity: 1; } 97.500% { opacity: 0; } 100% { opacity: 0; } }
+.m11 { animation: m11 10.0s linear infinite; }
+@keyframes m12 { 0% { opacity: 0; } 66.000% { opacity: 0; } 69.500% { opacity: 1; } 94.000% { opacity: 1; } 97.500% { opacity: 0; } 100% { opacity: 0; } }
+.m12 { animation: m12 10.0s linear infinite; }</style>
+<rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="#090B0A" stroke="#2A302C"/>
+<text x="40" y="52" font-size="22" fill="#F2F5F3" font-weight="600" text-anchor="start" >Why augmenting paths beat greedy</text>
+<text x="40" y="78" font-size="15" fill="#8B9690" font-weight="400" text-anchor="start" >R1 can use C1 or C2.  R2 can only use C1.  Same graph, two strategies.</text>
+<rect x="40" y="100" width="540" height="260" rx="14" fill="#171B19" stroke="#2A302C"/>
+<rect x="60" y="122" width="10" height="10" rx="2" fill="#D95926"/><text x="78" y="132" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="start" >Greedy first-available</text>
+<line x1="180" y1="190" x2="440" y2="190" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="180" y1="190" x2="440" y2="290" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="180" y1="290" x2="440" y2="190" stroke="#3A423D" stroke-width="1.5"/>
+<line class="m1" x1="180" y1="190" x2="440" y2="190" stroke="#D95926" stroke-width="4" stroke-linecap="round"/>
+<line class="m2" x1="180" y1="290" x2="440" y2="190" stroke="#FF6B5E" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<g class="m3"><text x="154" y="295" font-size="13" fill="#FF6B5E" font-weight="600" text-anchor="end" class="mono" >unmatched</text></g>
+<g class="m4"><text x="310" y="345" font-size="15" fill="#F2F5F3" font-weight="600" text-anchor="middle" >1 of 2 requests served</text></g>
+<circle cx="180" cy="190" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="180" y="195" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >R1</text>
+<circle cx="180" cy="290" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="180" y="295" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >R2</text>
+<rect x="420" y="170" width="40" height="40" rx="9" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="440" y="195" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >C1</text>
+<rect x="420" y="270" width="40" height="40" rx="9" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="440" y="295" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >C2</text>
+
+<rect x="620" y="100" width="540" height="260" rx="14" fill="#171B19" stroke="#2A302C"/>
+<rect x="640" y="122" width="10" height="10" rx="2" fill="#3987E5"/><text x="658" y="132" font-size="14" fill="#F2F5F3" font-weight="600" text-anchor="start" >Bipartite matching (DFS augmenting paths)</text>
+<line x1="760" y1="190" x2="1020" y2="190" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="760" y1="190" x2="1020" y2="290" stroke="#3A423D" stroke-width="1.5"/>
+<line x1="760" y1="290" x2="1020" y2="190" stroke="#3A423D" stroke-width="1.5"/>
+<line class="m5" x1="760" y1="190" x2="1020" y2="190" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<line class="m6" x1="760" y1="290" x2="1020" y2="190" stroke="#B8F34A" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line class="m7" x1="760" y1="190" x2="1020" y2="190" stroke="#B8F34A" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line class="m8" x1="760" y1="190" x2="1020" y2="290" stroke="#B8F34A" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<g class="m9"><text x="890" y="345" font-size="14" fill="#B8F34A" font-weight="600" text-anchor="middle" class="mono" >augmenting path  R2 → C1 → R1 → C2</text></g>
+<line class="m10" x1="760" y1="190" x2="1020" y2="290" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<line class="m11" x1="760" y1="290" x2="1020" y2="190" stroke="#3987E5" stroke-width="4" stroke-linecap="round"/>
+<g class="m12"><text x="890" y="345" font-size="15" fill="#F2F5F3" font-weight="600" text-anchor="middle" >2 of 2 requests served</text></g>
+<circle cx="760" cy="190" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="760" y="195" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >R1</text>
+<circle cx="760" cy="290" r="20" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="760" y="295" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >R2</text>
+<rect x="1000" y="170" width="40" height="40" rx="9" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="1020" y="195" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >C1</text>
+<rect x="1000" y="270" width="40" height="40" rx="9" fill="#1F2421" stroke="#F2F5F3" stroke-width="2"/><text x="1020" y="295" font-size="13" fill="#F2F5F3" font-weight="600" text-anchor="middle" class="mono" >C2</text>
+
+</svg>

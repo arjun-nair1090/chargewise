@@ -1,7 +1,7 @@
+import { Play } from 'lucide-react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useNavigate, useParams } from 'react-router-dom'
 import { QueryState } from '../../components/QueryState'
-import { DataBadge } from '../../components/StatusChip'
 import { Button, EmptyState, FormError, PageHeader, Panel } from '../../components/ui'
 import { errorMessage } from '../../lib/errors'
 import { formatDateTime } from '../../lib/format'
@@ -23,7 +23,10 @@ function RunButton() {
   })
   return (
     <div className="flex flex-col items-end gap-2">
-      <Button variant="primary" size="lg" busy={run.isPending} onClick={() => run.mutate()}>Run allocation</Button>
+      <Button variant="primary" size="lg" busy={run.isPending} onClick={() => run.mutate()}>
+        {!run.isPending && <Play aria-hidden="true" className="size-4 fill-current" strokeWidth={2} />}
+        Run allocation
+      </Button>
       {run.isError && <FormError message={errorMessage(run.error)} />}
     </div>
   )
@@ -48,7 +51,6 @@ export function AllocationPage() {
           ? `Run #${run.data.id} on ${formatDateTime(run.data.createdAt)}: pending and waitlisted requests from ${formatDateTime(run.data.intervalStart)} to ${formatDateTime(run.data.intervalEnd)}.`
           : 'Match pending requests to connectors, then share each station’s grid power with Edmonds-Karp.'
       }
-      badges={<DataBadge kind="synthetic" />}
       actions={<RunButton />}
     />
   )

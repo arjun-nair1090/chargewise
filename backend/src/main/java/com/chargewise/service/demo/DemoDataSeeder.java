@@ -37,7 +37,7 @@ import org.springframework.transaction.annotation.Transactional;
 import tools.jackson.databind.json.JsonMapper;
 
 /**
- * Replaces the operational data with the synthetic demo dataset in one transaction. The whole dataset is
+ * Replaces the operational data with the demo dataset in one transaction. The whole dataset is
  * validated before anything is deleted, so an invalid dataset leaves the database untouched. Registered
  * (non-demo) accounts, simulations and benchmark runs are kept.
  */

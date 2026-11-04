@@ -19,7 +19,7 @@ public class DemoController {
     }
 
     @PostMapping("/reset")
-    @Operation(summary = "Replace operational data with the synthetic demo dataset",
+    @Operation(summary = "Replace operational data with the demo dataset",
             description = "Deletes stations, connectors, vehicles, bookings, sessions and allocation runs, then "
                     + "loads datasets/*.json. Registered accounts, simulations and benchmarks are kept.")
     public DemoDataSeeder.SeedSummary reset() {

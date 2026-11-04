@@ -149,8 +149,8 @@ class AuthSecurityIT {
 
         mvc.perform(post("/api/v1/operator/demo/reset").header(HttpHeaders.AUTHORIZATION, operator))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.stations").value(12))
-                .andExpect(jsonPath("$.connectors").value(55))
+                .andExpect(jsonPath("$.stations").value(36))
+                .andExpect(jsonPath("$.connectors").value(78))
                 .andExpect(jsonPath("$.vehicles").value(40))
                 .andExpect(jsonPath("$.bookings").value(120));
     }

@@ -50,7 +50,7 @@ chargewise:
     # Advances simulated charging sessions every 60 s (architecture D3).
     enabled: ${CHARGEWISE_LIFECYCLE_ENABLED:true}
   demo:
-    # Synthetic dataset written by scripts/generate_dataset.py (path relative to backend/).
+    # Demo dataset (real OSM stations, made-up requests) written by scripts/generate_dataset.py (path relative to backend/).
     dataset-dir: ${CHARGEWISE_DEMO_DATASET_DIR:../datasets}
     # Shared password of every @demo.chargewise.test account; seeding refuses to run while it is blank.
     password: ${CHARGEWISE_DEMO_PASSWORD:}

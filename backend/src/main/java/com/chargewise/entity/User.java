@@ -45,7 +45,7 @@ public class User {
         this.createdAt = createdAt;
     }
 
-    /** Used only by the demo seeder to refresh a synthetic account in place. */
+    /** Used only by the demo seeder to refresh a demo account in place. */
     public void resetDemoAccount(String name, String passwordHash, Role role) {
         this.name = name;
         this.passwordHash = passwordHash;

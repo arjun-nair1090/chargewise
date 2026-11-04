@@ -2,12 +2,15 @@ import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { QueryState } from '../../components/QueryState'
+import { RegionSwitch } from '../../components/RegionSwitch'
 import { StationMap } from '../../components/StationMap'
 import { DataBadge, StatusChip } from '../../components/StatusChip'
 import { buttonClass } from '../../components/buttonClass'
 import { Button, EmptyState, Mono, PageHeader, Panel, Readout, ReadoutStrip } from '../../components/ui'
 import { outcomeSentence } from '../../lib/bookingOutcome'
 import { connectorLabel, formatDateTime, formatDuration, formatKw, formatKwh, formatNumber, formatRatio, formatWindow, humanise } from '../../lib/format'
+import { inRegion, type Region } from '../../lib/regions'
+import { statusTone } from '../../lib/statusTone'
 import { operatorApi } from '../../services/endpoints'
 import {
   BOOKING_STATUSES,
@@ -22,8 +25,14 @@ import { useStationNames, useStations } from './useStationNames'
 function CountLedger({ title, counts }: { title: string; counts: Record<string, number> }) {
   const total = Object.values(counts).reduce((sum, count) => sum + count, 0)
   return (
-    <Panel title={title} aside={`${total} total`} bodyClassName="px-5 py-2">
-      <dl className="flex flex-col">
+    <Panel title={title} aside={`${total} total`} bodyClassName="px-5 pb-2 pt-4">
+      {/* The same flat split bar as the allocation outcome: each status's share of the total. */}
+      <div aria-hidden="true" className="flex h-2 w-full gap-0.5 overflow-hidden rounded-[3px] bg-surface-raised">
+        {Object.entries(counts).filter(([, count]) => count > 0).map(([status, count]) => (
+          <div key={status} className={statusTone(status)} style={{ width: `${(count / Math.max(1, total)) * 100}%` }} />
+        ))}
+      </div>
+      <dl className="mt-2 flex flex-col">
         {Object.entries(counts).map(([status, count]) => (
           <div key={status} className="flex items-center justify-between border-b border-border py-2 text-sm last:border-b-0">
             <dt><StatusChip status={status} /></dt>
@@ -69,12 +78,13 @@ function Kpis({ data }: { data: DashboardResponse }) {
 export function OverviewPage() {
   const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: operatorApi.dashboard, refetchInterval: 30_000 })
   const stations = useStations()
+  const [region, setRegion] = useState<Region>('ALL')
   return (
     <div className="flex flex-col gap-6">
       <PageHeader
         title="Network overview"
         job="Where power and connectors stand right now, and how long requests wait for an assignment."
-        badges={<><DataBadge kind="synthetic" /><DataBadge kind="simulated" /></>}
+        badges={<DataBadge kind="simulated" />}
         actions={<Link to="/operator/allocation" className={buttonClass('primary')}>Go to allocation</Link>}
       />
       <QueryState query={dashboard} rows={3}>
@@ -90,8 +100,16 @@ export function OverviewPage() {
             </p>
             <div className="grid gap-6 xl:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
               <div className="flex min-w-0 flex-col gap-3">
-                {stations.data && <StationMap stations={stations.data.content} height="26rem" />}
-                <p className="text-xs text-muted">Lime operational, amber maintenance, coral offline. Station status counts are listed beside the map.</p>
+                {stations.data && (
+                  <>
+                    <RegionSwitch value={region} onChange={setRegion} stations={stations.data.content} />
+                    <StationMap stations={stations.data.content.filter((station) => inRegion(station, region))} height="28rem" />
+                  </>
+                )}
+                <p className="text-xs text-muted">
+                  Lime operational, amber maintenance, coral offline; larger markers have more connectors. Station status
+                  counts are listed beside the map.
+                </p>
               </div>
               <div className="flex flex-col gap-6">
                 <CountLedger title="Requests" counts={data.bookings} />
@@ -152,7 +170,7 @@ export function RequestsPage() {
       <PageHeader
         title="Request queue"
         job="Every driver's requests, newest first, with the reason the last allocation run gave each one."
-        badges={<DataBadge kind="synthetic" />}
+
       />
       <Panel
         title="Requests"

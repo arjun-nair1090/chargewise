@@ -13,8 +13,9 @@ import tools.jackson.core.type.TypeReference;
 import tools.jackson.databind.json.JsonMapper;
 
 /**
- * The synthetic demo dataset produced by {@code scripts/generate_dataset.py}. Records use external string keys
- * ({@code S-01}, {@code C-001}, registration numbers) that the seeder resolves to database ids.
+ * The demo dataset produced by {@code scripts/generate_dataset.py}: real OpenStreetMap stations and real EV models,
+ * with made-up owners, grid limits and requests. Each record's {@code source} says where it came from. Records use
+ * external string keys ({@code S-01}, {@code C-001}, registration numbers) that the seeder resolves to database ids.
  */
 public record DemoDataset(
         List<StationRecord> stations,
@@ -23,21 +24,21 @@ public record DemoDataset(
         List<RequestRecord> requests) {
 
     public record StationRecord(String id, String name, String address, BigDecimal latitude, BigDecimal longitude,
-            BigDecimal gridCapacityKw, StationStatus status, boolean synthetic) {
+            BigDecimal gridCapacityKw, StationStatus status, String region, String source) {
     }
 
     public record ConnectorRecord(String id, String stationId, ConnectorType connectorType, BigDecimal maxPowerKw,
-            ConnectorStatus status, boolean synthetic) {
+            ConnectorStatus status, String source) {
     }
 
-    public record VehicleRecord(String registrationNumber, String ownerEmail, String ownerName, String vehicleClass,
-            BigDecimal batteryCapacityKwh, BigDecimal currentSoc, BigDecimal maxChargingKw,
-            List<ConnectorType> connectorTypes, boolean synthetic) {
+    public record VehicleRecord(String registrationNumber, String ownerEmail, String ownerName, String homeRegion,
+            String model, BigDecimal batteryCapacityKwh, BigDecimal currentSoc, BigDecimal maxChargingKw,
+            List<ConnectorType> connectorTypes, String source) {
     }
 
     /** Window = {@code [base + startOffsetMinutes, + durationMinutes)} where base is the next slot boundary. */
     public record RequestRecord(String id, String registrationNumber, String stationId,
-            BigDecimal requestedEnergyKwh, int startOffsetMinutes, int durationMinutes, boolean synthetic) {
+            BigDecimal requestedEnergyKwh, int startOffsetMinutes, int durationMinutes, String source) {
     }
 
     public static DemoDataset load(Path directory, JsonMapper mapper) {

@@ -58,8 +58,9 @@ class DemoDataSeederIT {
         assertThat(rowCounts()).isEqualTo(afterFirst);
         assertThat(jdbc.queryForList("select name from stations order by name", String.class))
                 .isEqualTo(namesAfterFirst);
-        // Committed dataset (seed 20261102): 12 stations, 55 connectors, 40 vehicles of 20 drivers, 120 requests.
-        assertThat(first).isEqualTo(new DemoDataSeeder.SeedSummary(21, 12, 55, 40, 120));
+        // Committed dataset (seed 20261102): 36 OpenStreetMap stations, 78 connectors, 40 vehicles of 20 drivers,
+        // 120 requests.
+        assertThat(first).isEqualTo(new DemoDataSeeder.SeedSummary(21, 36, 78, 40, 120));
     }
 
     @Test
@@ -88,7 +89,7 @@ class DemoDataSeederIT {
         ConnectorRecord first = connectors.get(0);
         ConnectorRecord second = connectors.get(1);
         connectors.set(1, new ConnectorRecord(first.id(), second.stationId(), second.connectorType(),
-                second.maxPowerKw(), second.status(), second.synthetic()));
+                second.maxPowerKw(), second.status(), second.source()));
         DemoDataset duplicateConnector = new DemoDataset(valid.stations(), connectors, valid.vehicles(),
                 valid.requests());
         assertThatThrownBy(() -> seeder.reset(duplicateConnector))
@@ -99,7 +100,7 @@ class DemoDataSeederIT {
         List<StationRecord> stations = new ArrayList<>(valid.stations());
         StationRecord s = stations.get(2);
         stations.set(2, new StationRecord(s.id(), s.name(), s.address(), s.latitude(), s.longitude(),
-                new BigDecimal("-1.00"), s.status(), s.synthetic()));
+                new BigDecimal("-1.00"), s.status(), s.region(), s.source()));
         DemoDataset negativeGrid = new DemoDataset(stations, valid.connectors(), valid.vehicles(), valid.requests());
         assertThatThrownBy(() -> seeder.reset(negativeGrid))
                 .isInstanceOf(DatasetValidationException.class)
@@ -137,7 +138,7 @@ class DemoDataSeederIT {
     }
 
     private static VehicleRecord withRegistration(VehicleRecord v, String registration) {
-        return new VehicleRecord(registration, v.ownerEmail(), v.ownerName(), v.vehicleClass(),
-                v.batteryCapacityKwh(), v.currentSoc(), v.maxChargingKw(), v.connectorTypes(), v.synthetic());
+        return new VehicleRecord(registration, v.ownerEmail(), v.ownerName(), v.homeRegion(), v.model(),
+                v.batteryCapacityKwh(), v.currentSoc(), v.maxChargingKw(), v.connectorTypes(), v.source());
     }
 }

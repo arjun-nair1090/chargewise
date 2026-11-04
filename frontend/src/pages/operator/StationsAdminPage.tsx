@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { SelectField, TextField } from '../../components/Field'
 import { QueryState } from '../../components/QueryState'
-import { DataBadge, StatusChip } from '../../components/StatusChip'
+import { StatusChip } from '../../components/StatusChip'
 import { Button, FormError, Mono, PageHeader, Panel } from '../../components/ui'
 import { errorMessage } from '../../lib/errors'
 import { connectorLabel, formatKw, humanise } from '../../lib/format'
@@ -223,7 +223,7 @@ function DemoReset() {
     <div className="flex flex-col items-end gap-2">
       {confirming ? (
         <div className="flex gap-2">
-          <Button variant="danger" busy={reset.isPending} onClick={() => reset.mutate()}>Reload synthetic dataset</Button>
+          <Button variant="danger" busy={reset.isPending} onClick={() => reset.mutate()}>Reload demo dataset</Button>
           <Button variant="ghost" onClick={() => setConfirming(false)}>Keep current data</Button>
         </div>
       ) : (
@@ -244,7 +244,6 @@ export function StationsAdminPage() {
       <PageHeader
         title="Stations"
         job="Change station status, grid limits and connectors; outages and grid cuts apply the outage policy at once."
-        badges={<DataBadge kind="synthetic" />}
         actions={<><Button onClick={() => setSelected('new')}>New station</Button><DemoReset /></>}
       />
       <QueryState query={stations} rows={8}>

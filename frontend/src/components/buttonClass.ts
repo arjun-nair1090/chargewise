@@ -15,5 +15,5 @@ const buttonSize: Record<ButtonSize, string> = {
 }
 
 export function buttonClass(variant: ButtonVariant = 'secondary', size: ButtonSize = 'md') {
-  return `inline-flex shrink-0 items-center justify-center gap-2 rounded-md transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-50 ${buttonSize[size]} ${buttonVariant[variant]}`
+  return `inline-flex shrink-0 items-center justify-center gap-2 rounded-md transition-[color,background-color,border-color,scale] duration-150 ease-out active:scale-[0.96] disabled:cursor-not-allowed disabled:active:scale-100 disabled:opacity-50 ${buttonSize[size]} ${buttonVariant[variant]}`
 }

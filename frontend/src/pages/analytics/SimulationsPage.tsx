@@ -265,8 +265,10 @@ function SimulationResult({ simulation }: { simulation: SimulationResponse }) {
 
 export function SimulationsPage() {
   const client = useQueryClient()
-  const [selectedId, setSelectedId] = useState<number | null>(null)
+  const [chosenId, setSelectedId] = useState<number | null>(null)
   const simulations = useQuery({ queryKey: ['simulations'], queryFn: simulationApi.list })
+  // Until one is chosen, show the newest completed simulation, so the page opens on a comparison.
+  const selectedId = chosenId ?? simulations.data?.find((item) => item.status === 'COMPLETED')?.id ?? null
   const createAndRun = useMutation({
     mutationFn: async (request: SimulationRequest) => {
       const created = await simulationApi.create(request)
@@ -286,7 +288,7 @@ export function SimulationsPage() {
       <PageHeader
         title="Simulations"
         job="Run one seeded scenario twice on the identical input, once with the algorithms and once with the greedy baselines, and compare."
-        badges={<><DataBadge kind="synthetic" /><DataBadge kind="simulated" /></>}
+        badges={<DataBadge kind="simulated" />}
       />
       <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] xl:items-start">
         <div className="flex flex-col gap-6">

@@ -48,13 +48,13 @@ export function PageHeader({ title, job, actions, badges }: {
   badges?: ReactNode
 }) {
   return (
-    <header className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 border-b border-border pb-5">
+    <header className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 border-b border-border pb-6">
       <div className="min-w-0 max-w-3xl">
         <div className="flex flex-wrap items-center gap-3">
-          <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+          <h1 className="text-3xl font-semibold tracking-[-0.025em] sm:text-[2.25rem] sm:leading-tight">{title}</h1>
           {badges}
         </div>
-        <p className="mt-1.5 text-muted">{job}</p>
+        <p className="mt-2 text-base text-muted">{job}</p>
       </div>
       {actions && <div className="flex flex-wrap items-center gap-3">{actions}</div>}
     </header>
@@ -92,15 +92,15 @@ export function Readout({ label, value, unit, note, hero = false }: {
   hero?: boolean
 }) {
   return (
-    <div className="min-w-0 px-5 py-4">
+    <div className="flex min-w-0 flex-col px-5 py-5">
       <dt className="text-sm text-muted">{label}</dt>
-      <dd className="mt-1">
-        <span className={`font-semibold tabular-nums tracking-tight ${hero ? 'text-4xl text-accent' : 'text-2xl text-text'}`}>
+      <dd className="mt-2 flex items-baseline">
+        <span className={`font-semibold tabular-nums tracking-[-0.03em] ${hero ? 'text-5xl leading-none text-accent' : 'text-[2rem] leading-none text-text'}`}>
           {value}
         </span>
-        {unit && <span className="ml-1.5 text-sm text-muted">{unit}</span>}
+        {unit && <span className="ml-1.5 font-mono text-sm text-muted">{unit}</span>}
       </dd>
-      {note && <dd className="mt-1 text-xs text-muted">{note}</dd>}
+      {note && <dd className="mt-auto pt-2.5 text-xs text-muted">{note}</dd>}
     </div>
   )
 }

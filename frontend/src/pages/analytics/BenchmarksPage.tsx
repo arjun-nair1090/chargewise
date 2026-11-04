@@ -207,11 +207,30 @@ function TimeCell({ measurement }: { measurement: BenchmarkMeasurement }) {
   )
 }
 
+/**
+ * The family's headline: what happened on its largest verified case, where the asymptotics show most. It states the
+ * time verdict and the result side by side, because for power the point is the allocation, not the speed.
+ */
+function FamilyHeadline({ cases }: { cases: BenchmarkCase[] }) {
+  const timed = cases.filter((item) => item.correct && item.algorithm && item.baseline)
+  const largest = timed[timed.length - 1]
+  if (!largest?.algorithm || !largest.baseline) {
+    return null
+  }
+  return (
+    <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+      <p className="text-2xl font-semibold tracking-[-0.02em] leading-tight">{timeVerdict(largest.algorithm, largest.baseline)}</p>
+      <p className="text-sm text-muted">{qualityText(largest)} · {caseLabel(largest).title}</p>
+    </div>
+  )
+}
+
 function FamilyTable({ family, cases }: { family: BenchmarkFamily; cases: BenchmarkCase[] }) {
   const text = FAMILY_TEXT[family]
   return (
-    <section className="flex flex-col gap-3">
-      <h3 className="text-sm font-semibold">{text.title}</h3>
+    <section className="flex flex-col gap-3 border-t border-border pt-5">
+      <h3 className="text-base font-semibold">{text.title}</h3>
+      <FamilyHeadline cases={cases} />
       <div className="overflow-x-auto rounded-lg border border-border">
         <table className="data-table" aria-label={text.title}>
           <thead>
@@ -328,12 +347,14 @@ function BenchmarkResult({ runId }: { runId: number }) {
 
 export function BenchmarksPage() {
   const client = useQueryClient()
-  const [selectedId, setSelectedId] = useState<number | null>(null)
+  const [chosenId, setSelectedId] = useState<number | null>(null)
   const runs = useQuery({
     queryKey: ['benchmarks'],
     queryFn: benchmarkApi.list,
     refetchInterval: (query) => (query.state.data?.some((item) => isActive(item.status)) ? POLL_MS * 2 : false),
   })
+  // Until a run is chosen, show the newest completed one, so the page opens on evidence rather than an empty panel.
+  const selectedId = chosenId ?? runs.data?.find((item) => item.status === 'COMPLETED')?.id ?? null
   const start = useMutation({
     mutationFn: benchmarkApi.run,
     onSuccess: (response) => {
@@ -364,7 +385,7 @@ export function BenchmarksPage() {
                         type="button"
                         aria-pressed={item.id === selectedId}
                         onClick={() => setSelectedId(item.id)}
-                        className={`flex w-full flex-wrap items-center justify-between gap-x-3 gap-y-1 rounded-md px-3 py-2 text-left text-sm transition-colors duration-150 ${
+                        className={`grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 rounded-md px-3 py-2 text-left text-sm transition-colors duration-150 ${
                           item.id === selectedId ? 'bg-surface-raised ring-1 ring-border-strong' : 'hover:bg-surface-raised/60'
                         }`}
                       >

@@ -4,30 +4,58 @@ import { useForm, type FieldValues, type Path, type UseFormSetError } from 'reac
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
 import { z } from 'zod'
 import { homeFor, useAuth } from '../../auth/authContext'
+import { Brand } from '../../components/Brand'
 import { TextField } from '../../components/Field'
-import { DataBadge } from '../../components/StatusChip'
 import { Button, FormError } from '../../components/ui'
 import { errorMessage } from '../../lib/errors'
 import { ApiError } from '../../services/api'
 import { authApi } from '../../services/endpoints'
 
+/** What the platform decides, and the method behind each decision. */
+const DECISIONS = [
+  { capability: 'Connector matching', method: 'Maximum bipartite matching', decides: 'Which request gets which connector' },
+  { capability: 'Power sharing', method: 'Edmonds-Karp max flow', decides: 'How much power each session draws within the grid limit' },
+  { capability: 'Wait-time percentiles', method: 'Randomized Quickselect', decides: 'Median and p90 waiting time, without sorting the queue' },
+  { capability: 'Slot availability', method: 'Segment tree', decides: 'Committed load in every 15-minute slot' },
+]
+
 function AuthFrame({ title, children, footer }: { title: string; children: ReactNode; footer: ReactNode }) {
   return (
-    <main className="grid min-h-dvh place-items-center px-4 py-10">
-      <div className="w-full max-w-sm">
-        <p className="text-2xl font-semibold tracking-tight">
-          Charge<span className="text-accent">Wise</span>
-        </p>
-        <p className="mt-2 text-sm text-muted">
-          Connector matching and grid-power allocation for an EV charging network, with the reason for every decision.
-        </p>
-        <section className="mt-8 rounded-lg border border-border bg-surface p-6">
-          <h1 className="text-lg font-semibold">{title}</h1>
-          <div className="mt-5">{children}</div>
-        </section>
-        <div className="mt-5 flex flex-wrap items-center justify-between gap-3 text-sm text-muted">
-          {footer}
-          <DataBadge kind="synthetic" />
+    <main className="min-h-dvh px-4 py-10 sm:px-8 lg:grid lg:place-items-center lg:py-16">
+      <div className="mx-auto grid w-full max-w-6xl gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,25rem)] lg:items-center lg:gap-20">
+        <div className="min-w-0">
+          <Brand size="lg" />
+          <p className="mt-10 max-w-[42rem] text-balance text-4xl font-semibold leading-[1.05] tracking-[-0.035em] sm:text-5xl lg:text-[3.5rem]">
+            Every charging decision, with its reason.
+          </p>
+          <p className="mt-5 max-w-lg text-base text-muted">
+            Connector matching and grid-power allocation for EV charging networks. Every assignment, waitlist and power
+            share comes with the limit that shaped it.
+          </p>
+          <dl aria-label="What ChargeWise decides" className="mt-10 hidden max-w-xl border-t border-border sm:block">
+            {DECISIONS.map((row) => (
+              <div key={row.capability} className="grid grid-cols-[minmax(0,14rem)_minmax(0,1fr)] gap-x-6 border-b border-border py-3.5 text-sm">
+                <dt className="flex gap-2.5">
+                  <span aria-hidden="true" className="mt-[0.4rem] inline-block size-2 shrink-0 bg-text" />
+                  <span>
+                    <span className="block font-medium">{row.capability}</span>
+                    <span className="mt-0.5 block text-xs text-muted">{row.method}</span>
+                  </span>
+                </dt>
+                <dd className="text-muted">{row.decides}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <div className="w-full min-w-0">
+          <section className="rounded-lg border border-border bg-surface p-6 sm:p-8">
+            <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+            <div className="mt-6">{children}</div>
+          </section>
+          <div className="mt-5 flex flex-wrap items-center justify-between gap-3 text-sm text-muted">
+            {footer}
+          </div>
         </div>
       </div>
     </main>
@@ -93,7 +121,7 @@ export function SignInPage() {
         <FormError message={formError} />
         <TextField label="Email" type="email" autoComplete="username" error={errors.email?.message} {...register('email')} />
         <TextField label="Password" type="password" autoComplete="current-password" error={errors.password?.message} {...register('password')} />
-        <Button type="submit" variant="primary" busy={isSubmitting}>Sign in</Button>
+        <Button type="submit" variant="primary" size="lg" busy={isSubmitting} className="mt-2">Sign in</Button>
       </form>
     </AuthFrame>
   )
@@ -148,7 +176,7 @@ export function RegisterPage() {
           error={errors.password?.message}
           {...register('password')}
         />
-        <Button type="submit" variant="primary" busy={isSubmitting}>Create account</Button>
+        <Button type="submit" variant="primary" size="lg" busy={isSubmitting} className="mt-2">Create account</Button>
       </form>
     </AuthFrame>
   )

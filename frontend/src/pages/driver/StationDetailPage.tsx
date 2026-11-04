@@ -4,7 +4,7 @@ import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { SelectField } from '../../components/Field'
 import { QueryState } from '../../components/QueryState'
 import { SlotBarChart, type SlotBar } from '../../components/SlotBarChart'
-import { DataBadge, StatusChip } from '../../components/StatusChip'
+import { StatusChip } from '../../components/StatusChip'
 import { buttonClass } from '../../components/buttonClass'
 import { EmptyState, Mono, PageHeader, Panel } from '../../components/ui'
 import { connectorLabel, formatKw, formatTime } from '../../lib/format'
@@ -72,7 +72,7 @@ export function StationDetailPage() {
           <PageHeader
             title={data.name}
             job={data.address}
-            badges={<><StatusChip status={data.status} /><DataBadge kind="synthetic" /></>}
+            badges={<StatusChip status={data.status} />}
           />
 
           <div className="grid gap-6 xl:grid-cols-[minmax(0,3fr)_minmax(22rem,2fr)]">

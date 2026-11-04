@@ -74,7 +74,8 @@ so every claim the application makes about optimality is something you can watch
   </tr>
 </table>
 
-Every screen that shows demo data carries a **Synthetic data** badge, and session progress is marked **Simulated**.
+Stations are real public charging stations from OpenStreetMap; drivers and their bookings are made up. Session
+progress is marked **Simulated**.
 ChargeWise does not control physical chargers.
 
 ## The algorithms
@@ -247,7 +248,7 @@ http://localhost:5173 as `operator@demo.chargewise.test` or `driver01@demo.charg
 `CHARGEWISE_DEMO_PASSWORD` you set in `.env`. Interactive API docs: http://localhost:8080/swagger-ui.html.
 
 **Demo walkthrough.** As the operator, open **Allocation** and press **Run allocation**: on the demo data, 120 eligible
-requests become 40 assigned, 59 waitlisted and 21 rejected, each with its reason. Then try the **Shared feeders**
+requests become 53 assigned, 67 waitlisted and 0 rejected, each with its reason. Then try the **Shared feeders**
 example in the **Algorithm Lab**, a **High contention** simulation, and a benchmark run. As a driver, add a vehicle,
 pick a compatible station and request a charging window.
 
@@ -275,13 +276,26 @@ variables take precedence.
 <summary><b>Demo data</b></summary>
 <br>
 
-`datasets/` holds a **synthetic** dataset: 12 stations at Mumbai and Pune locality coordinates, 55 connectors, 40
-vehicles belonging to 20 demo drivers, and 120 charging requests. Every record is labelled `"synthetic": true`. Request
-windows are stored as offsets from the next 15-minute boundary, so they are always in the future when loaded.
+`datasets/` holds the demo network: 36 public charging stations across the Mumbai Metropolitan Region and Pune with
+78 connectors, 40 vehicles belonging to 20 demo drivers, and 120 charging requests.
+
+- **Stations** (name, operator, location, address) come from [OpenStreetMap](https://www.openstreetmap.org/copyright),
+  © OpenStreetMap contributors, ODbL 1.0, with addresses from Nominatim. Connector types and power ratings are taken
+  from OSM socket tags where mapped, and from each operator's standard hardware otherwise.
+- **Vehicles** use the published specs of EV models sold in India (Tata Nexon.ev, MG Windsor EV, BYD Atto 3, …).
+- **Grid limits, demo accounts and charging requests** are generated from the seed: grid limits at 60–100 % of each
+  site's charger rating, DC top-ups of 30–90 minutes and AC sessions of 1.5–4 hours.
+
+Request windows are stored as offsets from the next 15-minute boundary, so they are always in the future when loaded.
 
 ```bash
 python scripts/generate_dataset.py --seed 20261102 --out datasets   # regenerates the same files byte for byte
+python scripts/fetch_osm_stations.py                                 # optional: refresh the station snapshot
 ```
+
+The generator reads the committed snapshot `datasets/sources/osm_charging_stations.json`, so regenerating needs no
+network access. Refreshing the snapshot changes the station list, so rerun the generator and update the counts in
+`DemoDataSeederIT` afterwards.
 
 Seeding replaces stations, connectors, vehicles, bookings, sessions and allocation runs, and recreates the demo
 accounts. Other registered accounts, simulations and benchmark runs are kept.
@@ -399,7 +413,7 @@ chargewise/
 │       ├── benchmark/       in-application harness
 │       └── controller/ dto/ entity/ repository/ security/ config/ exception/
 ├── frontend/                React 19 + TypeScript + Vite
-├── datasets/                synthetic demo data (JSON)
+├── datasets/                demo data (JSON): real OSM stations, made-up requests
 ├── docs/
 │   ├── benchmark-results/   exported benchmark runs and JMH results
 │   ├── diagrams/            charts drawn from those exports
@@ -415,7 +429,8 @@ chargewise/
   power unused between sessions that never overlap, but it never exceeds a limit.
 - The matcher does not stop early once every connector is taken, so very dense large graphs cost more than necessary.
   The benchmarks show the measured `O(V·E)` cost, and the early exit is the natural next step.
-- All data is synthetic and charging is simulated. ChargeWise is an academic prototype, not a charger controller.
+- Station locations are real, but connectors are partly estimated, grid limits and bookings are made up, and charging
+  is simulated. ChargeWise is an academic prototype, not a charger controller.
 
 ---
 

@@ -20,8 +20,13 @@
   --color-series-1: #3987e5;
   --color-series-2: #d95926;
 
-  --font-sans: ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  /* Display sizes for hero figures: readable from the back of a projected room. */
+  --text-hero: 4.5rem;
+  --text-hero--line-height: 1;
+  --text-hero--letter-spacing: -0.035em;
 
   --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
 }

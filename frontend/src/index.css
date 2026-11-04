@@ -11,6 +11,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    /* The Tabular Rule: every figure in the console aligns in columns. */
+    font-variant-numeric: tabular-nums;
     scrollbar-color: var(--color-border-strong) transparent;
     caret-color: var(--color-accent);
   }
@@ -35,6 +37,10 @@
   h2,
   h3 {
     text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
   }
 
   a {

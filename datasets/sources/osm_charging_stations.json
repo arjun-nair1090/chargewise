@@ -1,0 +1,1251 @@
+{
+  "source": "OpenStreetMap via Overpass API; addresses via Nominatim reverse geocoding",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors, https://www.openstreetmap.org/copyright",
+  "osmTimestamp": "2026-11-04T09:14:38Z",
+  "fetchedAt": "2026-11-04T09:17:15+00:00",
+  "regions": {
+    "Mumbai Metropolitan Region": [
+      18.85,
+      72.75,
+      19.5,
+      73.3
+    ],
+    "Pune": [
+      18.42,
+      73.68,
+      18.7,
+      74.02
+    ]
+  },
+  "stations": [
+    {
+      "osmType": "node",
+      "osmId": 763446417,
+      "latitude": 18.496101,
+      "longitude": 73.8088593,
+      "tags": {
+        "amenity": "charging_station",
+        "check_date": "2026-03-15"
+      },
+      "address": {
+        "neighbourhood": "Dahanukar Colony",
+        "suburb": "Warje",
+        "town": "Anandnagar",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411051",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 6116153836,
+      "latitude": 18.567214,
+      "longitude": 73.7719864,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "PowerUP"
+      },
+      "address": {
+        "amenity": "PowerUP",
+        "road": "Gopal Hari Deshmukh Marg",
+        "neighbourhood": "Rutuja Park",
+        "suburb": "Baner",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411001",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 9215039103,
+      "latitude": 19.2329576,
+      "longitude": 72.9760606,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "1",
+        "fee": "yes",
+        "name": "Fortum EV Charger",
+        "operator": "Fortum"
+      },
+      "address": {
+        "amenity": "Fortum EV Charger",
+        "road": "Ghodbunder Service Road",
+        "suburb": "Manpada",
+        "city": "Thane",
+        "county": "Thane Subdistrict",
+        "state_district": "Thane",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "401302",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 9252505223,
+      "latitude": 19.0245243,
+      "longitude": 73.0135121,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "fee": "yes",
+        "name": "PowerGrid Charging Station",
+        "operator": "PowerGrid"
+      },
+      "address": {
+        "amenity": "PowerGrid Charging Station",
+        "road": "Shankar Changu Kanha Thakur Marg",
+        "neighbourhood": "Sarsole Village",
+        "suburb": "Nerul West",
+        "city": "Navi Mumbai",
+        "county": "Thane Subdistrict",
+        "state_district": "Thane",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "400007",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 9411828530,
+      "latitude": 18.5071941,
+      "longitude": 73.8037729,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Ather Energy",
+        "fee": "yes",
+        "operator": "Ather Energy"
+      },
+      "address": {
+        "amenity": "Ather Energy",
+        "road": "Paud Road",
+        "residential": "Kothrud",
+        "suburb": "Karve Nagar",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411051",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10013758817,
+      "latitude": 18.6111535,
+      "longitude": 73.7831554,
+      "tags": {
+        "addr:street": "Kalewadi Phata-Auto Cluster BRTS Road",
+        "amenity": "charging_station",
+        "brand": "Tata power",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "operator": "Tata power"
+      },
+      "address": {
+        "amenity": "Tata power",
+        "road": "Hedgewar road",
+        "neighbourhood": "Jai Malhar Nagar",
+        "suburb": "Kalewadi",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411071",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10097434142,
+      "latitude": 18.5095633,
+      "longitude": 73.8147009,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Bolt",
+        "capacity": "8",
+        "operator": "Bolt",
+        "scooter": "yes"
+      },
+      "address": {
+        "amenity": "Bolt",
+        "road": "Paud Road",
+        "residential": "Kothrud",
+        "suburb": "Erandwane",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411051",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10097434143,
+      "latitude": 18.5105681,
+      "longitude": 73.781902,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Ather Energy",
+        "capacity": "1",
+        "operator": "Ather Energy",
+        "scooter": "yes"
+      },
+      "address": {
+        "amenity": "Ather Energy",
+        "road": "Pashan-Bavdhan Road",
+        "suburb": "Bavdhan",
+        "village": "Bavdhan",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411072",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10097434144,
+      "latitude": 18.4844962,
+      "longitude": 73.8496753,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Ather Energy",
+        "capacity": "1",
+        "fee": "yes",
+        "operator": "Ather Energy"
+      },
+      "address": {
+        "amenity": "Ather Energy",
+        "road": "Golwalkar Guruji Path",
+        "neighbourhood": "Panchavati",
+        "suburb": "Sahakar Nagar",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411001",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10097460085,
+      "latitude": 18.5189771,
+      "longitude": 73.8304638,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Ather Energy",
+        "operator": "Ather Energy",
+        "scooter": "yes"
+      },
+      "address": {
+        "amenity": "Ather Energy",
+        "road": "Vishnushastri Chiplunkar Path",
+        "suburb": "Erandwane",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411001",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10250046452,
+      "latitude": 18.5536336,
+      "longitude": 73.806562,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "operator": "Tata"
+      },
+      "address": {
+        "road": "Shankarao Gaikwad Path",
+        "residential": "National Society",
+        "suburb": "Aundh",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10285393622,
+      "latitude": 18.9561767,
+      "longitude": 73.1627884,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tata Power",
+        "capacity": "1",
+        "name": "Tata Power",
+        "operator": "Tata Power"
+      },
+      "address": {
+        "amenity": "Tata Power",
+        "road": "Old Mumbai Pune Highway",
+        "village": "Somatne",
+        "county": "Panvel Subdistrict",
+        "state_district": "Raigad",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "410221",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10285406628,
+      "latitude": 19.0874903,
+      "longitude": 73.0796316,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Jio-BP",
+        "capacity": "2",
+        "name": "Jio-BP",
+        "operator": "Jio-BP"
+      },
+      "address": {
+        "amenity": "Jio-BP",
+        "road": "NH48",
+        "village": "Rohinjan",
+        "city": "Panvel",
+        "county": "Panvel Subdistrict",
+        "state_district": "Raigad",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "410208",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10290789663,
+      "latitude": 18.5788787,
+      "longitude": 73.7624887,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Go Ego"
+      },
+      "address": {
+        "amenity": "Go Ego",
+        "road": "exit to baner",
+        "suburb": "Wakad gaav",
+        "village": "Mhalunge",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411045",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10553764693,
+      "latitude": 19.1597944,
+      "longitude": 72.858293,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tata power",
+        "charge": "₹21/kWh + GST",
+        "covered": "no",
+        "fee": "yes",
+        "manufacturer": "Delta",
+        "note": "25kW"
+      },
+      "address": {
+        "amenity": "Tata power",
+        "road": "Western Express Highway",
+        "suburb": "Goregaon East",
+        "city_district": "Mumbai Zone 4",
+        "city": "Mumbai",
+        "state_district": "Mumbai Suburban District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "400063",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10615755147,
+      "latitude": 18.5114349,
+      "longitude": 73.7770341,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Bolt",
+        "capacity": "1",
+        "operator": "Trimurti Motors",
+        "scooter": "yes"
+      },
+      "address": {
+        "amenity": "Bolt",
+        "road": "Tinseltown Rd",
+        "neighbourhood": "Anupam Park",
+        "suburb": "Bavdhan",
+        "village": "Bavdhan",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411072",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10671202586,
+      "latitude": 18.5857278,
+      "longitude": 73.7817517,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Shell",
+        "brand:en": "Shell",
+        "brand:mr": "शेल",
+        "brand:wikidata": "Q110716465",
+        "capacity": "3",
+        "fee": "yes",
+        "operator": "Shell",
+        "operator:wikidata": "Q110716465"
+      },
+      "address": {
+        "amenity": "Shell",
+        "road": "New DP Road",
+        "neighbourhood": "Gulmohar colony",
+        "suburb": "Vishal Nagar",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10719100420,
+      "latitude": 18.6170757,
+      "longitude": 73.7673099,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "goEgo Charging Station",
+        "capacity": "1"
+      },
+      "address": {
+        "amenity": "goEgo Charging Station",
+        "road": "Babasaheb Ambedkar Path",
+        "neighbourhood": "Anand park",
+        "suburb": "Wakad",
+        "village": "Tathawade",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "410005",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10797010207,
+      "latitude": 18.5998693,
+      "longitude": 73.7548665,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tata power",
+        "operator": "Tata power",
+        "socket:type2": "1"
+      },
+      "address": {
+        "amenity": "Tata power",
+        "road": "Highway bypass",
+        "neighbourhood": "Shankar Kalat Nagar",
+        "suburb": "Bhujbal Chowk",
+        "village": "Tathawade",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10797010208,
+      "latitude": 18.5995979,
+      "longitude": 73.7548745,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tata power",
+        "operator": "Tata power",
+        "socket:type2_combo": "1"
+      },
+      "address": {
+        "amenity": "Tata power",
+        "road": "Highway bypass",
+        "neighbourhood": "Shankar Kalat Nagar",
+        "suburb": "Bhujbal Chowk",
+        "village": "Tathawade",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10827297703,
+      "latitude": 19.0671494,
+      "longitude": 73.0075344,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "branch": "Pudhari substation",
+        "brand": "Delta",
+        "charge": "₹11/unit",
+        "fee": "yes",
+        "manufacturer": "Delta",
+        "name:en": "Mahavitaran charging station",
+        "name:mr": "महावितरण चार्जिंग स्थानक",
+        "operator": "Mahavitaran",
+        "source": "survey"
+      },
+      "address": {
+        "amenity": "Mahavitaran charging station",
+        "road": "Sanpada Flyover",
+        "suburb": "Sanpada",
+        "city": "Navi Mumbai",
+        "county": "Thane Subdistrict",
+        "state_district": "Thane",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "400705",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10841782157,
+      "latitude": 18.5887644,
+      "longitude": 73.7827295,
+      "tags": {
+        "access": "yes",
+        "addr:floor": "G",
+        "amenity": "charging_station",
+        "branch": "Copacabana",
+        "brand": "Ather Energy",
+        "brand:en": "Ather Energy",
+        "brand:mr": "एथर एनर्जी",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "yes",
+        "level": "0",
+        "operator": "Ather Energy",
+        "source": "survey;local knowledge"
+      },
+      "address": {
+        "amenity": "Ather Energy",
+        "road": "Wakad Road",
+        "neighbourhood": "Gulmohar colony",
+        "suburb": "Vishal Nagar",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10844985580,
+      "latitude": 18.5778315,
+      "longitude": 73.9073489,
+      "tags": {
+        "access": "yes",
+        "addr:floor": "1",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "check_date": "2026-03-11",
+        "description": "60kW charger. Space for 2 cars.",
+        "fee": "yes",
+        "level": "1",
+        "source": "local knowledge"
+      },
+      "address": {
+        "road": "Airport Road",
+        "suburb": "Viman Nagar",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411001",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 10870849607,
+      "latitude": 18.5906635,
+      "longitude": 73.7457888,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "GoEgo",
+        "fee": "yes"
+      },
+      "address": {
+        "amenity": "GoEgo",
+        "road": "Hinjawadi Road",
+        "neighbourhood": "Parkhe Vasti",
+        "suburb": "Wakad gaav",
+        "village": "Mhalunge",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 11005778506,
+      "latitude": 18.5638072,
+      "longitude": 73.8068573,
+      "tags": {
+        "access": "yes",
+        "addr:floor": "UB",
+        "amenity": "charging_station",
+        "brand": "Jio pulse",
+        "fee": "yes",
+        "level": "-1",
+        "source": "survey"
+      },
+      "address": {
+        "amenity": "Jio pulse",
+        "road": "Mahadji Shinde Marg",
+        "suburb": "Aundh",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 11033745938,
+      "latitude": 18.5897559,
+      "longitude": 73.7381716,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tata Power",
+        "brand:mr": "टाटा पावर",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "source": "survey"
+      },
+      "address": {
+        "amenity": "Tata Power",
+        "road": "Hinjawadi Phase 1 road",
+        "neighbourhood": "Sakhare Vasti",
+        "suburb": "Hinjawadi",
+        "village": "Mhalunge",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 11217502924,
+      "latitude": 18.5623306,
+      "longitude": 73.8069355,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "goEgo Charging Station",
+        "capacity": "5",
+        "operator": "Westend Mall"
+      },
+      "address": {
+        "amenity": "goEgo Charging Station",
+        "road": "Mahadji Shinde Marg",
+        "neighbourhood": "Marutrao Gaikwad nagar",
+        "suburb": "Aundh",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411007",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 11452082417,
+      "latitude": 18.6347952,
+      "longitude": 73.7990514,
+      "tags": {
+        "amenity": "charging_station"
+      },
+      "address": {
+        "road": "Service Road",
+        "suburb": "Ajmera",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411089",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 11578223404,
+      "latitude": 18.4600725,
+      "longitude": 73.786174,
+      "tags": {
+        "amenity": "charging_station",
+        "operator": "Zeal Energy Services"
+      },
+      "address": {
+        "road": "Nanded Shivane Link Road",
+        "suburb": "Shivane",
+        "town": "Dhayari",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411024",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 12334310661,
+      "latitude": 18.4979616,
+      "longitude": 73.7941778,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "kazam"
+      },
+      "address": {
+        "amenity": "kazam",
+        "road": "Premathesh Society Road",
+        "residential": "Kothrud",
+        "suburb": "Warje",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411051",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 12350373268,
+      "latitude": 18.5857921,
+      "longitude": 73.734433,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "EV Dock charging station",
+        "fee": "yes",
+        "operator": "EV Dock"
+      },
+      "address": {
+        "amenity": "EV Dock charging station",
+        "road": "Hinjawadi Phase 1 road",
+        "suburb": "Hinjawadi",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 12350440058,
+      "latitude": 18.5907601,
+      "longitude": 73.7410354,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "shell",
+        "capacity": "30 kw",
+        "fee": "yes",
+        "operator": "Shell",
+        "operator:wikidata": "Q110716465"
+      },
+      "address": {
+        "amenity": "shell",
+        "road": "Hinjawadi Road",
+        "neighbourhood": "Parkhe Vasti",
+        "suburb": "Wakad gaav",
+        "village": "Mhalunge",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 12350467611,
+      "latitude": 18.5781719,
+      "longitude": 73.7368921,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Bijlify",
+        "capacity": "20 kw",
+        "fee": "yes",
+        "operator": "Bijlify"
+      },
+      "address": {
+        "amenity": "Bijlify",
+        "road": "Blue Ridge Approach Road",
+        "neighbourhood": "Blue Ridge Town",
+        "city_district": "Blue Ridge SEZ",
+        "village": "Mhalunge",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 12458871181,
+      "latitude": 18.5638929,
+      "longitude": 73.8070465,
+      "tags": {
+        "access": "yes",
+        "addr:floor": "G",
+        "amenity": "charging_station",
+        "brand": "Statiq",
+        "capacity": "60",
+        "covered": "yes",
+        "fee": "yes",
+        "level": "0",
+        "network": "Statiq",
+        "operator": "Statiq",
+        "source": "local knowledge"
+      },
+      "address": {
+        "amenity": "Statiq",
+        "road": "Mahadji Shinde Marg",
+        "suburb": "Aundh",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 12473454969,
+      "latitude": 18.5228186,
+      "longitude": 73.8410529,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Bijlify",
+        "covered": "no",
+        "fee": "yes",
+        "source": "survey"
+      },
+      "address": {
+        "amenity": "Bijlify",
+        "road": "Gopal Krushna Gokhale Path",
+        "suburb": "Deccan Gymkhana",
+        "city": "Pune",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411004",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 13629431945,
+      "latitude": 18.9048855,
+      "longitude": 72.8046553,
+      "tags": {
+        "access": "permissive",
+        "amenity": "charging_station",
+        "check_date": "2026-03-09"
+      },
+      "address": {
+        "road": "Mandir Marg",
+        "neighbourhood": "New Navy Nagar",
+        "suburb": "A Ward",
+        "city_district": "Mumbai Zone 1",
+        "state_district": "Mumbai City District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "400005",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 14158954590,
+      "latitude": 19.146307,
+      "longitude": 72.8336534,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Honda",
+        "charging_station:battery_swapping": "yes"
+      },
+      "address": {
+        "amenity": "Honda",
+        "road": "Oshiwara Police Station Road",
+        "neighbourhood": "Adarsh Nagar",
+        "suburb": "Oshiwara",
+        "city_district": "Mumbai Zone 3",
+        "city": "Mumbai",
+        "state_district": "Mumbai Suburban District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "400102",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "node",
+      "osmId": 14197852532,
+      "latitude": 19.1302336,
+      "longitude": 72.8314106,
+      "tags": {
+        "amenity": "charging_station",
+        "charging_station:battery_swapping": "yes",
+        "covered": "yes",
+        "level": "0"
+      },
+      "address": {
+        "road": "Link Road",
+        "neighbourhood": "Jeevan Nagar",
+        "suburb": "Dadabhai Naoroji Nagar",
+        "city_district": "Mumbai Zone 3",
+        "city": "Mumbai",
+        "state_district": "Mumbai Suburban District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "402205",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 359699641,
+      "latitude": 18.5912547,
+      "longitude": 73.7488124,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station"
+      },
+      "address": {
+        "amenity": "Indian Oil Petrol Pump",
+        "road": "Hinjawadi Road",
+        "neighbourhood": "Parkhe Vasti",
+        "suburb": "Wakad gaav",
+        "village": "Mhalunge",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 360242628,
+      "latitude": 18.5882782,
+      "longitude": 73.784882,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "1"
+      },
+      "address": {
+        "road": "Wakad Road",
+        "neighbourhood": "Shantiniketan Society",
+        "suburb": "Vishal Nagar",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1152420782,
+      "latitude": 18.6165794,
+      "longitude": 73.7476226,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tata Power",
+        "capacity": "2",
+        "operator": "Tata Power"
+      },
+      "address": {
+        "amenity": "Tata Power",
+        "road": "Service Road",
+        "neighbourhood": "Shankar Kalat Nagar",
+        "suburb": "Bhujbal Chowk",
+        "village": "Tathawade",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "410005",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1152421163,
+      "latitude": 18.6234031,
+      "longitude": 73.7454767,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tata Power",
+        "capacity": "2"
+      },
+      "address": {
+        "amenity": "Tata Power",
+        "road": "Service Road",
+        "village": "Punawale",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "410005",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1152424877,
+      "latitude": 18.5994671,
+      "longitude": 73.7807696,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "1"
+      },
+      "address": {
+        "road": "Aundh Ravet Road Flyover",
+        "suburb": "Kalewadi",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "431027",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1152427340,
+      "latitude": 18.5807735,
+      "longitude": 73.8158088,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "1"
+      },
+      "address": {
+        "road": "Pimple Gurav-Navi Sangvi Road",
+        "neighbourhood": "Vinayak Nagar",
+        "suburb": "Old Sangvi",
+        "city": "Pimpri-Chinchwad",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411061",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1221529119,
+      "latitude": 18.4571766,
+      "longitude": 73.8053923,
+      "tags": {
+        "amenity": "charging_station",
+        "name": "Shell EV Charging Station",
+        "operator": "Shell",
+        "operator:wikidata": "Q110716465"
+      },
+      "address": {
+        "amenity": "Shell EV Charging Station",
+        "road": "Narveer Tanaji Malusare Marg",
+        "suburb": "Vadgaon Budruk",
+        "town": "Anandnagar",
+        "county": "Pune City Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411051",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1222357597,
+      "latitude": 18.5794696,
+      "longitude": 73.73858,
+      "tags": {
+        "access": "private",
+        "amenity": "charging_station",
+        "capacity": "7"
+      },
+      "address": {
+        "road": "Blue Ridge Approach Road",
+        "neighbourhood": "Blue Ridge Town",
+        "city_district": "Blue Ridge SEZ",
+        "village": "Mhalunge",
+        "county": "Mulshi Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "411057",
+        "country": "India",
+        "country_code": "in"
+      }
+    },
+    {
+      "osmType": "way",
+      "osmId": 1250660872,
+      "latitude": 18.4926136,
+      "longitude": 73.9990571,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "covered": "yes",
+        "operator": "O S Overseas"
+      },
+      "address": {
+        "road": "Solapur Road",
+        "county": "Haveli Subdistrict",
+        "state_district": "Pune District",
+        "state": "Maharashtra",
+        "ISO3166-2-lvl4": "IN-MH",
+        "postcode": "412200",
+        "country": "India",
+        "country_code": "in"
+      }
+    }
+  ]
+}

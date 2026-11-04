@@ -1,3 +1,4 @@
+import { ChevronDown, ChevronUp } from 'lucide-react'
 import { useId, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ObjectiveStatement } from '../../components/ObjectiveStatement'
@@ -18,26 +19,34 @@ function OutcomeBar({ assigned, waitlisted, rejected, eligible }: { assigned: nu
   ]
   const total = Math.max(1, assigned + waitlisted + rejected)
   return (
-    <div className="flex flex-col gap-4">
-      <dl className="flex flex-wrap items-start gap-x-10 gap-y-3">
-        <div>
-          <dt className="text-sm text-muted">Assigned</dt>
-          <dd className="text-5xl font-semibold tabular-nums tracking-tight text-accent">{assigned}</dd>
+    <section aria-label="Run outcome" className="rounded-lg border border-border bg-surface px-5 pb-6 pt-5 sm:px-8 sm:pb-8 sm:pt-7">
+      <dl className="flex flex-wrap items-end gap-x-12 gap-y-5">
+        <div className="mr-auto">
+          <dt className="flex items-center gap-2 text-sm text-muted">
+            <span aria-hidden="true" className="inline-block size-2 bg-accent" />
+            Assigned
+          </dt>
+          <dd className="mt-2 flex items-baseline gap-3">
+            <span className="text-hero font-semibold tabular-nums text-accent">{assigned}</span>
+            <span className="text-base text-muted">of {eligible} eligible requests</span>
+          </dd>
         </div>
         <div>
-          <dt className="text-sm text-muted">Waitlisted</dt>
-          <dd className="text-3xl font-semibold tabular-nums">{waitlisted}</dd>
+          <dt className="flex items-center gap-2 text-sm text-muted">
+            <span aria-hidden="true" className="inline-block size-2 bg-warning" />
+            Waitlisted
+          </dt>
+          <dd className="mt-2 text-4xl font-semibold leading-none tracking-[-0.03em] tabular-nums">{waitlisted}</dd>
         </div>
         <div>
-          <dt className="text-sm text-muted">Rejected</dt>
-          <dd className="text-3xl font-semibold tabular-nums">{rejected}</dd>
-        </div>
-        <div>
-          <dt className="text-sm text-muted">Eligible requests</dt>
-          <dd className="text-3xl font-semibold tabular-nums text-muted">{eligible}</dd>
+          <dt className="flex items-center gap-2 text-sm text-muted">
+            <span aria-hidden="true" className="inline-block size-2 bg-danger" />
+            Rejected
+          </dt>
+          <dd className="mt-2 text-4xl font-semibold leading-none tracking-[-0.03em] tabular-nums">{rejected}</dd>
         </div>
       </dl>
-      <div aria-hidden="true" className="flex h-3 w-full gap-0.5 overflow-hidden rounded-sm bg-surface-raised">
+      <div aria-hidden="true" className="mt-7 flex h-5 w-full gap-1 overflow-hidden rounded-[4px] bg-surface-raised">
         {segments.filter((segment) => segment.count > 0).map((segment) => (
           <div
             key={segment.key}
@@ -47,13 +56,17 @@ function OutcomeBar({ assigned, waitlisted, rejected, eligible }: { assigned: nu
           />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
+
+/** Stations shown before "Show all": enough to cover every binding limit on the demo network, short enough to scan. */
+const STATION_PREVIEW = 8
 
 export function AllocationOutcome({ run, stationNames }: { run: AllocationRunResponse; stationNames: Map<number, string> }) {
   const { result } = run
   const [reasonFilter, setReasonFilter] = useState<StatusReason | null>(null)
+  const [showAllStations, setShowAllStations] = useState(false)
   const ledgerHeading = useId()
   const stationName = (id: number) => stationNames.get(id) ?? `Station ${id}`
 
@@ -92,6 +105,8 @@ export function AllocationOutcome({ run, stationNames }: { run: AllocationRunRes
       document.getElementById(ledgerHeading)?.closest('section')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
   }
+  const preview = Math.max(STATION_PREVIEW, bindingStations.size)
+  const shownStations = showAllStations ? stations : stations.slice(0, preview)
   const unassigned = reasonFilter ? result.unassigned.filter((item) => item.reason === reasonFilter) : result.unassigned
   const metrics = result.metrics
 
@@ -131,7 +146,7 @@ export function AllocationOutcome({ run, stationNames }: { run: AllocationRunRes
                         </span>
                         <span className="mt-0.5 block text-sm text-muted">{text.sentence}</span>
                       </span>
-                      <span className="text-xl font-semibold tabular-nums">{count}</span>
+                      <span className="text-3xl font-semibold leading-none tracking-[-0.03em] tabular-nums">{count}</span>
                     </button>
                   </li>
                 )
@@ -146,7 +161,7 @@ export function AllocationOutcome({ run, stationNames }: { run: AllocationRunRes
           bodyClassName="p-0"
         >
           <ul aria-label="Station power" className="flex flex-col">
-            {stations.map((station) => {
+            {shownStations.map((station) => {
               const binds = bindingStations.has(station.stationId)
               const name = stationName(station.stationId)
               const scale = Math.max(station.gridKw, 1)
@@ -178,6 +193,19 @@ export function AllocationOutcome({ run, stationNames }: { run: AllocationRunRes
               )
             })}
           </ul>
+          {stations.length > preview && (
+            <div className="border-t border-border px-5 py-3">
+              <button
+                type="button"
+                aria-expanded={showAllStations}
+                onClick={() => setShowAllStations(!showAllStations)}
+                className="inline-flex h-10 items-center gap-2 rounded-md text-sm font-medium text-text underline-offset-4 hover:underline"
+              >
+                {showAllStations ? <ChevronUp aria-hidden="true" className="size-4" /> : <ChevronDown aria-hidden="true" className="size-4" />}
+                {showAllStations ? `Show the ${preview} most constrained` : `Show all ${stations.length} stations`}
+              </button>
+            </div>
+          )}
         </Panel>
       </div>
 

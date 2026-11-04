@@ -2,7 +2,6 @@ import { useMutation, useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 import { QueryState } from '../../components/QueryState'
 import { SlotBarChart } from '../../components/SlotBarChart'
-import { DataBadge } from '../../components/StatusChip'
 import { Button, FormError, PageHeader, Panel } from '../../components/ui'
 import { errorMessage } from '../../lib/errors'
 import { formatInteger, formatNs, formatTime } from '../../lib/format'
@@ -111,8 +110,7 @@ export function AnalyticsPage() {
     <div className="flex flex-col gap-6">
       <PageHeader
         title="Analytics"
-        job="Waiting and demand percentiles, and how booked each station is over the next 24 hours."
-        badges={<DataBadge kind="synthetic" />}
+        job="Waiting and demand percentiles, and how booked each station is over the next 24 hours."
       />
       <Percentiles />
 

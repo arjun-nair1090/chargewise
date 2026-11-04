@@ -369,9 +369,9 @@ capacities at 10^12, so no flow sum can overflow.
 
 <table>
   <tr>
-    <td align="center"><h3>186</h3>unit tests</td>
-    <td align="center"><h3>85</h3>integration tests<br><sub>Testcontainers PostgreSQL</sub></td>
-    <td align="center"><h3>57</h3>frontend tests<br><sub>Vitest + Testing Library</sub></td>
+    <td align="center"><h3>189</h3>unit tests</td>
+    <td align="center"><h3>86</h3>integration tests<br><sub>Testcontainers PostgreSQL</sub></td>
+    <td align="center"><h3>60</h3>frontend tests<br><sub>Vitest + Testing Library</sub></td>
     <td align="center"><h3>64</h3>JMH benchmark cases</td>
   </tr>
 </table>

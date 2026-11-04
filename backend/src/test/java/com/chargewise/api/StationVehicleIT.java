@@ -183,6 +183,40 @@ class StationVehicleIT {
     }
 
     @Test
+    void stationKeepsCityAndStateAndTheDirectoryListsEveryStation() throws Exception {
+        String operator = api.operator("olga@example.test");
+        String created = mvc.perform(post("/api/v1/operator/stations").header(HttpHeaders.AUTHORIZATION, operator)
+                        .contentType(MediaType.APPLICATION_JSON).content("""
+                                {"name":"Indiranagar Hub","address":"100 Feet Road, Indiranagar","city":" Bengaluru ",
+                                 "state":"Karnataka","latitude":12.9719,"longitude":77.6412,"gridCapacityKw":120,
+                                 "status":"OPERATIONAL"}"""))
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.city").value("Bengaluru"))
+                .andExpect(jsonPath("$.state").value("Karnataka"))
+                .andReturn().getResponse().getContentAsString();
+        long stationId = ((Number) JsonPath.read(created, "$.id")).longValue();
+
+        mvc.perform(put("/api/v1/operator/stations/" + stationId).header(HttpHeaders.AUTHORIZATION, operator)
+                        .contentType(MediaType.APPLICATION_JSON).content("""
+                                {"name":"Indiranagar Hub","address":"100 Feet Road, Indiranagar","city":"",
+                                 "latitude":12.9719,"longitude":77.6412,"gridCapacityKw":120,"status":"OPERATIONAL"}"""))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.city").doesNotExist())
+                .andExpect(jsonPath("$.state").doesNotExist());
+
+        // More stations than one page holds: the directory still returns all of them, in id order.
+        for (int i = 0; i < 105; i++) {
+            station("Site " + i, "12.9000000", "77.6000000");
+        }
+        String driver = api.driver("dev@example.test");
+        mvc.perform(get("/api/v1/stations/all").header(HttpHeaders.AUTHORIZATION, driver))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(106))
+                .andExpect(jsonPath("$[0].id").value(stationId))
+                .andExpect(jsonPath("$[0].connectors").isArray());
+    }
+
+    @Test
     void nearbyReturnsStationsSortedByDistance() throws Exception {
         station("Andheri", "19.1136000", "72.8697000");
         station("CST", "18.9400000", "72.8353000");

@@ -1,402 +1,13 @@
 [
   {
-    "registrationNumber": "MH14WM6815",
+    "registrationNumber": "KA13WC2388",
     "ownerEmail": "driver01@demo.chargewise.test",
-    "ownerName": "Aarav Kulkarni",
-    "homeRegion": "Pune",
-    "model": "MG Windsor EV",
-    "batteryCapacityKwh": 38.0,
-    "currentSoc": 59.2,
-    "maxChargingKw": 45.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14TG9180",
-    "ownerEmail": "driver01@demo.chargewise.test",
-    "ownerName": "Aarav Kulkarni",
-    "homeRegion": "Pune",
-    "model": "Tata Punch.ev Long Range",
-    "batteryCapacityKwh": 35.0,
-    "currentSoc": 14.1,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12KZ4293",
-    "ownerEmail": "driver02@demo.chargewise.test",
-    "ownerName": "Priya Deshpande",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 69.9,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14NT7114",
-    "ownerEmail": "driver02@demo.chargewise.test",
-    "ownerName": "Priya Deshpande",
-    "homeRegion": "Pune",
-    "model": "MG Windsor EV",
-    "batteryCapacityKwh": 38.0,
-    "currentSoc": 50.8,
-    "maxChargingKw": 45.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH05KD3491",
-    "ownerEmail": "driver03@demo.chargewise.test",
-    "ownerName": "Rohan Mehta",
-    "homeRegion": "Mumbai",
-    "model": "BYD Atto 3",
-    "batteryCapacityKwh": 60.48,
-    "currentSoc": 47.5,
-    "maxChargingKw": 80.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH04YY2607",
-    "ownerEmail": "driver03@demo.chargewise.test",
-    "ownerName": "Rohan Mehta",
-    "homeRegion": "Mumbai",
-    "model": "Mahindra BE 6 (59 kWh)",
-    "batteryCapacityKwh": 59.0,
-    "currentSoc": 37.0,
-    "maxChargingKw": 140.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14RX1861",
-    "ownerEmail": "driver04@demo.chargewise.test",
-    "ownerName": "Sneha Patil",
-    "homeRegion": "Pune",
-    "model": "Tata Nexon.ev 45",
-    "batteryCapacityKwh": 46.08,
-    "currentSoc": 30.6,
-    "maxChargingKw": 60.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14ZW9079",
-    "ownerEmail": "driver04@demo.chargewise.test",
-    "ownerName": "Sneha Patil",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 61.7,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH05AU3729",
-    "ownerEmail": "driver05@demo.chargewise.test",
-    "ownerName": "Vikram Iyer",
-    "homeRegion": "Mumbai",
-    "model": "Tata Nexon.ev 45",
-    "batteryCapacityKwh": 46.08,
-    "currentSoc": 39.7,
-    "maxChargingKw": 60.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH43UW7141",
-    "ownerEmail": "driver05@demo.chargewise.test",
-    "ownerName": "Vikram Iyer",
-    "homeRegion": "Mumbai",
-    "model": "Mahindra BE 6 (59 kWh)",
-    "batteryCapacityKwh": 59.0,
-    "currentSoc": 55.1,
-    "maxChargingKw": 140.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14MK8289",
-    "ownerEmail": "driver06@demo.chargewise.test",
-    "ownerName": "Ananya Joshi",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 43.3,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14ZY8106",
-    "ownerEmail": "driver06@demo.chargewise.test",
-    "ownerName": "Ananya Joshi",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 14.5,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH05PC4151",
-    "ownerEmail": "driver07@demo.chargewise.test",
-    "ownerName": "Kabir Shah",
-    "homeRegion": "Mumbai",
-    "model": "Mahindra XUV400 EL Pro",
-    "batteryCapacityKwh": 39.4,
-    "currentSoc": 35.0,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH46DT3132",
-    "ownerEmail": "driver07@demo.chargewise.test",
-    "ownerName": "Kabir Shah",
-    "homeRegion": "Mumbai",
-    "model": "MG Windsor EV",
-    "batteryCapacityKwh": 38.0,
-    "currentSoc": 19.1,
-    "maxChargingKw": 45.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12LE6945",
-    "ownerEmail": "driver08@demo.chargewise.test",
-    "ownerName": "Meera Gokhale",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 62.3,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14JV7658",
-    "ownerEmail": "driver08@demo.chargewise.test",
-    "ownerName": "Meera Gokhale",
-    "homeRegion": "Pune",
-    "model": "Tata Tigor EV",
-    "batteryCapacityKwh": 26.0,
-    "currentSoc": 52.0,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12KZ4860",
-    "ownerEmail": "driver09@demo.chargewise.test",
-    "ownerName": "Arjun Nair",
-    "homeRegion": "Pune",
-    "model": "Tata Punch.ev Long Range",
-    "batteryCapacityKwh": 35.0,
-    "currentSoc": 47.3,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14LV4861",
-    "ownerEmail": "driver09@demo.chargewise.test",
-    "ownerName": "Arjun Nair",
-    "homeRegion": "Pune",
-    "model": "MG Windsor EV",
-    "batteryCapacityKwh": 38.0,
-    "currentSoc": 70.0,
-    "maxChargingKw": 45.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH04MC1037",
-    "ownerEmail": "driver10@demo.chargewise.test",
-    "ownerName": "Ishita Banerjee",
-    "homeRegion": "Mumbai",
-    "model": "Tata Punch.ev Long Range",
-    "batteryCapacityKwh": 35.0,
-    "currentSoc": 69.7,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH47YH6636",
-    "ownerEmail": "driver10@demo.chargewise.test",
-    "ownerName": "Ishita Banerjee",
-    "homeRegion": "Mumbai",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 62.6,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12DV2007",
-    "ownerEmail": "driver11@demo.chargewise.test",
-    "ownerName": "Siddharth Rao",
-    "homeRegion": "Pune",
-    "model": "MG ZS EV",
-    "batteryCapacityKwh": 50.3,
-    "currentSoc": 60.4,
-    "maxChargingKw": 76.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12NP3520",
-    "ownerEmail": "driver11@demo.chargewise.test",
-    "ownerName": "Siddharth Rao",
-    "homeRegion": "Pune",
-    "model": "MG ZS EV",
-    "batteryCapacityKwh": 50.3,
-    "currentSoc": 68.1,
-    "maxChargingKw": 76.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH02EG1697",
-    "ownerEmail": "driver12@demo.chargewise.test",
-    "ownerName": "Neha Kapoor",
-    "homeRegion": "Mumbai",
-    "model": "Nissan Leaf 40 kWh (import)",
-    "batteryCapacityKwh": 40.0,
-    "currentSoc": 32.2,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CHADEMO",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH04CZ9187",
-    "ownerEmail": "driver12@demo.chargewise.test",
-    "ownerName": "Neha Kapoor",
-    "homeRegion": "Mumbai",
-    "model": "Tata Nexon.ev 45",
-    "batteryCapacityKwh": 46.08,
-    "currentSoc": 59.3,
-    "maxChargingKw": 60.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12VE6099",
-    "ownerEmail": "driver13@demo.chargewise.test",
-    "ownerName": "Omkar Jadhav",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 27.2,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH14GM3921",
-    "ownerEmail": "driver13@demo.chargewise.test",
-    "ownerName": "Omkar Jadhav",
-    "homeRegion": "Pune",
-    "model": "Hyundai Kona Electric",
-    "batteryCapacityKwh": 39.2,
-    "currentSoc": 58.5,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH12ZS2431",
-    "ownerEmail": "driver14@demo.chargewise.test",
-    "ownerName": "Tanvi Bhosale",
-    "homeRegion": "Pune",
+    "ownerName": "Divya Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
     "model": "Mahindra e-Verito (fleet)",
     "batteryCapacityKwh": 21.2,
-    "currentSoc": 21.8,
+    "currentSoc": 61.3,
     "maxChargingKw": 15.0,
     "connectorTypes": [
       "BHARAT_DC001",
@@ -405,43 +16,14 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH12RF2376",
-    "ownerEmail": "driver14@demo.chargewise.test",
-    "ownerName": "Tanvi Bhosale",
-    "homeRegion": "Pune",
-    "model": "Tata Tigor EV",
-    "batteryCapacityKwh": 26.0,
-    "currentSoc": 25.4,
-    "maxChargingKw": 25.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH46VV9818",
-    "ownerEmail": "driver15@demo.chargewise.test",
-    "ownerName": "Farhan Qureshi",
-    "homeRegion": "Mumbai",
-    "model": "Mahindra XUV400 EL Pro",
-    "batteryCapacityKwh": 39.4,
-    "currentSoc": 34.0,
-    "maxChargingKw": 50.0,
-    "connectorTypes": [
-      "CCS2",
-      "TYPE2_AC"
-    ],
-    "source": "manufacturer specs"
-  },
-  {
-    "registrationNumber": "MH04NP6208",
-    "ownerEmail": "driver15@demo.chargewise.test",
-    "ownerName": "Farhan Qureshi",
-    "homeRegion": "Mumbai",
+    "registrationNumber": "KA63RR3483",
+    "ownerEmail": "driver01@demo.chargewise.test",
+    "ownerName": "Divya Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
     "model": "Tata Punch.ev Long Range",
     "batteryCapacityKwh": 35.0,
-    "currentSoc": 42.0,
+    "currentSoc": 61.2,
     "maxChargingKw": 50.0,
     "connectorTypes": [
       "CCS2",
@@ -450,13 +32,46 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH14RT2044",
-    "ownerEmail": "driver16@demo.chargewise.test",
-    "ownerName": "Kavya Menon",
-    "homeRegion": "Pune",
-    "model": "Tata Tiago.ev Long Range",
-    "batteryCapacityKwh": 24.0,
-    "currentSoc": 28.6,
+    "registrationNumber": "KA66RH8175",
+    "ownerEmail": "driver02@demo.chargewise.test",
+    "ownerName": "Abhishek Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 65.2,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA18ND8549",
+    "ownerEmail": "driver03@demo.chargewise.test",
+    "ownerName": "Karthik Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 66.9,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA64US2322",
+    "ownerEmail": "driver04@demo.chargewise.test",
+    "ownerName": "Rohan Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Tigor EV",
+    "batteryCapacityKwh": 26.0,
+    "currentSoc": 55.6,
     "maxChargingKw": 25.0,
     "connectorTypes": [
       "CCS2",
@@ -465,14 +80,15 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH14ZA4553",
-    "ownerEmail": "driver16@demo.chargewise.test",
-    "ownerName": "Kavya Menon",
-    "homeRegion": "Pune",
-    "model": "Tata Nexon.ev 45",
-    "batteryCapacityKwh": 46.08,
-    "currentSoc": 22.4,
-    "maxChargingKw": 60.0,
+    "registrationNumber": "KA69CK6321",
+    "ownerEmail": "driver04@demo.chargewise.test",
+    "ownerName": "Rohan Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 21.1,
+    "maxChargingKw": 45.0,
     "connectorTypes": [
       "CCS2",
       "TYPE2_AC"
@@ -480,10 +96,43 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH47TH9192",
-    "ownerEmail": "driver17@demo.chargewise.test",
-    "ownerName": "Yash Thakur",
-    "homeRegion": "Mumbai",
+    "registrationNumber": "KA69DG3498",
+    "ownerEmail": "driver05@demo.chargewise.test",
+    "ownerName": "Ritika Rao",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 37.7,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA29GH5738",
+    "ownerEmail": "driver06@demo.chargewise.test",
+    "ownerName": "Nandini Bhat",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Hyundai Kona Electric",
+    "batteryCapacityKwh": 39.2,
+    "currentSoc": 41.9,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA03LJ6734",
+    "ownerEmail": "driver07@demo.chargewise.test",
+    "ownerName": "Sourav Bhat",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
     "model": "Tata Nexon.ev 45",
     "batteryCapacityKwh": 46.08,
     "currentSoc": 55.8,
@@ -495,13 +144,14 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH47RU3103",
-    "ownerEmail": "driver17@demo.chargewise.test",
-    "ownerName": "Yash Thakur",
-    "homeRegion": "Mumbai",
+    "registrationNumber": "KA58WC5045",
+    "ownerEmail": "driver07@demo.chargewise.test",
+    "ownerName": "Sourav Bhat",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
     "model": "Tata Tiago.ev Long Range",
     "batteryCapacityKwh": 24.0,
-    "currentSoc": 47.6,
+    "currentSoc": 13.3,
     "maxChargingKw": 25.0,
     "connectorTypes": [
       "CCS2",
@@ -510,13 +160,46 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH12EL7343",
-    "ownerEmail": "driver18@demo.chargewise.test",
-    "ownerName": "Riya Chavan",
-    "homeRegion": "Pune",
+    "registrationNumber": "KA10EH4119",
+    "ownerEmail": "driver08@demo.chargewise.test",
+    "ownerName": "Gurleen Bhat",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Nissan Leaf 40 kWh (import)",
+    "batteryCapacityKwh": 40.0,
+    "currentSoc": 41.4,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CHADEMO",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA39DW9012",
+    "ownerEmail": "driver09@demo.chargewise.test",
+    "ownerName": "Imran Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 51.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA38YM2963",
+    "ownerEmail": "driver10@demo.chargewise.test",
+    "ownerName": "Aisha Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
     "model": "MG ZS EV",
     "batteryCapacityKwh": 50.3,
-    "currentSoc": 68.5,
+    "currentSoc": 50.8,
     "maxChargingKw": 76.0,
     "connectorTypes": [
       "CCS2",
@@ -525,14 +208,15 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH14NK3601",
-    "ownerEmail": "driver18@demo.chargewise.test",
-    "ownerName": "Riya Chavan",
-    "homeRegion": "Pune",
-    "model": "Tata Nexon.ev 45",
-    "batteryCapacityKwh": 46.08,
-    "currentSoc": 30.1,
-    "maxChargingKw": 60.0,
+    "registrationNumber": "KA11AD9458",
+    "ownerEmail": "driver10@demo.chargewise.test",
+    "ownerName": "Aisha Kamath",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 62.2,
+    "maxChargingKw": 45.0,
     "connectorTypes": [
       "CCS2",
       "TYPE2_AC"
@@ -540,13 +224,46 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH14UG4715",
-    "ownerEmail": "driver19@demo.chargewise.test",
-    "ownerName": "Aditya Sawant",
-    "homeRegion": "Pune",
+    "registrationNumber": "KA50KG2236",
+    "ownerEmail": "driver11@demo.chargewise.test",
+    "ownerName": "Ishita Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 11.7,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA56BD1497",
+    "ownerEmail": "driver12@demo.chargewise.test",
+    "ownerName": "Manoj Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 37.6,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA06NC6653",
+    "ownerEmail": "driver13@demo.chargewise.test",
+    "ownerName": "Ravi Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
     "model": "Mahindra e-Verito (fleet)",
     "batteryCapacityKwh": 21.2,
-    "currentSoc": 13.5,
+    "currentSoc": 24.1,
     "maxChargingKw": 15.0,
     "connectorTypes": [
       "BHARAT_DC001",
@@ -555,12 +272,1597 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH12FD4056",
+    "registrationNumber": "KA58GM8694",
+    "ownerEmail": "driver13@demo.chargewise.test",
+    "ownerName": "Ravi Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 49.4,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA02EM6535",
+    "ownerEmail": "driver14@demo.chargewise.test",
+    "ownerName": "Aditya Bhat",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "BYD Atto 3",
+    "batteryCapacityKwh": 60.48,
+    "currentSoc": 42.2,
+    "maxChargingKw": 80.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA64JW3864",
+    "ownerEmail": "driver15@demo.chargewise.test",
+    "ownerName": "Tanvi Gowda",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 67.2,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA64DZ1781",
+    "ownerEmail": "driver16@demo.chargewise.test",
+    "ownerName": "Deepak Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 47.2,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA55HH6697",
+    "ownerEmail": "driver16@demo.chargewise.test",
+    "ownerName": "Deepak Hegde",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 47.7,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA23WD2288",
+    "ownerEmail": "driver17@demo.chargewise.test",
+    "ownerName": "Kabir Shetty",
+    "homeCity": "Bengaluru",
+    "homeState": "Karnataka",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 64.3,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL08BG9147",
+    "ownerEmail": "driver18@demo.chargewise.test",
+    "ownerName": "Tanvi Malhotra",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 32.3,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL06RM2720",
     "ownerEmail": "driver19@demo.chargewise.test",
-    "ownerName": "Aditya Sawant",
-    "homeRegion": "Pune",
+    "ownerName": "Keerthi Kapoor",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 63.3,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL05JS7897",
+    "ownerEmail": "driver19@demo.chargewise.test",
+    "ownerName": "Keerthi Kapoor",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 66.0,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL05LH5801",
+    "ownerEmail": "driver20@demo.chargewise.test",
+    "ownerName": "Ravi Kapoor",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 65.8,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL05EJ2634",
+    "ownerEmail": "driver21@demo.chargewise.test",
+    "ownerName": "Nikhil Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 32.9,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL11JG4421",
+    "ownerEmail": "driver22@demo.chargewise.test",
+    "ownerName": "Kabir Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 11.1,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL03KS2123",
+    "ownerEmail": "driver22@demo.chargewise.test",
+    "ownerName": "Kabir Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra BE 6 (59 kWh)",
+    "batteryCapacityKwh": 59.0,
+    "currentSoc": 18.6,
+    "maxChargingKw": 140.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL03RF8825",
+    "ownerEmail": "driver23@demo.chargewise.test",
+    "ownerName": "Suresh Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 63.3,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL03KW8506",
+    "ownerEmail": "driver24@demo.chargewise.test",
+    "ownerName": "Vikram Gupta",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 31.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL10ZW7585",
+    "ownerEmail": "driver25@demo.chargewise.test",
+    "ownerName": "Abhishek Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 19.9,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL05AX4693",
+    "ownerEmail": "driver25@demo.chargewise.test",
+    "ownerName": "Abhishek Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra BE 6 (59 kWh)",
+    "batteryCapacityKwh": 59.0,
+    "currentSoc": 33.5,
+    "maxChargingKw": 140.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL06EC8060",
+    "ownerEmail": "driver26@demo.chargewise.test",
+    "ownerName": "Sana Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 65.2,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL01GX7419",
+    "ownerEmail": "driver27@demo.chargewise.test",
+    "ownerName": "Ishita Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 63.6,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL12PV5434",
+    "ownerEmail": "driver28@demo.chargewise.test",
+    "ownerName": "Sourav Kapoor",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 53.6,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL10TP6732",
+    "ownerEmail": "driver28@demo.chargewise.test",
+    "ownerName": "Sourav Kapoor",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 48.6,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL05US2212",
+    "ownerEmail": "driver29@demo.chargewise.test",
+    "ownerName": "Anirudh Khanna",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 57.5,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL05ZY6525",
+    "ownerEmail": "driver30@demo.chargewise.test",
+    "ownerName": "Vikram Kapoor",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 16.1,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL11HR8766",
+    "ownerEmail": "driver31@demo.chargewise.test",
+    "ownerName": "Ananya Gupta",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Nissan Leaf 40 kWh (import)",
+    "batteryCapacityKwh": 40.0,
+    "currentSoc": 9.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CHADEMO",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL04RP3174",
+    "ownerEmail": "driver31@demo.chargewise.test",
+    "ownerName": "Ananya Gupta",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 10.3,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "DL06SN9770",
+    "ownerEmail": "driver32@demo.chargewise.test",
+    "ownerName": "Tushar Malhotra",
+    "homeCity": "Delhi",
+    "homeState": "Delhi",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 39.9,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL60YP4341",
+    "ownerEmail": "driver33@demo.chargewise.test",
+    "ownerName": "Sneha Varghese",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 33.3,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL23AS7990",
+    "ownerEmail": "driver34@demo.chargewise.test",
+    "ownerName": "Siddharth Menon",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 35.8,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL51FK5852",
+    "ownerEmail": "driver34@demo.chargewise.test",
+    "ownerName": "Siddharth Menon",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 51.5,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL66BC3040",
+    "ownerEmail": "driver35@demo.chargewise.test",
+    "ownerName": "Abhishek Thomas",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 56.5,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL62US4344",
+    "ownerEmail": "driver36@demo.chargewise.test",
+    "ownerName": "Nikhil Varghese",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "Hyundai Kona Electric",
+    "batteryCapacityKwh": 39.2,
+    "currentSoc": 26.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL40AB7145",
+    "ownerEmail": "driver37@demo.chargewise.test",
+    "ownerName": "Anjali Varghese",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 68.7,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL62ML2051",
+    "ownerEmail": "driver37@demo.chargewise.test",
+    "ownerName": "Anjali Varghese",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 13.9,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL15BR3617",
+    "ownerEmail": "driver38@demo.chargewise.test",
+    "ownerName": "Anirudh Pillai",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 11.5,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL08FF1715",
+    "ownerEmail": "driver39@demo.chargewise.test",
+    "ownerName": "Bhavna Thomas",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 9.1,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL58SX4452",
+    "ownerEmail": "driver40@demo.chargewise.test",
+    "ownerName": "Ishita Menon",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 55.1,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL06JM6237",
+    "ownerEmail": "driver40@demo.chargewise.test",
+    "ownerName": "Ishita Menon",
+    "homeCity": "Kochi",
+    "homeState": "Kerala",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 24.2,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "MH06HX1150",
+    "ownerEmail": "driver41@demo.chargewise.test",
+    "ownerName": "Deepak Patil",
+    "homeCity": "Pune",
+    "homeState": "Maharashtra",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 51.3,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "MH18UA9898",
+    "ownerEmail": "driver42@demo.chargewise.test",
+    "ownerName": "Abhishek Patil",
+    "homeCity": "Pune",
+    "homeState": "Maharashtra",
     "model": "Tata Tigor EV",
     "batteryCapacityKwh": 26.0,
+    "currentSoc": 49.6,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "MH17FL2482",
+    "ownerEmail": "driver43@demo.chargewise.test",
+    "ownerName": "Yash Patil",
+    "homeCity": "Pune",
+    "homeState": "Maharashtra",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 16.2,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "MH42VY3751",
+    "ownerEmail": "driver43@demo.chargewise.test",
+    "ownerName": "Yash Patil",
+    "homeCity": "Pune",
+    "homeState": "Maharashtra",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 50.4,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "MH40BF9565",
+    "ownerEmail": "driver44@demo.chargewise.test",
+    "ownerName": "Manoj Patil",
+    "homeCity": "Pune",
+    "homeState": "Maharashtra",
+    "model": "Tata Tigor EV",
+    "batteryCapacityKwh": 26.0,
+    "currentSoc": 55.8,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL56RG3926",
+    "ownerEmail": "driver45@demo.chargewise.test",
+    "ownerName": "Manoj Kurian",
+    "homeCity": "Thiruvananthapuram",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 9.0,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL35XC6172",
+    "ownerEmail": "driver46@demo.chargewise.test",
+    "ownerName": "Siddharth Varghese",
+    "homeCity": "Thiruvananthapuram",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 24.9,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL09DE3144",
+    "ownerEmail": "driver46@demo.chargewise.test",
+    "ownerName": "Siddharth Varghese",
+    "homeCity": "Thiruvananthapuram",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 20.0,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL66CE4479",
+    "ownerEmail": "driver47@demo.chargewise.test",
+    "ownerName": "Priya Pillai",
+    "homeCity": "Thiruvananthapuram",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 41.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL19FX3375",
+    "ownerEmail": "driver48@demo.chargewise.test",
+    "ownerName": "Kabir Varghese",
+    "homeCity": "Thiruvananthapuram",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 10.1,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL77TE2408",
+    "ownerEmail": "driver49@demo.chargewise.test",
+    "ownerName": "Ritika Menon",
+    "homeCity": "Kozhikode",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 45.5,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL15TG8370",
+    "ownerEmail": "driver49@demo.chargewise.test",
+    "ownerName": "Ritika Menon",
+    "homeCity": "Kozhikode",
+    "homeState": "Kerala",
+    "model": "Mahindra e-Verito (fleet)",
+    "batteryCapacityKwh": 21.2,
+    "currentSoc": 47.2,
+    "maxChargingKw": 15.0,
+    "connectorTypes": [
+      "BHARAT_DC001",
+      "BHARAT_AC001"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL13FB9311",
+    "ownerEmail": "driver50@demo.chargewise.test",
+    "ownerName": "Anjali Nair",
+    "homeCity": "Kozhikode",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 23.7,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL10RB3503",
+    "ownerEmail": "driver51@demo.chargewise.test",
+    "ownerName": "Zoya Pillai",
+    "homeCity": "Kozhikode",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 15.4,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL35ZT5045",
+    "ownerEmail": "driver52@demo.chargewise.test",
+    "ownerName": "Vikram Kurian",
+    "homeCity": "Thrissur",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 54.8,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL18BZ2622",
+    "ownerEmail": "driver52@demo.chargewise.test",
+    "ownerName": "Vikram Kurian",
+    "homeCity": "Thrissur",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 14.3,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL75CN1277",
+    "ownerEmail": "driver53@demo.chargewise.test",
+    "ownerName": "Neha Pillai",
+    "homeCity": "Thrissur",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 11.9,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL43NS2016",
+    "ownerEmail": "driver54@demo.chargewise.test",
+    "ownerName": "Sourav Varghese",
+    "homeCity": "Thrissur",
+    "homeState": "Kerala",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 13.3,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA20MH2305",
+    "ownerEmail": "driver55@demo.chargewise.test",
+    "ownerName": "Rohan Hegde",
+    "homeCity": "Mysuru",
+    "homeState": "Karnataka",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 8.6,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA50XN3275",
+    "ownerEmail": "driver55@demo.chargewise.test",
+    "ownerName": "Rohan Hegde",
+    "homeCity": "Mysuru",
+    "homeState": "Karnataka",
+    "model": "BYD Atto 3",
+    "batteryCapacityKwh": 60.48,
+    "currentSoc": 62.3,
+    "maxChargingKw": 80.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA23YE1012",
+    "ownerEmail": "driver56@demo.chargewise.test",
+    "ownerName": "Divya Bhat",
+    "homeCity": "Mysuru",
+    "homeState": "Karnataka",
+    "model": "Hyundai Kona Electric",
+    "batteryCapacityKwh": 39.2,
+    "currentSoc": 33.8,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA66WG7638",
+    "ownerEmail": "driver57@demo.chargewise.test",
+    "ownerName": "Aarav Hegde",
+    "homeCity": "Mysuru",
+    "homeState": "Karnataka",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 8.7,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN97NL1786",
+    "ownerEmail": "driver58@demo.chargewise.test",
+    "ownerName": "Joseph Raman",
+    "homeCity": "Coimbatore",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 9.3,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN86HW4687",
+    "ownerEmail": "driver58@demo.chargewise.test",
+    "ownerName": "Joseph Raman",
+    "homeCity": "Coimbatore",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 50.8,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN60TE9752",
+    "ownerEmail": "driver59@demo.chargewise.test",
+    "ownerName": "Keerthi Natarajan",
+    "homeCity": "Coimbatore",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 62.6,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "WB06BY5355",
+    "ownerEmail": "driver60@demo.chargewise.test",
+    "ownerName": "Mariam Banerjee",
+    "homeCity": "Kolkata",
+    "homeState": "West Bengal",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 9.7,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "WB56PR1095",
+    "ownerEmail": "driver61@demo.chargewise.test",
+    "ownerName": "Riya Mukherjee",
+    "homeCity": "Kolkata",
+    "homeState": "West Bengal",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 54.0,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "WB69UW1777",
+    "ownerEmail": "driver61@demo.chargewise.test",
+    "ownerName": "Riya Mukherjee",
+    "homeCity": "Kolkata",
+    "homeState": "West Bengal",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 37.7,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL50KL7971",
+    "ownerEmail": "driver62@demo.chargewise.test",
+    "ownerName": "Abhishek Varghese",
+    "homeCity": "Angamali",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 64.8,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL83AU6030",
+    "ownerEmail": "driver63@demo.chargewise.test",
+    "ownerName": "Neha Kurian",
+    "homeCity": "Angamali",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 50.7,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "OD30UM8369",
+    "ownerEmail": "driver64@demo.chargewise.test",
+    "ownerName": "Sourav Mishra",
+    "homeCity": "Bhubaneswar",
+    "homeState": "Odisha",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 50.9,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "OD29AZ6694",
+    "ownerEmail": "driver64@demo.chargewise.test",
+    "ownerName": "Sourav Mishra",
+    "homeCity": "Bhubaneswar",
+    "homeState": "Odisha",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 58.2,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "OD24WG5000",
+    "ownerEmail": "driver65@demo.chargewise.test",
+    "ownerName": "Varun Mishra",
+    "homeCity": "Bhubaneswar",
+    "homeState": "Odisha",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 47.7,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL85VF7569",
+    "ownerEmail": "driver66@demo.chargewise.test",
+    "ownerName": "Swati Kurian",
+    "homeCity": "Kalpatta",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 15.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN96EY6971",
+    "ownerEmail": "driver67@demo.chargewise.test",
+    "ownerName": "Shreya Raman",
+    "homeCity": "Madurai",
+    "homeState": "Tamil Nadu",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 41.1,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN81YA9361",
+    "ownerEmail": "driver67@demo.chargewise.test",
+    "ownerName": "Shreya Raman",
+    "homeCity": "Madurai",
+    "homeState": "Tamil Nadu",
+    "model": "MG ZS EV",
+    "batteryCapacityKwh": 50.3,
+    "currentSoc": 51.0,
+    "maxChargingKw": 76.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA65AB2458",
+    "ownerEmail": "driver68@demo.chargewise.test",
+    "ownerName": "Ravi Bhat",
+    "homeCity": "Mangaluru",
+    "homeState": "Karnataka",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 25.2,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL08PR5469",
+    "ownerEmail": "driver69@demo.chargewise.test",
+    "ownerName": "Kabir Menon",
+    "homeCity": "Aluva",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 55.4,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN81CK7536",
+    "ownerEmail": "driver70@demo.chargewise.test",
+    "ownerName": "Aarav Raman",
+    "homeCity": "Chennai",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 54.7,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN89BF1034",
+    "ownerEmail": "driver70@demo.chargewise.test",
+    "ownerName": "Aarav Raman",
+    "homeCity": "Chennai",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 56.4,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "AP05PT9341",
+    "ownerEmail": "driver71@demo.chargewise.test",
+    "ownerName": "Joseph Varma",
+    "homeCity": "Visakhapatnam",
+    "homeState": "Andhra Pradesh",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 27.7,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL78RW2724",
+    "ownerEmail": "driver72@demo.chargewise.test",
+    "ownerName": "Mariam Varghese",
+    "homeCity": "Pathanamthitta",
+    "homeState": "Kerala",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 49.7,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "HR21NN2240",
+    "ownerEmail": "driver73@demo.chargewise.test",
+    "ownerName": "Yash Sangwan",
+    "homeCity": "Gurugram",
+    "homeState": "Haryana",
+    "model": "Mahindra BE 6 (59 kWh)",
+    "batteryCapacityKwh": 59.0,
+    "currentSoc": 50.8,
+    "maxChargingKw": 140.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "HR28XF8592",
+    "ownerEmail": "driver73@demo.chargewise.test",
+    "ownerName": "Yash Sangwan",
+    "homeCity": "Gurugram",
+    "homeState": "Haryana",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 55.8,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "UP64FY4682",
+    "ownerEmail": "driver74@demo.chargewise.test",
+    "ownerName": "Abhishek Mishra",
+    "homeCity": "Noida",
+    "homeState": "Uttar Pradesh",
+    "model": "Tata Tigor EV",
+    "batteryCapacityKwh": 26.0,
+    "currentSoc": 13.0,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL54KC4472",
+    "ownerEmail": "driver75@demo.chargewise.test",
+    "ownerName": "Deepak Thomas",
+    "homeCity": "Palakkad",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 67.3,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA33HE7144",
+    "ownerEmail": "driver76@demo.chargewise.test",
+    "ownerName": "Aisha Bhat",
+    "homeCity": "Belagavi",
+    "homeState": "Karnataka",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 9.5,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA42TK2562",
+    "ownerEmail": "driver76@demo.chargewise.test",
+    "ownerName": "Aisha Bhat",
+    "homeCity": "Belagavi",
+    "homeState": "Karnataka",
+    "model": "Hyundai Kona Electric",
+    "batteryCapacityKwh": 39.2,
+    "currentSoc": 34.8,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA46MT9613",
+    "ownerEmail": "driver77@demo.chargewise.test",
+    "ownerName": "Farhan Bhat",
+    "homeCity": "Kadiganahalli",
+    "homeState": "Karnataka",
+    "model": "Tata Tigor EV",
+    "batteryCapacityKwh": 26.0,
+    "currentSoc": 37.7,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "MH41WK5795",
+    "ownerEmail": "driver78@demo.chargewise.test",
+    "ownerName": "Yash Bhosale",
+    "homeCity": "Kolhapur",
+    "homeState": "Maharashtra",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 66.4,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL16NG5682",
+    "ownerEmail": "driver79@demo.chargewise.test",
+    "ownerName": "Varun Nair",
+    "homeCity": "Adur",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 52.1,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL52EP4223",
+    "ownerEmail": "driver79@demo.chargewise.test",
+    "ownerName": "Varun Nair",
+    "homeCity": "Adur",
+    "homeState": "Kerala",
+    "model": "BYD Atto 3",
+    "batteryCapacityKwh": 60.48,
+    "currentSoc": 12.1,
+    "maxChargingKw": 80.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL16JV5463",
+    "ownerEmail": "driver80@demo.chargewise.test",
+    "ownerName": "Pooja Nair",
+    "homeCity": "Changanacheri",
+    "homeState": "Kerala",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 65.6,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KA10MA3147",
+    "ownerEmail": "driver81@demo.chargewise.test",
+    "ownerName": "Sneha Gowda",
+    "homeCity": "Hubballi",
+    "homeState": "Karnataka",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 24.2,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL17ZL2658",
+    "ownerEmail": "driver82@demo.chargewise.test",
+    "ownerName": "Shreya Pillai",
+    "homeCity": "Kottarakara",
+    "homeState": "Kerala",
+    "model": "Mahindra BE 6 (59 kWh)",
+    "batteryCapacityKwh": 59.0,
+    "currentSoc": 18.0,
+    "maxChargingKw": 140.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL15FT6730",
+    "ownerEmail": "driver82@demo.chargewise.test",
+    "ownerName": "Shreya Pillai",
+    "homeCity": "Kottarakara",
+    "homeState": "Kerala",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 50.7,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL10LV2508",
+    "ownerEmail": "driver83@demo.chargewise.test",
+    "ownerName": "Kavya Nair",
+    "homeCity": "Kottayam",
+    "homeState": "Kerala",
+    "model": "BYD Atto 3",
+    "batteryCapacityKwh": 60.48,
+    "currentSoc": 37.7,
+    "maxChargingKw": 80.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL26YL5893",
+    "ownerEmail": "driver84@demo.chargewise.test",
+    "ownerName": "Harpreet Nair",
+    "homeCity": "Perintalmanna",
+    "homeState": "Kerala",
+    "model": "Mahindra BE 6 (59 kWh)",
+    "batteryCapacityKwh": 59.0,
+    "currentSoc": 22.6,
+    "maxChargingKw": 140.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL01LZ6685",
+    "ownerEmail": "driver85@demo.chargewise.test",
+    "ownerName": "Deepak Pillai",
+    "homeCity": "Alappuzha",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 9.1,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL09CN6083",
+    "ownerEmail": "driver85@demo.chargewise.test",
+    "ownerName": "Deepak Pillai",
+    "homeCity": "Alappuzha",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 56.3,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL51TU6839",
+    "ownerEmail": "driver86@demo.chargewise.test",
+    "ownerName": "Ananya Kurian",
+    "homeCity": "Alappuzha",
+    "homeState": "Kerala",
+    "model": "Nissan Leaf 40 kWh (import)",
+    "batteryCapacityKwh": 40.0,
+    "currentSoc": 28.6,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CHADEMO",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL27MU6748",
+    "ownerEmail": "driver87@demo.chargewise.test",
+    "ownerName": "Kavya Thomas",
+    "homeCity": "Erattupetta",
+    "homeState": "Kerala",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 67.4,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL85ZG6762",
+    "ownerEmail": "driver88@demo.chargewise.test",
+    "ownerName": "Ishita Nair",
+    "homeCity": "Erattupetta",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
     "currentSoc": 28.2,
     "maxChargingKw": 25.0,
     "connectorTypes": [
@@ -570,13 +1872,30 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH04GX6245",
-    "ownerEmail": "driver20@demo.chargewise.test",
-    "ownerName": "Zoya Sheikh",
-    "homeRegion": "Mumbai",
-    "model": "Mahindra XUV400 EL Pro",
-    "batteryCapacityKwh": 39.4,
-    "currentSoc": 49.2,
+    "registrationNumber": "KL72PC3844",
+    "ownerEmail": "driver88@demo.chargewise.test",
+    "ownerName": "Ishita Nair",
+    "homeCity": "Erattupetta",
+    "homeState": "Kerala",
+    "model": "Mahindra BE 6 (59 kWh)",
+    "batteryCapacityKwh": 59.0,
+    "currentSoc": 54.4,
+    "maxChargingKw": 140.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL14XZ5455",
+    "ownerEmail": "driver89@demo.chargewise.test",
+    "ownerName": "Arjun Varghese",
+    "homeCity": "Kollam",
+    "homeState": "Kerala",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 62.2,
     "maxChargingKw": 50.0,
     "connectorTypes": [
       "CCS2",
@@ -585,17 +1904,242 @@
     "source": "manufacturer specs"
   },
   {
-    "registrationNumber": "MH47TU7182",
-    "ownerEmail": "driver20@demo.chargewise.test",
-    "ownerName": "Zoya Sheikh",
-    "homeRegion": "Mumbai",
+    "registrationNumber": "KL78CZ6552",
+    "ownerEmail": "driver90@demo.chargewise.test",
+    "ownerName": "Omkar Nair",
+    "homeCity": "Kollam",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 62.9,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN27ZK1805",
+    "ownerEmail": "driver91@demo.chargewise.test",
+    "ownerName": "Manoj Murugan",
+    "homeCity": "Mettupalayam",
+    "homeState": "Tamil Nadu",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 47.4,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN29UD9080",
+    "ownerEmail": "driver91@demo.chargewise.test",
+    "ownerName": "Manoj Murugan",
+    "homeCity": "Mettupalayam",
+    "homeState": "Tamil Nadu",
+    "model": "Mahindra XUV400 EL Pro",
+    "batteryCapacityKwh": 39.4,
+    "currentSoc": 63.9,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN03MZ8266",
+    "ownerEmail": "driver92@demo.chargewise.test",
+    "ownerName": "Abhishek Krishnan",
+    "homeCity": "Mettupalayam",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Tigor EV",
+    "batteryCapacityKwh": 26.0,
+    "currentSoc": 56.1,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL53KF6211",
+    "ownerEmail": "driver93@demo.chargewise.test",
+    "ownerName": "Divya Thomas",
+    "homeCity": "Pudusseri",
+    "homeState": "Kerala",
+    "model": "Tata Tiago.ev Long Range",
+    "batteryCapacityKwh": 24.0,
+    "currentSoc": 43.6,
+    "maxChargingKw": 25.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL65EA4832",
+    "ownerEmail": "driver94@demo.chargewise.test",
+    "ownerName": "Riya Pillai",
+    "homeCity": "Pudusseri",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 43.3,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "KL40BA7003",
+    "ownerEmail": "driver94@demo.chargewise.test",
+    "ownerName": "Riya Pillai",
+    "homeCity": "Pudusseri",
+    "homeState": "Kerala",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 28.9,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "CG08VP3790",
+    "ownerEmail": "driver95@demo.chargewise.test",
+    "ownerName": "Joseph Iyer",
+    "homeCity": "Raipur",
+    "homeState": "Chhattisgarh",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 68.0,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "CG29LU6786",
+    "ownerEmail": "driver96@demo.chargewise.test",
+    "ownerName": "Nandini Gupta",
+    "homeCity": "Raipur",
+    "homeState": "Chhattisgarh",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 38.9,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN96LG8770",
+    "ownerEmail": "driver97@demo.chargewise.test",
+    "ownerName": "Tanvi Murugan",
+    "homeCity": "Salem",
+    "homeState": "Tamil Nadu",
     "model": "Mahindra e-Verito (fleet)",
     "batteryCapacityKwh": 21.2,
-    "currentSoc": 43.5,
+    "currentSoc": 39.1,
     "maxChargingKw": 15.0,
     "connectorTypes": [
       "BHARAT_DC001",
       "BHARAT_AC001"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN62FE8657",
+    "ownerEmail": "driver97@demo.chargewise.test",
+    "ownerName": "Tanvi Murugan",
+    "homeCity": "Salem",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 13.9,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN19UX7108",
+    "ownerEmail": "driver98@demo.chargewise.test",
+    "ownerName": "Meera Subramanian",
+    "homeCity": "Salem",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Nexon.ev 45",
+    "batteryCapacityKwh": 46.08,
+    "currentSoc": 46.8,
+    "maxChargingKw": 60.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN74RN4474",
+    "ownerEmail": "driver99@demo.chargewise.test",
+    "ownerName": "Nikhil Murugan",
+    "homeCity": "Venkatapuram",
+    "homeState": "Tamil Nadu",
+    "model": "Mahindra e-Verito (fleet)",
+    "batteryCapacityKwh": 21.2,
+    "currentSoc": 14.6,
+    "maxChargingKw": 15.0,
+    "connectorTypes": [
+      "BHARAT_DC001",
+      "BHARAT_AC001"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN21KK3961",
+    "ownerEmail": "driver100@demo.chargewise.test",
+    "ownerName": "Varun Murugan",
+    "homeCity": "Venkatapuram",
+    "homeState": "Tamil Nadu",
+    "model": "Tata Punch.ev Long Range",
+    "batteryCapacityKwh": 35.0,
+    "currentSoc": 37.6,
+    "maxChargingKw": 50.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
+    ],
+    "source": "manufacturer specs"
+  },
+  {
+    "registrationNumber": "TN37NX1027",
+    "ownerEmail": "driver100@demo.chargewise.test",
+    "ownerName": "Varun Murugan",
+    "homeCity": "Venkatapuram",
+    "homeState": "Tamil Nadu",
+    "model": "MG Windsor EV",
+    "batteryCapacityKwh": 38.0,
+    "currentSoc": 65.3,
+    "maxChargingKw": 45.0,
+    "connectorTypes": [
+      "CCS2",
+      "TYPE2_AC"
     ],
     "source": "manufacturer specs"
   }

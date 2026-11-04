@@ -2,14 +2,14 @@ import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { QueryState } from '../../components/QueryState'
-import { RegionSwitch } from '../../components/RegionSwitch'
+import { PlaceFilter } from '../../components/PlaceFilter'
 import { StationMap } from '../../components/StationMap'
 import { DataBadge, StatusChip } from '../../components/StatusChip'
 import { buttonClass } from '../../components/buttonClass'
 import { Button, EmptyState, Mono, PageHeader, Panel, Readout, ReadoutStrip } from '../../components/ui'
 import { outcomeSentence } from '../../lib/bookingOutcome'
 import { connectorLabel, formatDateTime, formatDuration, formatKw, formatKwh, formatNumber, formatRatio, formatWindow, humanise } from '../../lib/format'
-import { inRegion, type Region } from '../../lib/regions'
+import { ALL_INDIA, inPlace, type Place } from '../../lib/places'
 import { statusTone } from '../../lib/statusTone'
 import { operatorApi } from '../../services/endpoints'
 import {
@@ -78,7 +78,7 @@ function Kpis({ data }: { data: DashboardResponse }) {
 export function OverviewPage() {
   const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: operatorApi.dashboard, refetchInterval: 30_000 })
   const stations = useStations()
-  const [region, setRegion] = useState<Region>('ALL')
+  const [place, setPlace] = useState<Place>(ALL_INDIA)
   return (
     <div className="flex flex-col gap-6">
       <PageHeader
@@ -102,13 +102,14 @@ export function OverviewPage() {
               <div className="flex min-w-0 flex-col gap-3">
                 {stations.data && (
                   <>
-                    <RegionSwitch value={region} onChange={setRegion} stations={stations.data.content} />
-                    <StationMap stations={stations.data.content.filter((station) => inRegion(station, region))} height="28rem" />
+                    <PlaceFilter value={place} onChange={setPlace} stations={stations.data} />
+                    <StationMap stations={stations.data.filter((station) => inPlace(station, place))} height="28rem" />
                   </>
                 )}
                 <p className="text-xs text-muted">
                   Lime operational, amber maintenance, coral offline; larger markers have more connectors. Station status
-                  counts are listed beside the map.
+                  counts are listed beside the map. Stations from Open Charge Map (CC BY 4.0) and OpenStreetMap
+                  contributors.
                 </p>
               </div>
               <div className="flex flex-col gap-6">

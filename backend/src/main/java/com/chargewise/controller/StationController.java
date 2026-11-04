@@ -40,6 +40,12 @@ public class StationController {
         return stations.list(status, page, size);
     }
 
+    @GetMapping("/all")
+    @Operation(summary = "Every station with its connectors, for the network map and directory")
+    public List<StationResponse> all() {
+        return stations.listAll();
+    }
+
     @GetMapping("/nearby")
     @Operation(summary = "Stations within a radius, nearest first (great-circle distance)")
     public List<NearbyStationResponse> nearby(

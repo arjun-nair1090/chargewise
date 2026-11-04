@@ -13,9 +13,10 @@ import tools.jackson.core.type.TypeReference;
 import tools.jackson.databind.json.JsonMapper;
 
 /**
- * The demo dataset produced by {@code scripts/generate_dataset.py}: real OpenStreetMap stations and real EV models,
- * with made-up owners, grid limits and requests. Each record's {@code source} says where it came from. Records use
- * external string keys ({@code S-01}, {@code C-001}, registration numbers) that the seeder resolves to database ids.
+ * The demo dataset produced by {@code scripts/generate_dataset.py}: real Open Charge Map and OpenStreetMap stations
+ * across India and real EV models, with made-up owners, grid limits and requests. Each record's {@code source} says
+ * where it came from. Records use external string keys ({@code S-0001}, {@code C-00001}, registration numbers) that
+ * the seeder resolves to database ids.
  */
 public record DemoDataset(
         List<StationRecord> stations,
@@ -23,16 +24,16 @@ public record DemoDataset(
         List<VehicleRecord> vehicles,
         List<RequestRecord> requests) {
 
-    public record StationRecord(String id, String name, String address, BigDecimal latitude, BigDecimal longitude,
-            BigDecimal gridCapacityKw, StationStatus status, String region, String source) {
+    public record StationRecord(String id, String name, String address, String city, String state,
+            BigDecimal latitude, BigDecimal longitude, BigDecimal gridCapacityKw, StationStatus status, String source) {
     }
 
     public record ConnectorRecord(String id, String stationId, ConnectorType connectorType, BigDecimal maxPowerKw,
             ConnectorStatus status, String source) {
     }
 
-    public record VehicleRecord(String registrationNumber, String ownerEmail, String ownerName, String homeRegion,
-            String model, BigDecimal batteryCapacityKwh, BigDecimal currentSoc, BigDecimal maxChargingKw,
+    public record VehicleRecord(String registrationNumber, String ownerEmail, String ownerName, String homeCity,
+            String homeState, String model, BigDecimal batteryCapacityKwh, BigDecimal currentSoc, BigDecimal maxChargingKw,
             List<ConnectorType> connectorTypes, String source) {
     }
 

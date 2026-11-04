@@ -127,8 +127,8 @@ public class DemoDataSeeder {
 
         Map<String, Station> stationsByKey = new HashMap<>();
         for (StationRecord s : dataset.stations()) {
-            stationsByKey.put(s.id(), stations.save(new Station(s.name(), s.address(), s.latitude(), s.longitude(),
-                    s.gridCapacityKw(), s.status(), now)));
+            stationsByKey.put(s.id(), stations.save(new Station(s.name(), s.address(), s.city(), s.state(),
+                    s.latitude(), s.longitude(), s.gridCapacityKw(), s.status(), now)));
         }
         for (ConnectorRecord c : dataset.connectors()) {
             connectors.save(new Connector(stationsByKey.get(c.stationId()), c.connectorType(), c.maxPowerKw(),

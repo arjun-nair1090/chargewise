@@ -68,6 +68,17 @@ public class StationService {
         return PageResponse.from(result.map(s -> StationResponse.from(s, byStation.getOrDefault(s.getId(), List.of()))));
     }
 
+    /**
+     * Every station with its connectors, for the network map and directory. The network is a few thousand sites,
+     * so one response (gzip-compressed on the wire) is cheaper for the client than paging through it.
+     */
+    @Transactional(readOnly = true)
+    public List<StationResponse> listAll() {
+        List<Station> all = stations.findAll(Sort.by("id"));
+        Map<Long, List<ConnectorResponse>> byStation = connectorsByStation(all.stream().map(Station::getId).toList());
+        return all.stream().map(s -> StationResponse.from(s, byStation.getOrDefault(s.getId(), List.of()))).toList();
+    }
+
     @Transactional(readOnly = true)
     public StationResponse get(Long id) {
         return toResponse(find(id));
@@ -133,7 +144,8 @@ public class StationService {
     @Transactional
     public StationResponse create(StationRequest request) {
         Station station = stations.save(new Station(request.name().trim(), request.address().trim(),
-                request.latitude(), request.longitude(), request.gridCapacityKw(), request.status(), clock.instant()));
+                blankToNull(request.city()), blankToNull(request.state()), request.latitude(), request.longitude(),
+                request.gridCapacityKw(), request.status(), clock.instant()));
         return toResponse(station);
     }
 
@@ -143,8 +155,9 @@ public class StationService {
         Station station = find(id);
         StationStatus previousStatus = station.getStatus();
         BigDecimal previousGridKw = station.getGridCapacityKw();
-        station.update(request.name().trim(), request.address().trim(), request.latitude(), request.longitude(),
-                request.gridCapacityKw(), request.status());
+        station.update(request.name().trim(), request.address().trim(), blankToNull(request.city()),
+                blankToNull(request.state()), request.latitude(), request.longitude(), request.gridCapacityKw(),
+                request.status());
         changeListener.stationChanged(station, previousStatus, previousGridKw);
         return toResponse(station);
     }
@@ -164,6 +177,10 @@ public class StationService {
         connector.update(connector.getConnectorType(), connector.getMaxPowerKw(), status);
         changeListener.connectorChanged(connector, previous);
         return ConnectorResponse.from(connector);
+    }
+
+    private static String blankToNull(String value) {
+        return value == null || value.isBlank() ? null : value.trim();
     }
 
     private Station find(Long id) {

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch real EV charging stations in the Mumbai Metropolitan Region and Pune from OpenStreetMap.
+"""Fetch every EV charging station in India mapped on OpenStreetMap.
 
 Writes a snapshot to ``datasets/sources/osm_charging_stations.json`` that ``generate_dataset.py`` reads, so the
 demo dataset can be regenerated offline and byte-for-byte from the committed snapshot. Run this only to refresh
@@ -8,8 +8,10 @@ the snapshot:
     python scripts/fetch_osm_stations.py
 
 Data (c) OpenStreetMap contributors, available under the Open Database License (ODbL 1.0):
-https://www.openstreetmap.org/copyright. Station locations and tags come from the Overpass API; street addresses
-come from reverse geocoding with Nominatim, throttled to one request per second as its usage policy requires.
+https://www.openstreetmap.org/copyright. Station locations and tags come from the Overpass API. Street addresses
+come from the station's own addr:* tags; stations already in the previous snapshot keep the address Nominatim
+reverse geocoding gave them. City and state are derived offline from GeoNames (see ``fetch_geonames_places.py``),
+so a refresh makes no bulk geocoding requests.
 """
 
 from __future__ import annotations
@@ -25,13 +27,7 @@ from pathlib import Path
 
 USER_AGENT = "ChargeWise-dataset-builder/1.0 (university algorithms project)"
 OVERPASS_URLS = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter"]
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/reverse"
-
-# (south, west, north, east)
-REGIONS = {
-    "Mumbai Metropolitan Region": (18.85, 72.75, 19.50, 73.30),
-    "Pune": (18.42, 73.68, 18.70, 74.02),
-}
+AREA = 'area["ISO3166-1"="IN"][admin_level=2]'
 
 
 def http_get_json(url: str, data: bytes | None = None, attempts: int = 3) -> dict:
@@ -49,8 +45,7 @@ def http_get_json(url: str, data: bytes | None = None, attempts: int = 3) -> dic
 
 
 def overpass_stations() -> tuple[list[dict], str]:
-    boxes = "".join(f'nwr["amenity"="charging_station"]({s},{w},{n},{e});' for s, w, n, e in REGIONS.values())
-    query = f"[out:json][timeout:120];({boxes});out center tags;"
+    query = f'[out:json][timeout:300];{AREA}->.india;nwr["amenity"="charging_station"](area.india);out center tags;'
     body = urllib.parse.urlencode({"data": query}).encode("utf-8")
     last_error: Exception | None = None
     for url in OVERPASS_URLS:
@@ -77,11 +72,14 @@ def overpass_stations() -> tuple[list[dict], str]:
     return rows, payload.get("osm3s", {}).get("timestamp_osm_base", "")
 
 
-def reverse_geocode(lat: float, lon: float) -> dict:
-    query = urllib.parse.urlencode({"format": "jsonv2", "lat": lat, "lon": lon, "zoom": 18, "addressdetails": 1,
-                                    "accept-language": "en"})
-    result = http_get_json(f"{NOMINATIM_URL}?{query}")
-    return result.get("address", {})
+def tag_address(tags: dict) -> dict:
+    """The station's own addr:* tags, in the Nominatim field names generate_dataset.py reads."""
+    fields = {"addr:street": "road", "addr:suburb": "suburb", "addr:city": "city", "addr:state": "state",
+              "addr:postcode": "postcode"}
+    address = {name: tags[key].strip() for key, name in fields.items() if tags.get(key, "").strip()}
+    if tags.get("addr:housenumber") and "road" in address:
+        address["road"] = f"{tags['addr:housenumber'].strip()}, {address['road']}"
+    return address
 
 
 def main() -> None:
@@ -89,20 +87,25 @@ def main() -> None:
     parser.add_argument("--out", type=Path, default=Path("datasets/sources/osm_charging_stations.json"))
     args = parser.parse_args()
 
+    previous: dict[tuple[str, int], dict] = {}
+    if args.out.exists():
+        for row in json.loads(args.out.read_text(encoding="utf-8"))["stations"]:
+            if row.get("addressSource") != "tags":
+                previous[(row["osmType"], row["osmId"])] = row["address"]
     stations, osm_timestamp = overpass_stations()
     print(f"Overpass: {len(stations)} charging stations (OSM data as of {osm_timestamp})")
-    for index, station in enumerate(stations, start=1):
-        station["address"] = reverse_geocode(station["latitude"], station["longitude"])
-        print(f"  geocoded {index}/{len(stations)} {station['osmType']}/{station['osmId']}")
-        time.sleep(1.1)
+    for station in stations:
+        known = previous.get((station["osmType"], station["osmId"]))
+        station["address"] = known if known is not None else tag_address(station["tags"])
+        station["addressSource"] = "nominatim" if known is not None else "tags"
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     snapshot = {
-        "source": "OpenStreetMap via Overpass API; addresses via Nominatim reverse geocoding",
+        "source": "OpenStreetMap via Overpass API; addresses from addr:* tags or Nominatim reverse geocoding",
         "license": "ODbL 1.0, (c) OpenStreetMap contributors, https://www.openstreetmap.org/copyright",
         "osmTimestamp": osm_timestamp,
         "fetchedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        "regions": REGIONS,
+        "area": AREA,
         "stations": stations,
     }
     args.out.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")

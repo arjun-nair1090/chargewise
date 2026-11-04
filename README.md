@@ -74,8 +74,8 @@ so every claim the application makes about optimality is something you can watch
   </tr>
 </table>
 
-Stations are real public charging stations from OpenStreetMap; drivers and their bookings are made up. Session
-progress is marked **Simulated**.
+Stations are every public car charging station in India listed by Open Charge Map or mapped on OpenStreetMap; drivers
+and their bookings are made up. Session progress is marked **Simulated**.
 ChargeWise does not control physical chargers.
 
 ## The algorithms
@@ -247,8 +247,8 @@ Flyway creates the schema on startup. Check `curl http://localhost:8080/api/v1/h
 http://localhost:5173 as `operator@demo.chargewise.test` or `driver01@demo.chargewise.test` with the
 `CHARGEWISE_DEMO_PASSWORD` you set in `.env`. Interactive API docs: http://localhost:8080/swagger-ui.html.
 
-**Demo walkthrough.** As the operator, open **Allocation** and press **Run allocation**: on the demo data, 120 eligible
-requests become 53 assigned, 67 waitlisted and 0 rejected, each with its reason. Then try the **Shared feeders**
+**Demo walkthrough.** As the operator, open **Allocation** and press **Run allocation**: on the demo data, 600 eligible
+requests become 394 assigned, 197 waitlisted and 9 rejected, each with its reason. Then try the **Shared feeders**
 example in the **Algorithm Lab**, a **High contention** simulation, and a benchmark run. As a driver, add a vehicle,
 pick a compatible station and request a charging window.
 
@@ -276,12 +276,19 @@ variables take precedence.
 <summary><b>Demo data</b></summary>
 <br>
 
-`datasets/` holds the demo network: 36 public charging stations across the Mumbai Metropolitan Region and Pune with
-78 connectors, 40 vehicles belonging to 20 demo drivers, and 120 charging requests.
+`datasets/` holds the demo network: 1,971 public car charging stations in 643 cities across 25 states and union
+territories, with 4,614 connectors, 134 vehicles belonging to 100 demo drivers in 39 cities, and 600 charging requests.
 
-- **Stations** (name, operator, location, address) come from [OpenStreetMap](https://www.openstreetmap.org/copyright),
-  © OpenStreetMap contributors, ODbL 1.0, with addresses from Nominatim. Connector types and power ratings are taken
-  from OSM socket tags where mapped, and from each operator's standard hardware otherwise.
+- **Stations** (name, location, address, live status) come from [Open Charge Map](https://openchargemap.org)'s public
+  export, © Open Charge Map contributors, CC BY 4.0, and from [OpenStreetMap](https://www.openstreetmap.org/copyright),
+  © OpenStreetMap contributors, ODbL 1.0. Where both list a site (within 75 m), the Open Charge Map record is kept.
+  Two-wheeler networks, battery-swap points and restricted private sites are left out.
+- **City and state** come from the nearest town and the largest city whose reach covers the station, using
+  [GeoNames](https://www.geonames.org) (CC BY 4.0); a record's own state is kept when a nearby town agrees with it.
+- **Connectors** use the listed types, power ratings and statuses where the source has them, and each operator's
+  standard hardware otherwise. Open Charge Map's IEC 60309 sockets map to Bharat AC-001 and GB/T to Bharat DC-001.
+- Coverage follows the open data: Kerala, Karnataka, Tamil Nadu and Delhi are well mapped; Mumbai and Hyderabad have
+  few listed stations.
 - **Vehicles** use the published specs of EV models sold in India (Tata Nexon.ev, MG Windsor EV, BYD Atto 3, …).
 - **Grid limits, demo accounts and charging requests** are generated from the seed: grid limits at 60–100 % of each
   site's charger rating, DC top-ups of 30–90 minutes and AC sessions of 1.5–4 hours.
@@ -290,11 +297,13 @@ Request windows are stored as offsets from the next 15-minute boundary, so they 
 
 ```bash
 python scripts/generate_dataset.py --seed 20261102 --out datasets   # regenerates the same files byte for byte
-python scripts/fetch_osm_stations.py                                 # optional: refresh the station snapshot
+python scripts/fetch_ocm_stations.py                                 # optional: refresh the Open Charge Map snapshot
+python scripts/fetch_osm_stations.py                                 # optional: refresh the OpenStreetMap snapshot
+python scripts/fetch_geonames_places.py                              # optional: refresh the town list
 ```
 
-The generator reads the committed snapshot `datasets/sources/osm_charging_stations.json`, so regenerating needs no
-network access. Refreshing the snapshot changes the station list, so rerun the generator and update the counts in
+The generator reads the committed snapshots in `datasets/sources/`, so regenerating needs no network access or API
+key. Refreshing the snapshot changes the station list, so rerun the generator and update the counts in
 `DemoDataSeederIT` afterwards.
 
 Seeding replaces stations, connectors, vehicles, bookings, sessions and allocation runs, and recreates the demo

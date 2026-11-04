@@ -4,11 +4,13 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { SelectField, TextField } from '../../components/Field'
+import { PlaceFilter } from '../../components/PlaceFilter'
 import { QueryState } from '../../components/QueryState'
 import { StatusChip } from '../../components/StatusChip'
 import { Button, FormError, Mono, PageHeader, Panel } from '../../components/ui'
 import { errorMessage } from '../../lib/errors'
-import { connectorLabel, formatKw, humanise } from '../../lib/format'
+import { connectorLabel, formatKw, formatNumber, humanise } from '../../lib/format'
+import { ALL_INDIA, INDIAN_STATES, inPlace, type Place } from '../../lib/places'
 import { ApiError } from '../../services/api'
 import { operatorApi } from '../../services/endpoints'
 import {
@@ -20,6 +22,8 @@ import {
 } from '../../types/api'
 import { useStations } from './useStationNames'
 
+const LIST_PAGE = 60
+
 const decimal = (max: number, message: string) =>
   z.string().trim().regex(/^-?\d+(\.\d+)?$/, message).refine((value) => Math.abs(Number(value)) <= max, message)
 
@@ -27,6 +31,8 @@ const decimal = (max: number, message: string) =>
 const stationSchema = z.object({
   name: z.string().trim().min(1, 'Enter a name.').max(160, 'Use at most 160 characters.'),
   address: z.string().trim().min(1, 'Enter an address.').max(500, 'Use at most 500 characters.'),
+  city: z.string().trim().max(80, 'Use at most 80 characters.'),
+  state: z.string(),
   latitude: decimal(90, 'Latitude is a number from -90 to 90.'),
   longitude: decimal(180, 'Longitude is a number from -180 to 180.'),
   gridCapacityKw: z
@@ -65,6 +71,8 @@ function StationForm({ station, onSaved }: { station?: StationResponse; onSaved:
     defaultValues: {
       name: station?.name ?? '',
       address: station?.address ?? '',
+      city: station?.city ?? '',
+      state: station?.state ?? '',
       latitude: station ? String(station.latitude) : '',
       longitude: station ? String(station.longitude) : '',
       gridCapacityKw: station ? String(station.gridCapacityKw) : '',
@@ -76,6 +84,8 @@ function StationForm({ station, onSaved }: { station?: StationResponse; onSaved:
     setFormError(null)
     const body: StationRequest = {
       ...values,
+      city: values.city || null,
+      state: values.state || null,
       latitude: Number(values.latitude),
       longitude: Number(values.longitude),
       gridCapacityKw: Number(values.gridCapacityKw),
@@ -106,6 +116,13 @@ function StationForm({ station, onSaved }: { station?: StationResponse; onSaved:
         </SelectField>
       </div>
       <TextField label="Address" error={errors.address?.message} {...register('address')} />
+      <div className="grid gap-4 sm:grid-cols-2">
+        <TextField label="City" error={errors.city?.message} {...register('city')} />
+        <SelectField label="State or union territory" error={errors.state?.message} {...register('state')}>
+          <option value="">Not set</option>
+          {INDIAN_STATES.map((state) => <option key={state} value={state}>{state}</option>)}
+        </SelectField>
+      </div>
       <div className="grid gap-4 sm:grid-cols-3">
         <TextField label="Latitude" inputMode="decimal" error={errors.latitude?.message} {...register('latitude')} />
         <TextField label="Longitude" inputMode="decimal" error={errors.longitude?.message} {...register('longitude')} />
@@ -238,6 +255,9 @@ function DemoReset() {
 export function StationsAdminPage() {
   const stations = useStations()
   const [selected, setSelected] = useState<number | 'new' | null>(null)
+  const [search, setSearch] = useState('')
+  const [place, setPlace] = useState<Place>(ALL_INDIA)
+  const [shown, setShown] = useState(LIST_PAGE)
 
   return (
     <div className="flex flex-col gap-6">
@@ -247,13 +267,47 @@ export function StationsAdminPage() {
         actions={<><Button onClick={() => setSelected('new')}>New station</Button><DemoReset /></>}
       />
       <QueryState query={stations} rows={8}>
-        {(page) => {
-          const current = typeof selected === 'number' ? page.content.find((station) => station.id === selected) : undefined
+        {(network) => {
+          const current = typeof selected === 'number' ? network.find((station) => station.id === selected) : undefined
+          const needle = search.trim().toLowerCase()
+          const matches = network.filter((station) => inPlace(station, place)
+            && (!needle || `${station.name} ${station.address}`.toLowerCase().includes(needle)))
+          const visible = matches.slice(0, shown)
           return (
+            <div className="flex flex-col gap-6">
+            <div className="flex flex-wrap items-end gap-3">
+              <div className="w-full sm:w-72">
+                <TextField
+                  label="Search"
+                  type="search"
+                  placeholder="Name or address"
+                  value={search}
+                  onChange={(event) => {
+                    setSearch(event.target.value)
+                    setShown(LIST_PAGE)
+                  }}
+                />
+              </div>
+              <PlaceFilter
+                value={place}
+                onChange={(next) => {
+                  setPlace(next)
+                  setShown(LIST_PAGE)
+                }}
+                stations={network}
+              />
+            </div>
             <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
-              <Panel title="Network" aside={`${page.totalElements} stations`} bodyClassName="p-2">
-                <ul className="flex flex-col">
-                  {page.content.map((station) => (
+              <Panel
+                title="Network"
+                aside={matches.length === network.length
+                  ? `${formatNumber(network.length)} stations`
+                  : `${formatNumber(matches.length)} of ${formatNumber(network.length)}`}
+                bodyClassName="p-2"
+              >
+                {matches.length === 0 && <p className="px-3 py-2.5 text-sm text-muted">No station matches this search.</p>}
+                <ul className="flex flex-col lg:max-h-[48rem] lg:overflow-y-auto">
+                  {visible.map((station) => (
                     <li key={station.id}>
                       <button
                         type="button"
@@ -264,15 +318,24 @@ export function StationsAdminPage() {
                         }`}
                       >
                         <span className="font-medium">{station.name}</span>
+                        <span className="text-xs text-muted">{[station.city, station.state].filter(Boolean).join(', ') || 'Place not set'}</span>
                         <span className="flex flex-wrap gap-x-4 text-sm text-muted">
                           <StatusChip status={station.status} />
                           <span>{formatKw(station.gridCapacityKw)} grid</span>
-                          <span>{station.connectors.length} connectors</span>
+                          <span>{station.connectors.length} {station.connectors.length === 1 ? 'connector' : 'connectors'}</span>
                         </span>
                       </button>
                     </li>
                   ))}
                 </ul>
+                {matches.length > visible.length && (
+                  <div className="flex items-center justify-between gap-3 border-t border-border px-3 pt-2.5 pb-1">
+                    <span className="text-sm text-muted">Showing {formatNumber(visible.length)} of {formatNumber(matches.length)}</span>
+                    <Button size="sm" onClick={() => setShown(shown + LIST_PAGE)}>
+                      Show {Math.min(LIST_PAGE, matches.length - visible.length)} more
+                    </Button>
+                  </div>
+                )}
               </Panel>
               <div className="flex min-w-0 flex-col gap-6">
                 {selected === 'new' && (
@@ -299,6 +362,7 @@ export function StationsAdminPage() {
                   </Panel>
                 )}
               </div>
+            </div>
             </div>
           )
         }}

@@ -9,15 +9,28 @@ const STATUS_FILL: Record<StationStatus, string> = {
   OFFLINE: '#ff6b5e',
 }
 
-type Bounds = [number, number][]
+type Bounds = [[number, number], [number, number]]
 const FIT = { padding: [32, 32] as [number, number], maxZoom: 13 }
 
-/** Refits the view when the set of stations changes, e.g. when a region filter narrows it. */
+/** The south-west and north-east corners around every station. */
+function extent(stations: StationResponse[]): Bounds {
+  let south = 90, west = 180, north = -90, east = -180
+  for (const station of stations) {
+    south = Math.min(south, station.latitude)
+    north = Math.max(north, station.latitude)
+    west = Math.min(west, station.longitude)
+    east = Math.max(east, station.longitude)
+  }
+  return [[south, west], [north, east]]
+}
+
+/** Refits the view when the set of stations changes, e.g. when a state or city filter narrows it. */
 function FitToStations({ bounds }: { bounds: Bounds }) {
   const map = useMap()
-  const key = JSON.stringify(bounds)
+  const key = bounds.flat().join(',')
   useEffect(() => {
-    map.fitBounds(JSON.parse(key) as Bounds, FIT)
+    const [south, west, north, east] = key.split(',').map(Number)
+    map.fitBounds([[south, west], [north, east]], FIT)
   }, [map, key])
   return null
 }
@@ -35,8 +48,10 @@ export function StationMap({ stations, onSelect, height = '24rem', highlight }: 
   if (stations.length === 0) {
     return null
   }
-  // The network spans more than one city, so the view fits every station rather than centring on their mean.
-  const bounds: Bounds = stations.map((station) => [station.latitude, station.longitude])
+  // The network spans India, so the view fits every station rather than centring on their mean.
+  const bounds = extent(stations)
+  // A country-wide view holds a couple of thousand markers: smaller dots keep cities legible at zoom 5.
+  const dense = stations.length > 300
   return (
     <div aria-hidden="true" className="overflow-hidden rounded-lg border border-border" style={{ height }}>
       <MapContainer
@@ -44,6 +59,8 @@ export function StationMap({ stations, onSelect, height = '24rem', highlight }: 
         boundsOptions={FIT}
         scrollWheelZoom={false}
         keyboard={false}
+        // Canvas draws thousands of markers as one layer instead of one SVG node each.
+        preferCanvas
         className="h-full w-full"
       >
         <TileLayer
@@ -58,10 +75,10 @@ export function StationMap({ stations, onSelect, height = '24rem', highlight }: 
               key={station.id}
               center={[station.latitude, station.longitude]}
               // Marker size grows with the station's connector count (capped), so large hubs read first.
-              radius={6 + Math.min(5, station.connectors.length)}
+              radius={dense ? 3 + Math.min(3, station.connectors.length / 2) : 6 + Math.min(5, station.connectors.length)}
               pathOptions={{
                 color: '#090b0a',
-                weight: 2,
+                weight: dense ? 1 : 2,
                 fillColor: STATUS_FILL[station.status],
                 fillOpacity: dim ? 0.3 : 0.95,
               }}
@@ -70,7 +87,9 @@ export function StationMap({ stations, onSelect, height = '24rem', highlight }: 
               <Tooltip direction="top" offset={[0, -8]}>
                 <strong>{station.name}</strong>
                 <br />
-                {humanise(station.status)} · {station.connectors.length} connectors
+                {[station.city, station.state].filter(Boolean).join(', ')}
+                <br />
+                {humanise(station.status)} · {station.connectors.length} {station.connectors.length === 1 ? 'connector' : 'connectors'}
               </Tooltip>
             </CircleMarker>
           )

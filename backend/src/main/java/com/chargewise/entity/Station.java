@@ -25,6 +25,12 @@ public class Station {
     @Column(nullable = false, columnDefinition = "text")
     private String address;
 
+    @Column(length = 80)
+    private String city;
+
+    @Column(length = 60)
+    private String state;
+
     @Column(precision = 10, scale = 7)
     private BigDecimal latitude;
 
@@ -46,8 +52,15 @@ public class Station {
 
     public Station(String name, String address, BigDecimal latitude, BigDecimal longitude,
             BigDecimal gridCapacityKw, StationStatus status, Instant createdAt) {
+        this(name, address, null, null, latitude, longitude, gridCapacityKw, status, createdAt);
+    }
+
+    public Station(String name, String address, String city, String state, BigDecimal latitude, BigDecimal longitude,
+            BigDecimal gridCapacityKw, StationStatus status, Instant createdAt) {
         this.name = name;
         this.address = address;
+        this.city = city;
+        this.state = state;
         this.latitude = latitude;
         this.longitude = longitude;
         this.gridCapacityKw = gridCapacityKw;
@@ -55,10 +68,12 @@ public class Station {
         this.createdAt = createdAt;
     }
 
-    public void update(String name, String address, BigDecimal latitude, BigDecimal longitude,
-            BigDecimal gridCapacityKw, StationStatus status) {
+    public void update(String name, String address, String city, String state, BigDecimal latitude,
+            BigDecimal longitude, BigDecimal gridCapacityKw, StationStatus status) {
         this.name = name;
         this.address = address;
+        this.city = city;
+        this.state = state;
         this.latitude = latitude;
         this.longitude = longitude;
         this.gridCapacityKw = gridCapacityKw;
@@ -75,6 +90,16 @@ public class Station {
 
     public String getAddress() {
         return address;
+    }
+
+    /** The city or town the station is in; null for a station created without one. */
+    public String getCity() {
+        return city;
+    }
+
+    /** The Indian state or union territory the station is in; null for a station created without one. */
+    public String getState() {
+        return state;
     }
 
     public BigDecimal getLatitude() {

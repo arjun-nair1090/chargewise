@@ -5,9 +5,10 @@ import { SlotBarChart } from '../../components/SlotBarChart'
 import { Button, FormError, PageHeader, Panel } from '../../components/ui'
 import { errorMessage } from '../../lib/errors'
 import { formatInteger, formatNs, formatTime } from '../../lib/format'
+import { stateOf, UNPLACED } from '../../lib/places'
 import { floorToSlot, SLOT_MS, toIsoSeconds } from '../../lib/slots'
 import { labApi, operatorApi, stationApi } from '../../services/endpoints'
-import type { AvailabilityResponse } from '../../types/api'
+import type { AvailabilityResponse, StationResponse } from '../../types/api'
 import { useStations } from '../operator/useStationNames'
 import { PercentileLedger } from './PercentileLedger'
 
@@ -92,11 +93,23 @@ function RangeExplorer({ availability, stationName }: { availability: Availabili
   )
 }
 
+/** Stations grouped under their state, states and stations in alphabetical order, for a long picker. */
+function groupByState(stations: StationResponse[]): [string, StationResponse[]][] {
+  const groups = new Map<string, StationResponse[]>()
+  for (const station of stations) {
+    const state = stateOf(station)
+    groups.set(state, [...(groups.get(state) ?? []), station])
+  }
+  return [...groups.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([state, members]) => [state, members.sort((a, b) => a.name.localeCompare(b.name))])
+}
+
 export function AnalyticsPage() {
   const stations = useStations()
   const [stationId, setStationId] = useState<number | null>(null)
   const [from] = useState(() => floorToSlot(new Date()))
-  const selected = stationId ?? stations.data?.content[0]?.id ?? null
+  const selected = stationId ?? stations.data?.[0]?.id ?? null
   const fromIso = toIsoSeconds(from)
   const toIso = toIsoSeconds(new Date(from.getTime() + HORIZON_SLOTS * SLOT_MS))
   const availability = useQuery({
@@ -104,7 +117,8 @@ export function AnalyticsPage() {
     queryFn: () => stationApi.availability(selected!, fromIso, toIso),
     enabled: selected !== null,
   })
-  const stationName = stations.data?.content.find((station) => station.id === selected)?.name ?? ''
+  const stationName = stations.data?.find((station) => station.id === selected)?.name ?? ''
+  const byState = groupByState(stations.data ?? [])
 
   return (
     <div className="flex flex-col gap-6">
@@ -124,7 +138,11 @@ export function AnalyticsPage() {
               onChange={(event) => setStationId(Number(event.target.value))}
               className="h-8 max-w-full rounded-md border border-border bg-bg px-2 text-sm text-text"
             >
-              {stations.data?.content.map((station) => <option key={station.id} value={station.id}>{station.name}</option>)}
+              {byState.map(([state, members]) => (
+                <optgroup key={state} label={state}>
+                  {members.map((station) => <option key={station.id} value={station.id}>{station.name}, {station.city ?? UNPLACED}</option>)}
+                </optgroup>
+              ))}
             </select>
           </label>
         }

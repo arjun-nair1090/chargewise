@@ -101,6 +101,8 @@ export type StationResponse = {
   id: number
   name: string
   address: string
+  city: string | null
+  state: string | null
   latitude: number
   longitude: number
   gridCapacityKw: number
@@ -129,6 +131,8 @@ export type AvailabilityResponse = {
 export type StationRequest = {
   name: string
   address: string
+  city: string | null
+  state: string | null
   latitude: number
   longitude: number
   gridCapacityKw: number

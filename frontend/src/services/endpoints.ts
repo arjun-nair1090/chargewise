@@ -58,6 +58,8 @@ export const authApi = {
 
 export const stationApi = {
   list: (page = 0, size = 100) => apiFetch<Page<StationResponse>>(`/stations${query({ page, size })}`),
+  /** Every station in one response, for the network map and directory. */
+  all: () => apiFetch<StationResponse[]>('/stations/all'),
   get: (id: number) => apiFetch<StationResponse>(`/stations/${id}`),
   nearby: (lat: number, lng: number, radiusKm: number) =>
     apiFetch<NearbyStation[]>(`/stations/nearby${query({ lat, lng, radiusKm })}`),

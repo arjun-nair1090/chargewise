@@ -1,1082 +1,5402 @@
 [
   {
     "id": "R-0001",
-    "registrationNumber": "MH14RX1861",
-    "stationId": "S-31",
-    "requestedEnergyKwh": 14.5,
-    "startOffsetMinutes": 840,
-    "durationMinutes": 60,
+    "registrationNumber": "TN03MZ8266",
+    "stationId": "S-1760",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 315,
+    "durationMinutes": 90,
     "source": "generated"
   },
   {
     "id": "R-0002",
-    "registrationNumber": "MH05AU3729",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 24.5,
-    "startOffsetMinutes": 315,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0003",
-    "registrationNumber": "MH47RU3103",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 9.0,
-    "startOffsetMinutes": 120,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0004",
-    "registrationNumber": "MH14ZW9079",
-    "stationId": "S-20",
-    "requestedEnergyKwh": 5.0,
-    "startOffsetMinutes": 930,
-    "durationMinutes": 195,
-    "source": "generated"
-  },
-  {
-    "id": "R-0005",
-    "registrationNumber": "MH04YY2607",
-    "stationId": "S-05",
-    "requestedEnergyKwh": 6.5,
-    "startOffsetMinutes": 765,
+    "registrationNumber": "KL83AU6030",
+    "stationId": "S-0745",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 405,
     "durationMinutes": 30,
     "source": "generated"
   },
   {
+    "id": "R-0003",
+    "registrationNumber": "AP05PT9341",
+    "stationId": "S-0038",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0004",
+    "registrationNumber": "KA66WG7638",
+    "stationId": "S-0635",
+    "requestedEnergyKwh": 29.5,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0005",
+    "registrationNumber": "KA06NC6653",
+    "stationId": "S-0377",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 135,
+    "source": "generated"
+  },
+  {
     "id": "R-0006",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-29",
-    "requestedEnergyKwh": 17.0,
-    "startOffsetMinutes": 930,
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1143",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 615,
     "durationMinutes": 75,
     "source": "generated"
   },
   {
     "id": "R-0007",
-    "registrationNumber": "MH12EL7343",
-    "stationId": "S-30",
-    "requestedEnergyKwh": 15.0,
-    "startOffsetMinutes": 630,
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 165,
     "durationMinutes": 75,
     "source": "generated"
   },
   {
     "id": "R-0008",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-26",
-    "requestedEnergyKwh": 8.0,
-    "startOffsetMinutes": 1020,
-    "durationMinutes": 45,
+    "registrationNumber": "TN96EY6971",
+    "stationId": "S-1745",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0009",
-    "registrationNumber": "MH43UW7141",
-    "stationId": "S-05",
-    "requestedEnergyKwh": 7.0,
-    "startOffsetMinutes": 735,
-    "durationMinutes": 90,
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0191",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 75,
     "source": "generated"
   },
   {
     "id": "R-0010",
-    "registrationNumber": "MH05PC4151",
-    "stationId": "S-01",
-    "requestedEnergyKwh": 8.5,
+    "registrationNumber": "KL78CZ6552",
+    "stationId": "S-0953",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 705,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0011",
+    "registrationNumber": "KA03LJ6734",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 510,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0012",
+    "registrationNumber": "DL05US2212",
+    "stationId": "S-0204",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 645,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0013",
+    "registrationNumber": "MH40BF9565",
+    "stationId": "S-1414",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1260,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0014",
+    "registrationNumber": "KA69CK6321",
+    "stationId": "S-0353",
+    "requestedEnergyKwh": 29.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0015",
+    "registrationNumber": "KA10MA3147",
+    "stationId": "S-0541",
+    "requestedEnergyKwh": 5.5,
     "startOffsetMinutes": 1200,
     "durationMinutes": 30,
     "source": "generated"
   },
   {
-    "id": "R-0011",
-    "registrationNumber": "MH14LV4861",
-    "stationId": "S-23",
-    "requestedEnergyKwh": 10.5,
-    "startOffsetMinutes": 420,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0012",
-    "registrationNumber": "MH14ZW9079",
-    "stationId": "S-30",
-    "requestedEnergyKwh": 6.5,
-    "startOffsetMinutes": 735,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0013",
-    "registrationNumber": "MH14RT2044",
-    "stationId": "S-31",
-    "requestedEnergyKwh": 7.0,
-    "startOffsetMinutes": 750,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0014",
-    "registrationNumber": "MH12KZ4860",
-    "stationId": "S-08",
-    "requestedEnergyKwh": 6.5,
-    "startOffsetMinutes": 1110,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0015",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-21",
-    "requestedEnergyKwh": 14.0,
-    "startOffsetMinutes": 60,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
     "id": "R-0016",
-    "registrationNumber": "MH05KD3491",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 765,
+    "registrationNumber": "KL54KC4472",
+    "stationId": "S-1117",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1305,
     "durationMinutes": 30,
     "source": "generated"
   },
   {
     "id": "R-0017",
-    "registrationNumber": "MH04YY2607",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 1140,
-    "durationMinutes": 75,
+    "registrationNumber": "KA50XN3275",
+    "stationId": "S-0620",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 30,
     "source": "generated"
   },
   {
     "id": "R-0018",
-    "registrationNumber": "MH47TH9192",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 13.0,
-    "startOffsetMinutes": 225,
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0142",
+    "requestedEnergyKwh": 20.5,
+    "startOffsetMinutes": 1425,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0019",
-    "registrationNumber": "MH04CZ9187",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 17.5,
-    "startOffsetMinutes": 900,
+    "registrationNumber": "KL66CE4479",
+    "stationId": "S-1257",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 225,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0020",
-    "registrationNumber": "MH12EL7343",
-    "stationId": "S-23",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 1290,
-    "durationMinutes": 75,
+    "registrationNumber": "KA56BD1497",
+    "stationId": "S-0409",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1185,
+    "durationMinutes": 45,
     "source": "generated"
   },
   {
     "id": "R-0021",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-29",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 840,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0022",
-    "registrationNumber": "MH46DT3132",
-    "stationId": "S-05",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 945,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0023",
-    "registrationNumber": "MH04NP6208",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 12.0,
-    "startOffsetMinutes": 225,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0024",
-    "registrationNumber": "MH12LE6945",
-    "stationId": "S-10",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 1290,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0025",
-    "registrationNumber": "MH12KZ4293",
-    "stationId": "S-32",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 795,
-    "durationMinutes": 240,
-    "source": "generated"
-  },
-  {
-    "id": "R-0026",
-    "registrationNumber": "MH47TH9192",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 8.0,
-    "startOffsetMinutes": 705,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0027",
-    "registrationNumber": "MH43UW7141",
-    "stationId": "S-01",
-    "requestedEnergyKwh": 21.5,
-    "startOffsetMinutes": 1335,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0028",
-    "registrationNumber": "MH14NT7114",
-    "stationId": "S-34",
-    "requestedEnergyKwh": 17.5,
-    "startOffsetMinutes": 1035,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0029",
-    "registrationNumber": "MH14NK3601",
-    "stationId": "S-08",
-    "requestedEnergyKwh": 14.5,
-    "startOffsetMinutes": 270,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0030",
-    "registrationNumber": "MH14UG4715",
-    "stationId": "S-32",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 915,
-    "durationMinutes": 105,
-    "source": "generated"
-  },
-  {
-    "id": "R-0031",
-    "registrationNumber": "MH47TU7182",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 6.5,
-    "startOffsetMinutes": 870,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0032",
-    "registrationNumber": "MH47RU3103",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 6.5,
-    "startOffsetMinutes": 210,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0033",
-    "registrationNumber": "MH14ZW9079",
-    "stationId": "S-12",
-    "requestedEnergyKwh": 6.5,
-    "startOffsetMinutes": 1410,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0034",
-    "registrationNumber": "MH04NP6208",
-    "stationId": "S-05",
-    "requestedEnergyKwh": 11.0,
+    "registrationNumber": "KA23WD2288",
+    "stationId": "S-0394",
+    "requestedEnergyKwh": 7.0,
     "startOffsetMinutes": 675,
     "durationMinutes": 75,
     "source": "generated"
   },
   {
-    "id": "R-0035",
-    "registrationNumber": "MH14GM3921",
-    "stationId": "S-35",
-    "requestedEnergyKwh": 12.0,
+    "id": "R-0022",
+    "registrationNumber": "KA64US2322",
+    "stationId": "S-0469",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1215,
+    "durationMinutes": 165,
+    "source": "generated"
+  },
+  {
+    "id": "R-0023",
+    "registrationNumber": "MH17FL2482",
+    "stationId": "S-1417",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0024",
+    "registrationNumber": "KL10RB3503",
+    "stationId": "S-1009",
+    "requestedEnergyKwh": 25.5,
+    "startOffsetMinutes": 480,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0025",
+    "registrationNumber": "KL08FF1715",
+    "stationId": "S-0933",
+    "requestedEnergyKwh": 16.5,
     "startOffsetMinutes": 825,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0026",
+    "registrationNumber": "KA66WG7638",
+    "stationId": "S-0630",
+    "requestedEnergyKwh": 22.0,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0027",
+    "registrationNumber": "MH17FL2482",
+    "stationId": "S-1415",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 180,
     "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0028",
+    "registrationNumber": "DL04RP3174",
+    "stationId": "S-0116",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 300,
+    "durationMinutes": 180,
+    "source": "generated"
+  },
+  {
+    "id": "R-0029",
+    "registrationNumber": "KL16JV5463",
+    "stationId": "S-0762",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1230,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0030",
+    "registrationNumber": "KL18BZ2622",
+    "stationId": "S-1288",
+    "requestedEnergyKwh": 23.5,
+    "startOffsetMinutes": 1035,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0031",
+    "registrationNumber": "KA10EH4119",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 135,
+    "source": "generated"
+  },
+  {
+    "id": "R-0032",
+    "registrationNumber": "KA11AD9458",
+    "stationId": "S-0376",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 645,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0033",
+    "registrationNumber": "KA55HH6697",
+    "stationId": "S-0447",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0034",
+    "registrationNumber": "KL52EP4223",
+    "stationId": "S-0694",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0035",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0185",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 90,
     "source": "generated"
   },
   {
     "id": "R-0036",
-    "registrationNumber": "MH05KD3491",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 7.5,
-    "startOffsetMinutes": 45,
-    "durationMinutes": 45,
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1760",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 585,
+    "durationMinutes": 30,
     "source": "generated"
   },
   {
     "id": "R-0037",
-    "registrationNumber": "MH46VV9818",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 480,
-    "durationMinutes": 30,
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1762",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0038",
-    "registrationNumber": "MH14MK8289",
-    "stationId": "S-31",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 1185,
-    "durationMinutes": 60,
+    "registrationNumber": "KL77TE2408",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 75,
     "source": "generated"
   },
   {
     "id": "R-0039",
-    "registrationNumber": "MH46DT3132",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 13.5,
-    "startOffsetMinutes": 525,
-    "durationMinutes": 75,
+    "registrationNumber": "KA02EM6535",
+    "stationId": "S-0420",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0040",
-    "registrationNumber": "MH46VV9818",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 18.0,
-    "startOffsetMinutes": 75,
-    "durationMinutes": 90,
+    "registrationNumber": "KA33HE7144",
+    "stationId": "S-0326",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 435,
+    "durationMinutes": 30,
     "source": "generated"
   },
   {
     "id": "R-0041",
-    "registrationNumber": "MH14RX1861",
-    "stationId": "S-09",
-    "requestedEnergyKwh": 18.5,
-    "startOffsetMinutes": 1290,
-    "durationMinutes": 75,
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1242",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0042",
-    "registrationNumber": "MH14ZA4553",
-    "stationId": "S-21",
-    "requestedEnergyKwh": 16.0,
-    "startOffsetMinutes": 555,
-    "durationMinutes": 30,
+    "registrationNumber": "KA66WG7638",
+    "stationId": "S-0620",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 435,
+    "durationMinutes": 45,
     "source": "generated"
   },
   {
     "id": "R-0043",
-    "registrationNumber": "MH14ZA4553",
-    "stationId": "S-18",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 480,
-    "durationMinutes": 45,
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0620",
+    "requestedEnergyKwh": 45.0,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0044",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-14",
-    "requestedEnergyKwh": 12.0,
-    "startOffsetMinutes": 1230,
-    "durationMinutes": 90,
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 30,
     "source": "generated"
   },
   {
     "id": "R-0045",
-    "registrationNumber": "MH05PC4151",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 5.0,
-    "startOffsetMinutes": 1350,
-    "durationMinutes": 30,
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 75,
     "source": "generated"
   },
   {
     "id": "R-0046",
-    "registrationNumber": "MH43UW7141",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 9.5,
-    "startOffsetMinutes": 1245,
-    "durationMinutes": 60,
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1254",
+    "requestedEnergyKwh": 30.0,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 45,
     "source": "generated"
   },
   {
     "id": "R-0047",
-    "registrationNumber": "MH14NK3601",
-    "stationId": "S-30",
-    "requestedEnergyKwh": 23.0,
-    "startOffsetMinutes": 825,
-    "durationMinutes": 75,
+    "registrationNumber": "TN21KK3961",
+    "stationId": "S-1867",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1230,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0048",
-    "registrationNumber": "MH47YH6636",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 8.0,
-    "startOffsetMinutes": 690,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0049",
-    "registrationNumber": "MH12FD4056",
-    "stationId": "S-13",
-    "requestedEnergyKwh": 10.5,
-    "startOffsetMinutes": 465,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0050",
-    "registrationNumber": "MH14NK3601",
-    "stationId": "S-14",
-    "requestedEnergyKwh": 26.0,
-    "startOffsetMinutes": 735,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0051",
-    "registrationNumber": "MH47TH9192",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 19.0,
-    "startOffsetMinutes": 1005,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0052",
-    "registrationNumber": "MH04NP6208",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 9.5,
-    "startOffsetMinutes": 1155,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0053",
-    "registrationNumber": "MH46DT3132",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 10.5,
-    "startOffsetMinutes": 45,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0054",
-    "registrationNumber": "MH14ZW9079",
-    "stationId": "S-08",
-    "requestedEnergyKwh": 7.5,
-    "startOffsetMinutes": 645,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0055",
-    "registrationNumber": "MH12ZS2431",
-    "stationId": "S-08",
-    "requestedEnergyKwh": 5.0,
-    "startOffsetMinutes": 135,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0056",
-    "registrationNumber": "MH12NP3520",
-    "stationId": "S-13",
-    "requestedEnergyKwh": 5.0,
-    "startOffsetMinutes": 765,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0057",
-    "registrationNumber": "MH04CZ9187",
-    "stationId": "S-01",
-    "requestedEnergyKwh": 7.5,
-    "startOffsetMinutes": 1065,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0058",
-    "registrationNumber": "MH04CZ9187",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 1395,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0059",
-    "registrationNumber": "MH04GX6245",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 18.0,
-    "startOffsetMinutes": 150,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0060",
-    "registrationNumber": "MH04GX6245",
-    "stationId": "S-05",
-    "requestedEnergyKwh": 14.5,
-    "startOffsetMinutes": 315,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0061",
-    "registrationNumber": "MH05PC4151",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 8.5,
-    "startOffsetMinutes": 1020,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0062",
-    "registrationNumber": "MH04CZ9187",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 9.0,
-    "startOffsetMinutes": 630,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0063",
-    "registrationNumber": "MH14GM3921",
-    "stationId": "S-18",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 480,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0064",
-    "registrationNumber": "MH47YH6636",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 6.0,
-    "startOffsetMinutes": 810,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0065",
-    "registrationNumber": "MH12KZ4860",
-    "stationId": "S-19",
-    "requestedEnergyKwh": 9.5,
-    "startOffsetMinutes": 405,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0066",
-    "registrationNumber": "MH43UW7141",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 15.5,
-    "startOffsetMinutes": 840,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0067",
-    "registrationNumber": "MH12DV2007",
-    "stationId": "S-28",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 1350,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0068",
-    "registrationNumber": "MH05AU3729",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 26.0,
-    "startOffsetMinutes": 255,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0069",
-    "registrationNumber": "MH47YH6636",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 855,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0070",
-    "registrationNumber": "MH47TH9192",
-    "stationId": "S-01",
-    "requestedEnergyKwh": 8.5,
-    "startOffsetMinutes": 1350,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0071",
-    "registrationNumber": "MH12LE6945",
-    "stationId": "S-25",
-    "requestedEnergyKwh": 7.0,
-    "startOffsetMinutes": 480,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0072",
-    "registrationNumber": "MH12KZ4293",
-    "stationId": "S-22",
-    "requestedEnergyKwh": 7.0,
-    "startOffsetMinutes": 45,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0073",
-    "registrationNumber": "MH12VE6099",
-    "stationId": "S-29",
-    "requestedEnergyKwh": 7.0,
-    "startOffsetMinutes": 870,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0074",
-    "registrationNumber": "MH12KZ4293",
-    "stationId": "S-17",
-    "requestedEnergyKwh": 6.0,
-    "startOffsetMinutes": 450,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0075",
-    "registrationNumber": "MH47TU7182",
-    "stationId": "S-05",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 555,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0076",
-    "registrationNumber": "MH12LE6945",
-    "stationId": "S-23",
-    "requestedEnergyKwh": 8.5,
-    "startOffsetMinutes": 405,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0077",
-    "registrationNumber": "MH12KZ4860",
-    "stationId": "S-12",
-    "requestedEnergyKwh": 13.0,
-    "startOffsetMinutes": 630,
-    "durationMinutes": 45,
-    "source": "generated"
-  },
-  {
-    "id": "R-0078",
-    "registrationNumber": "MH12LE6945",
-    "stationId": "S-24",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 150,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0079",
-    "registrationNumber": "MH02EG1697",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 16.0,
-    "startOffsetMinutes": 1065,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0080",
-    "registrationNumber": "MH05AU3729",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 1230,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0081",
-    "registrationNumber": "MH12DV2007",
-    "stationId": "S-09",
-    "requestedEnergyKwh": 11.5,
-    "startOffsetMinutes": 990,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0082",
-    "registrationNumber": "MH12NP3520",
-    "stationId": "S-25",
-    "requestedEnergyKwh": 13.0,
-    "startOffsetMinutes": 360,
-    "durationMinutes": 60,
-    "source": "generated"
-  },
-  {
-    "id": "R-0083",
-    "registrationNumber": "MH04MC1037",
-    "stationId": "S-01",
-    "requestedEnergyKwh": 9.5,
+    "registrationNumber": "DL05AX4693",
+    "stationId": "S-0100",
+    "requestedEnergyKwh": 15.0,
     "startOffsetMinutes": 1260,
     "durationMinutes": 90,
     "source": "generated"
   },
   {
-    "id": "R-0084",
-    "registrationNumber": "MH12KZ4860",
-    "stationId": "S-36",
-    "requestedEnergyKwh": 8.0,
-    "startOffsetMinutes": 1245,
+    "id": "R-0049",
+    "registrationNumber": "HR21NN2240",
+    "stationId": "S-0266",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 870,
     "durationMinutes": 45,
     "source": "generated"
   },
   {
+    "id": "R-0050",
+    "registrationNumber": "DL03RF8825",
+    "stationId": "S-0186",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0051",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1642",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0052",
+    "registrationNumber": "KL85ZG6762",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0053",
+    "registrationNumber": "KL83AU6030",
+    "stationId": "S-0740",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0054",
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0191",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0055",
+    "registrationNumber": "TN96LG8770",
+    "stationId": "S-1806",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 735,
+    "durationMinutes": 150,
+    "source": "generated"
+  },
+  {
+    "id": "R-0056",
+    "registrationNumber": "KL66BC3040",
+    "stationId": "S-0888",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0057",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0192",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 240,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0058",
+    "registrationNumber": "KA69CK6321",
+    "stationId": "S-0402",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1365,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0059",
+    "registrationNumber": "TN19UX7108",
+    "stationId": "S-1809",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1410,
+    "durationMinutes": 225,
+    "source": "generated"
+  },
+  {
+    "id": "R-0060",
+    "registrationNumber": "KA39DW9012",
+    "stationId": "S-0472",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 210,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0061",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 23.0,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0062",
+    "registrationNumber": "KL65EA4832",
+    "stationId": "S-1189",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 210,
+    "source": "generated"
+  },
+  {
+    "id": "R-0063",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1740",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0064",
+    "registrationNumber": "KA64DZ1781",
+    "stationId": "S-0412",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 870,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0065",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1954",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 705,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0066",
+    "registrationNumber": "DL01GX7419",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 855,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0067",
+    "registrationNumber": "MH17FL2482",
+    "stationId": "S-1426",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0068",
+    "registrationNumber": "WB06BY5355",
+    "stationId": "S-1964",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0069",
+    "registrationNumber": "KL85ZG6762",
+    "stationId": "S-0798",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0070",
+    "registrationNumber": "KL62US4344",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 1395,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0071",
+    "registrationNumber": "KL77TE2408",
+    "stationId": "S-1003",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0072",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1636",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0073",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1374",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0074",
+    "registrationNumber": "CG08VP3790",
+    "stationId": "S-0072",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 285,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0075",
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1763",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0076",
+    "registrationNumber": "KA38YM2963",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0077",
+    "registrationNumber": "KL16NG5682",
+    "stationId": "S-0694",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0078",
+    "registrationNumber": "KA42TK2562",
+    "stationId": "S-0318",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 255,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0079",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0126",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 780,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0080",
+    "registrationNumber": "DL03RF8825",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0081",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0880",
+    "requestedEnergyKwh": 22.0,
+    "startOffsetMinutes": 660,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0082",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0898",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 855,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0083",
+    "registrationNumber": "KA02EM6535",
+    "stationId": "S-0406",
+    "requestedEnergyKwh": 28.5,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0084",
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0445",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
     "id": "R-0085",
-    "registrationNumber": "MH14ZA4553",
-    "stationId": "S-24",
+    "registrationNumber": "KA55HH6697",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 825,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0086",
+    "registrationNumber": "KA64DZ1781",
+    "stationId": "S-0425",
     "requestedEnergyKwh": 5.0,
     "startOffsetMinutes": 795,
     "durationMinutes": 45,
     "source": "generated"
   },
   {
-    "id": "R-0086",
-    "registrationNumber": "MH02EG1697",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 90,
-    "durationMinutes": 120,
-    "source": "generated"
-  },
-  {
     "id": "R-0087",
-    "registrationNumber": "MH05PC4151",
-    "stationId": "S-04",
-    "requestedEnergyKwh": 16.5,
-    "startOffsetMinutes": 645,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0088",
-    "registrationNumber": "MH46DT3132",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 28.0,
-    "startOffsetMinutes": 1110,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0089",
-    "registrationNumber": "MH02EG1697",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 12.0,
-    "startOffsetMinutes": 1155,
-    "durationMinutes": 240,
-    "source": "generated"
-  },
-  {
-    "id": "R-0090",
-    "registrationNumber": "MH14GM3921",
-    "stationId": "S-30",
-    "requestedEnergyKwh": 13.5,
-    "startOffsetMinutes": 1095,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0091",
-    "registrationNumber": "MH04MC1037",
-    "stationId": "S-01",
-    "requestedEnergyKwh": 6.0,
-    "startOffsetMinutes": 795,
+    "registrationNumber": "UP64FY4682",
+    "stationId": "S-1920",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 810,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
-    "id": "R-0092",
-    "registrationNumber": "MH12KZ4860",
-    "stationId": "S-09",
-    "requestedEnergyKwh": 17.0,
-    "startOffsetMinutes": 1395,
+    "id": "R-0088",
+    "registrationNumber": "KA02EM6535",
+    "stationId": "S-0395",
+    "requestedEnergyKwh": 32.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0089",
+    "registrationNumber": "KA50XN3275",
+    "stationId": "S-0617",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 405,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0090",
+    "registrationNumber": "KL15BR3617",
+    "stationId": "S-0915",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 990,
     "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0091",
+    "registrationNumber": "OD24WG5000",
+    "stationId": "S-1496",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1425,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0092",
+    "registrationNumber": "KA06NC6653",
+    "stationId": "S-0355",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 135,
     "source": "generated"
   },
   {
     "id": "R-0093",
-    "registrationNumber": "MH47RU3103",
-    "stationId": "S-07",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 1065,
-    "durationMinutes": 45,
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0597",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 60,
     "source": "generated"
   },
   {
     "id": "R-0094",
-    "registrationNumber": "MH14TG9180",
-    "stationId": "S-36",
-    "requestedEnergyKwh": 20.5,
-    "startOffsetMinutes": 1245,
-    "durationMinutes": 75,
+    "registrationNumber": "KL08PR5469",
+    "stationId": "S-0728",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 585,
+    "durationMinutes": 30,
     "source": "generated"
   },
   {
     "id": "R-0095",
-    "registrationNumber": "MH14JV7658",
-    "stationId": "S-29",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 150,
-    "durationMinutes": 75,
+    "registrationNumber": "KL60YP4341",
+    "stationId": "S-0895",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 90,
     "source": "generated"
   },
   {
     "id": "R-0096",
-    "registrationNumber": "MH14NK3601",
-    "stationId": "S-22",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 1335,
+    "registrationNumber": "MH18UA9898",
+    "stationId": "S-1415",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 120,
     "durationMinutes": 45,
     "source": "generated"
   },
   {
     "id": "R-0097",
-    "registrationNumber": "MH04NP6208",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 20.0,
-    "startOffsetMinutes": 1230,
-    "durationMinutes": 45,
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0911",
+    "requestedEnergyKwh": 30.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 90,
     "source": "generated"
   },
   {
     "id": "R-0098",
-    "registrationNumber": "MH12NP3520",
-    "stationId": "S-25",
-    "requestedEnergyKwh": 6.0,
-    "startOffsetMinutes": 420,
-    "durationMinutes": 30,
+    "registrationNumber": "TN37NX1027",
+    "stationId": "S-1866",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 45,
     "source": "generated"
   },
   {
     "id": "R-0099",
-    "registrationNumber": "MH14ZY8106",
-    "stationId": "S-28",
+    "registrationNumber": "DL06SN9770",
+    "stationId": "S-0182",
     "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 225,
-    "durationMinutes": 30,
-    "source": "generated"
-  },
-  {
-    "id": "R-0100",
-    "registrationNumber": "MH12FD4056",
-    "stationId": "S-32",
-    "requestedEnergyKwh": 5.5,
-    "startOffsetMinutes": 645,
-    "durationMinutes": 195,
-    "source": "generated"
-  },
-  {
-    "id": "R-0101",
-    "registrationNumber": "MH14TG9180",
-    "stationId": "S-09",
-    "requestedEnergyKwh": 11.5,
-    "startOffsetMinutes": 150,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0102",
-    "registrationNumber": "MH14RX1861",
-    "stationId": "S-21",
-    "requestedEnergyKwh": 8.5,
-    "startOffsetMinutes": 660,
-    "durationMinutes": 90,
-    "source": "generated"
-  },
-  {
-    "id": "R-0103",
-    "registrationNumber": "MH12VE6099",
-    "stationId": "S-20",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 1155,
-    "durationMinutes": 105,
-    "source": "generated"
-  },
-  {
-    "id": "R-0104",
-    "registrationNumber": "MH12VE6099",
-    "stationId": "S-20",
-    "requestedEnergyKwh": 11.0,
-    "startOffsetMinutes": 330,
-    "durationMinutes": 120,
-    "source": "generated"
-  },
-  {
-    "id": "R-0105",
-    "registrationNumber": "MH14TG9180",
-    "stationId": "S-24",
-    "requestedEnergyKwh": 13.5,
-    "startOffsetMinutes": 450,
+    "startOffsetMinutes": 1050,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
+    "id": "R-0100",
+    "registrationNumber": "MH18UA9898",
+    "stationId": "S-1436",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 360,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0101",
+    "registrationNumber": "KL40AB7145",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1005,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0102",
+    "registrationNumber": "KL77TE2408",
+    "stationId": "S-0999",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0103",
+    "registrationNumber": "TN21KK3961",
+    "stationId": "S-1867",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0104",
+    "registrationNumber": "KL51FK5852",
+    "stationId": "S-0890",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0105",
+    "registrationNumber": "KA66RH8175",
+    "stationId": "S-0385",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
     "id": "R-0106",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-15",
-    "requestedEnergyKwh": 15.0,
-    "startOffsetMinutes": 450,
+    "registrationNumber": "TN74RN4474",
+    "stationId": "S-1861",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 165,
     "durationMinutes": 75,
     "source": "generated"
   },
   {
     "id": "R-0107",
-    "registrationNumber": "MH04MC1037",
-    "stationId": "S-02",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 225,
-    "durationMinutes": 90,
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0363",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 45,
     "source": "generated"
   },
   {
     "id": "R-0108",
-    "registrationNumber": "MH12VE6099",
-    "stationId": "S-31",
+    "registrationNumber": "KA39DW9012",
+    "stationId": "S-0348",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0109",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1187",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 150,
+    "source": "generated"
+  },
+  {
+    "id": "R-0110",
+    "registrationNumber": "KL01LZ6685",
+    "stationId": "S-0702",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0111",
+    "registrationNumber": "KL62US4344",
+    "stationId": "S-0940",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 420,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0112",
+    "registrationNumber": "KL23AS7990",
+    "stationId": "S-0931",
+    "requestedEnergyKwh": 28.0,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0113",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1964",
+    "requestedEnergyKwh": 21.0,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0114",
+    "registrationNumber": "KA39DW9012",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 285,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0115",
+    "registrationNumber": "KL50KL7971",
+    "stationId": "S-0748",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 300,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0116",
+    "registrationNumber": "KA29GH5738",
+    "stationId": "S-0374",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 690,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0117",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0118",
+    "registrationNumber": "KA03LJ6734",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0119",
+    "registrationNumber": "DL11HR8766",
+    "stationId": "S-0181",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 315,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0120",
+    "registrationNumber": "KA64DZ1781",
+    "stationId": "S-0360",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 225,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0121",
+    "registrationNumber": "KA64US2322",
+    "stationId": "S-0396",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 255,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0122",
+    "registrationNumber": "KL16JV5463",
+    "stationId": "S-0762",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 780,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0123",
+    "registrationNumber": "KA33HE7144",
+    "stationId": "S-0318",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 225,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0124",
+    "registrationNumber": "TN62FE8657",
+    "stationId": "S-1808",
+    "requestedEnergyKwh": 18.5,
+    "startOffsetMinutes": 120,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0125",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0196",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 345,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0126",
+    "registrationNumber": "AP05PT9341",
+    "stationId": "S-0040",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0127",
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0427",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0128",
+    "registrationNumber": "KA64DZ1781",
+    "stationId": "S-0409",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0129",
+    "registrationNumber": "KL13FB9311",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0130",
+    "registrationNumber": "TN19UX7108",
+    "stationId": "S-1808",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 420,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0131",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1632",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0132",
+    "registrationNumber": "DL05LH5801",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 1035,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0133",
+    "registrationNumber": "KL26YL5893",
+    "stationId": "S-1157",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0134",
+    "registrationNumber": "KL15BR3617",
+    "stationId": "S-0893",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 255,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0135",
+    "registrationNumber": "OD24WG5000",
+    "stationId": "S-1494",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 1215,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0136",
+    "registrationNumber": "KL35ZT5045",
+    "stationId": "S-1278",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 1245,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0137",
+    "registrationNumber": "HR28XF8592",
+    "stationId": "S-0272",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0138",
+    "registrationNumber": "KL18BZ2622",
+    "stationId": "S-1271",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 1365,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0139",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0199",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0140",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 24.5,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0141",
+    "registrationNumber": "MH40BF9565",
+    "stationId": "S-1429",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 705,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0142",
+    "registrationNumber": "KL83AU6030",
+    "stationId": "S-0749",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0143",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0632",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 480,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0144",
+    "registrationNumber": "KA18ND8549",
+    "stationId": "S-0432",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0145",
+    "registrationNumber": "KL15BR3617",
+    "stationId": "S-0893",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 870,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0146",
+    "registrationNumber": "KL50KL7971",
+    "stationId": "S-0744",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0147",
+    "registrationNumber": "KA38YM2963",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 13.5,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0148",
+    "registrationNumber": "KA03LJ6734",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 105,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0149",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1185",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0150",
+    "registrationNumber": "TN27ZK1805",
+    "stationId": "S-1760",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0151",
+    "registrationNumber": "TN62FE8657",
+    "stationId": "S-1813",
+    "requestedEnergyKwh": 26.5,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0152",
+    "registrationNumber": "TN97NL1786",
+    "stationId": "S-1650",
+    "requestedEnergyKwh": 25.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0153",
+    "registrationNumber": "KL77TE2408",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 120,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0154",
+    "registrationNumber": "TN96EY6971",
+    "stationId": "S-1745",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0155",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0104",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 810,
+    "durationMinutes": 105,
+    "source": "generated"
+  },
+  {
+    "id": "R-0156",
+    "registrationNumber": "KL09DE3144",
+    "stationId": "S-1234",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 780,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0157",
+    "registrationNumber": "KA56BD1497",
+    "stationId": "S-0472",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0158",
+    "registrationNumber": "KL23AS7990",
+    "stationId": "S-0934",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 45,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0159",
+    "registrationNumber": "KA64JW3864",
+    "stationId": "S-0409",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 750,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0160",
+    "registrationNumber": "DL05US2212",
+    "stationId": "S-0197",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0161",
+    "registrationNumber": "KA46MT9613",
+    "stationId": "S-0554",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0162",
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0880",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0163",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0797",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0164",
+    "registrationNumber": "OD29AZ6694",
+    "stationId": "S-1489",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0165",
+    "registrationNumber": "MH40BF9565",
+    "stationId": "S-1426",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0166",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1376",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 315,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0167",
+    "registrationNumber": "KL15TG8370",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0168",
+    "registrationNumber": "TN21KK3961",
+    "stationId": "S-1860",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0169",
+    "registrationNumber": "OD29AZ6694",
+    "stationId": "S-1492",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 180,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0170",
+    "registrationNumber": "DL06RM2720",
+    "stationId": "S-0181",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0171",
+    "registrationNumber": "KA50KG2236",
+    "stationId": "S-0353",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0172",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1640",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 210,
+    "source": "generated"
+  },
+  {
+    "id": "R-0173",
+    "registrationNumber": "KA56BD1497",
+    "stationId": "S-0365",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 150,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0174",
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0932",
+    "requestedEnergyKwh": 28.5,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0175",
+    "registrationNumber": "DL05LH5801",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 300,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0176",
+    "registrationNumber": "KL35ZT5045",
+    "stationId": "S-1275",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0177",
+    "registrationNumber": "DL03KW8506",
+    "stationId": "S-0123",
+    "requestedEnergyKwh": 13.5,
+    "startOffsetMinutes": 510,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0178",
+    "registrationNumber": "DL03RF8825",
+    "stationId": "S-0090",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 810,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0179",
+    "registrationNumber": "KL19FX3375",
+    "stationId": "S-1234",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0180",
+    "registrationNumber": "KL43NS2016",
+    "stationId": "S-1283",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 240,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0181",
+    "registrationNumber": "KA13WC2388",
+    "stationId": "S-0387",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 135,
+    "source": "generated"
+  },
+  {
+    "id": "R-0182",
+    "registrationNumber": "KL23AS7990",
+    "stationId": "S-0931",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0183",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0134",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 165,
+    "source": "generated"
+  },
+  {
+    "id": "R-0184",
+    "registrationNumber": "KL85ZG6762",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0185",
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1257",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0186",
+    "registrationNumber": "DL03KW8506",
+    "stationId": "S-0108",
     "requestedEnergyKwh": 7.5,
     "startOffsetMinutes": 1380,
     "durationMinutes": 75,
     "source": "generated"
   },
   {
-    "id": "R-0109",
-    "registrationNumber": "MH12RF2376",
-    "stationId": "S-12",
-    "requestedEnergyKwh": 4.0,
-    "startOffsetMinutes": 885,
+    "id": "R-0187",
+    "registrationNumber": "AP05PT9341",
+    "stationId": "S-0038",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 660,
     "durationMinutes": 30,
     "source": "generated"
   },
   {
-    "id": "R-0110",
-    "registrationNumber": "MH14ZW9079",
-    "stationId": "S-09",
+    "id": "R-0188",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0150",
     "requestedEnergyKwh": 6.0,
-    "startOffsetMinutes": 690,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0189",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 45,
     "durationMinutes": 45,
     "source": "generated"
   },
   {
-    "id": "R-0111",
-    "registrationNumber": "MH14TG9180",
-    "stationId": "S-28",
-    "requestedEnergyKwh": 20.0,
-    "startOffsetMinutes": 810,
+    "id": "R-0190",
+    "registrationNumber": "KL85ZG6762",
+    "stationId": "S-0799",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0191",
+    "registrationNumber": "KA33HE7144",
+    "stationId": "S-0318",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0192",
+    "registrationNumber": "KA29GH5738",
+    "stationId": "S-0432",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 900,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0193",
+    "registrationNumber": "HR21NN2240",
+    "stationId": "S-0269",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0194",
+    "registrationNumber": "DL05AX4693",
+    "stationId": "S-0188",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 1035,
     "durationMinutes": 30,
     "source": "generated"
   },
   {
-    "id": "R-0112",
-    "registrationNumber": "MH04GX6245",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 11.0,
-    "startOffsetMinutes": 1320,
+    "id": "R-0195",
+    "registrationNumber": "KA11AD9458",
+    "stationId": "S-0353",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0196",
+    "registrationNumber": "KL52EP4223",
+    "stationId": "S-0696",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 1050,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
-    "id": "R-0113",
-    "registrationNumber": "MH14ZW9079",
-    "stationId": "S-22",
-    "requestedEnergyKwh": 5.5,
+    "id": "R-0197",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1737",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 1395,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0198",
+    "registrationNumber": "KL15FT6730",
+    "stationId": "S-0972",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0199",
+    "registrationNumber": "DL11HR8766",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 975,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0200",
+    "registrationNumber": "KL14XZ5455",
+    "stationId": "S-0957",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0201",
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0100",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0202",
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1759",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0203",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1187",
+    "requestedEnergyKwh": 4.5,
     "startOffsetMinutes": 315,
+    "durationMinutes": 150,
+    "source": "generated"
+  },
+  {
+    "id": "R-0204",
+    "registrationNumber": "KA23YE1012",
+    "stationId": "S-0621",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1245,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0205",
+    "registrationNumber": "MH17FL2482",
+    "stationId": "S-1414",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0206",
+    "registrationNumber": "DL05AX4693",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0207",
+    "registrationNumber": "KL51TU6839",
+    "stationId": "S-0708",
+    "requestedEnergyKwh": 24.5,
+    "startOffsetMinutes": 510,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0208",
+    "registrationNumber": "KL17ZL2658",
+    "stationId": "S-0972",
+    "requestedEnergyKwh": 32.5,
+    "startOffsetMinutes": 120,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
-    "id": "R-0114",
-    "registrationNumber": "MH14MK8289",
-    "stationId": "S-19",
+    "id": "R-0209",
+    "registrationNumber": "DL12PV5434",
+    "stationId": "S-0121",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0210",
+    "registrationNumber": "WB56PR1095",
+    "stationId": "S-1957",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 75,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0211",
+    "registrationNumber": "KL27MU6748",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0212",
+    "registrationNumber": "KA06NC6653",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 210,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0213",
+    "registrationNumber": "MH40BF9565",
+    "stationId": "S-1414",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1125,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0214",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1738",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0215",
+    "registrationNumber": "KA33HE7144",
+    "stationId": "S-0324",
+    "requestedEnergyKwh": 29.0,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0216",
+    "registrationNumber": "KA13WC2388",
+    "stationId": "S-0427",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 225,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0217",
+    "registrationNumber": "TN81CK7536",
+    "stationId": "S-1636",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0218",
+    "registrationNumber": "KA56BD1497",
+    "stationId": "S-0450",
+    "requestedEnergyKwh": 21.0,
+    "startOffsetMinutes": 1245,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0219",
+    "registrationNumber": "TN27ZK1805",
+    "stationId": "S-1760",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0220",
+    "registrationNumber": "KA46MT9613",
+    "stationId": "S-0549",
     "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0221",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 150,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0222",
+    "registrationNumber": "KA10EH4119",
+    "stationId": "S-0465",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0223",
+    "registrationNumber": "DL03KS2123",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0224",
+    "registrationNumber": "KL51TU6839",
+    "stationId": "S-0703",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 105,
+    "source": "generated"
+  },
+  {
+    "id": "R-0225",
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1141",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0226",
+    "registrationNumber": "KL01LZ6685",
+    "stationId": "S-0706",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0227",
+    "registrationNumber": "KA64DZ1781",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0228",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1383",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0229",
+    "registrationNumber": "DL06RM2720",
+    "stationId": "S-0132",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 240,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0230",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0636",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0231",
+    "registrationNumber": "KA11AD9458",
+    "stationId": "S-0442",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 855,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0232",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0233",
+    "registrationNumber": "KL52EP4223",
+    "stationId": "S-0688",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0234",
+    "registrationNumber": "KA69CK6321",
+    "stationId": "S-0421",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0235",
+    "registrationNumber": "CG29LU6786",
+    "stationId": "S-0069",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0236",
+    "registrationNumber": "KA10EH4119",
+    "stationId": "S-0397",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0237",
+    "registrationNumber": "KL83AU6030",
+    "stationId": "S-0744",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 315,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0238",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0170",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0239",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0109",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1005,
+    "durationMinutes": 135,
+    "source": "generated"
+  },
+  {
+    "id": "R-0240",
+    "registrationNumber": "TN86HW4687",
+    "stationId": "S-1661",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0241",
+    "registrationNumber": "DL03RF8825",
+    "stationId": "S-0152",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0242",
+    "registrationNumber": "KL19FX3375",
+    "stationId": "S-1242",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 810,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0243",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 6.5,
     "startOffsetMinutes": 630,
     "durationMinutes": 45,
     "source": "generated"
   },
   {
-    "id": "R-0115",
-    "registrationNumber": "MH14MK8289",
-    "stationId": "S-26",
-    "requestedEnergyKwh": 4.5,
-    "startOffsetMinutes": 405,
-    "durationMinutes": 75,
-    "source": "generated"
-  },
-  {
-    "id": "R-0116",
-    "registrationNumber": "MH14WM6815",
-    "stationId": "S-29",
-    "requestedEnergyKwh": 15.0,
-    "startOffsetMinutes": 615,
+    "id": "R-0244",
+    "registrationNumber": "TN60TE9752",
+    "stationId": "S-1651",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1245,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
-    "id": "R-0117",
-    "registrationNumber": "MH05KD3491",
-    "stationId": "S-03",
-    "requestedEnergyKwh": 10.0,
-    "startOffsetMinutes": 720,
+    "id": "R-0245",
+    "registrationNumber": "KL58SX4452",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 465,
     "durationMinutes": 30,
     "source": "generated"
   },
   {
-    "id": "R-0118",
-    "registrationNumber": "MH43UW7141",
-    "stationId": "S-02",
+    "id": "R-0246",
+    "registrationNumber": "KL17ZL2658",
+    "stationId": "S-0976",
+    "requestedEnergyKwh": 38.0,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0247",
+    "registrationNumber": "KL35XC6172",
+    "stationId": "S-1234",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0248",
+    "registrationNumber": "KL53KF6211",
+    "stationId": "S-1186",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0249",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1739",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 810,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0250",
+    "registrationNumber": "KA23YE1012",
+    "stationId": "S-0630",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0251",
+    "registrationNumber": "KA50KG2236",
+    "stationId": "S-0348",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1410,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0252",
+    "registrationNumber": "KL66CE4479",
+    "stationId": "S-1258",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0253",
+    "registrationNumber": "TN19UX7108",
+    "stationId": "S-1809",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 75,
+    "durationMinutes": 195,
+    "source": "generated"
+  },
+  {
+    "id": "R-0254",
+    "registrationNumber": "KA64US2322",
+    "stationId": "S-0339",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0255",
+    "registrationNumber": "KA69DG3498",
+    "stationId": "S-0435",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 810,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0256",
+    "registrationNumber": "DL03KS2123",
+    "stationId": "S-0134",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0257",
+    "registrationNumber": "DL01GX7419",
+    "stationId": "S-0100",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1425,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0258",
+    "registrationNumber": "KA50XN3275",
+    "stationId": "S-0620",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0259",
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0383",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0260",
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0900",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0261",
+    "registrationNumber": "KL65EA4832",
+    "stationId": "S-1182",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 660,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0262",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1273",
+    "requestedEnergyKwh": 18.5,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0263",
+    "registrationNumber": "KL62US4344",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0264",
+    "registrationNumber": "TN96EY6971",
+    "stationId": "S-1741",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 150,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0265",
+    "registrationNumber": "KL65EA4832",
+    "stationId": "S-1182",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 555,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0266",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1186",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0267",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0268",
+    "registrationNumber": "KL40AB7145",
+    "stationId": "S-0938",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 930,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0269",
+    "registrationNumber": "MH40BF9565",
+    "stationId": "S-1436",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0270",
+    "registrationNumber": "KL83AU6030",
+    "stationId": "S-0736",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 825,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0271",
+    "registrationNumber": "DL12PV5434",
+    "stationId": "S-0096",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0272",
+    "registrationNumber": "KL19FX3375",
+    "stationId": "S-1235",
+    "requestedEnergyKwh": 38.0,
+    "startOffsetMinutes": 300,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0273",
+    "registrationNumber": "DL03KS2123",
+    "stationId": "S-0170",
+    "requestedEnergyKwh": 27.0,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0274",
+    "registrationNumber": "CG08VP3790",
+    "stationId": "S-0070",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 210,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0275",
+    "registrationNumber": "KL52EP4223",
+    "stationId": "S-0692",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0276",
+    "registrationNumber": "KA29GH5738",
+    "stationId": "S-0429",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 225,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0277",
+    "registrationNumber": "KA42TK2562",
+    "stationId": "S-0324",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0278",
+    "registrationNumber": "TN37NX1027",
+    "stationId": "S-1863",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0279",
+    "registrationNumber": "KA23YE1012",
+    "stationId": "S-0628",
+    "requestedEnergyKwh": 15.5,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0280",
+    "registrationNumber": "TN96LG8770",
+    "stationId": "S-1813",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 135,
+    "source": "generated"
+  },
+  {
+    "id": "R-0281",
+    "registrationNumber": "WB06BY5355",
+    "stationId": "S-1955",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0282",
+    "registrationNumber": "TN62FE8657",
+    "stationId": "S-1808",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0283",
+    "registrationNumber": "MH06HX1150",
+    "stationId": "S-1426",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0284",
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0372",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0285",
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1758",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 975,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0286",
+    "registrationNumber": "KL15BR3617",
+    "stationId": "S-0892",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0287",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0192",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0288",
+    "registrationNumber": "OD29AZ6694",
+    "stationId": "S-1496",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 15,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0289",
+    "registrationNumber": "KL51TU6839",
+    "stationId": "S-0703",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 165,
+    "durationMinutes": 225,
+    "source": "generated"
+  },
+  {
+    "id": "R-0290",
+    "registrationNumber": "DL06SN9770",
+    "stationId": "S-0100",
     "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0291",
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0419",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 585,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0292",
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1135",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0293",
+    "registrationNumber": "KL26YL5893",
+    "stationId": "S-1162",
+    "requestedEnergyKwh": 22.5,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0294",
+    "registrationNumber": "TN27ZK1805",
+    "stationId": "S-1758",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0295",
+    "registrationNumber": "KL35XC6172",
+    "stationId": "S-1257",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0296",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1375",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 510,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0297",
+    "registrationNumber": "KL27MU6748",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0298",
+    "registrationNumber": "KL18BZ2622",
+    "stationId": "S-1267",
+    "requestedEnergyKwh": 28.5,
+    "startOffsetMinutes": 1125,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0299",
+    "registrationNumber": "DL10TP6732",
+    "stationId": "S-0113",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 240,
+    "source": "generated"
+  },
+  {
+    "id": "R-0300",
+    "registrationNumber": "KL16JV5463",
+    "stationId": "S-0762",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0301",
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0600",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 180,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0302",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 28.0,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0303",
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1241",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0304",
+    "registrationNumber": "MH18UA9898",
+    "stationId": "S-1415",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0305",
+    "registrationNumber": "KL09DE3144",
+    "stationId": "S-1241",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 480,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0306",
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0601",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0307",
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0430",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 1215,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0308",
+    "registrationNumber": "KL50KL7971",
+    "stationId": "S-0740",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0309",
+    "registrationNumber": "KA38YM2963",
+    "stationId": "S-0465",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 405,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0310",
+    "registrationNumber": "KL77TE2408",
+    "stationId": "S-1013",
+    "requestedEnergyKwh": 18.5,
     "startOffsetMinutes": 420,
     "durationMinutes": 75,
     "source": "generated"
   },
   {
-    "id": "R-0119",
-    "registrationNumber": "MH04GX6245",
-    "stationId": "S-06",
-    "requestedEnergyKwh": 16.0,
-    "startOffsetMinutes": 705,
+    "id": "R-0311",
+    "registrationNumber": "KA46MT9613",
+    "stationId": "S-0551",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0312",
+    "registrationNumber": "KA50XN3275",
+    "stationId": "S-0635",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0313",
+    "registrationNumber": "KA23WD2288",
+    "stationId": "S-0466",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1410,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0314",
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0110",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 720,
     "durationMinutes": 60,
     "source": "generated"
   },
   {
-    "id": "R-0120",
-    "registrationNumber": "MH12KZ4860",
-    "stationId": "S-30",
-    "requestedEnergyKwh": 8.5,
-    "startOffsetMinutes": 975,
+    "id": "R-0315",
+    "registrationNumber": "KL60YP4341",
+    "stationId": "S-0909",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 870,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0316",
+    "registrationNumber": "KA02EM6535",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 345,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0317",
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0461",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 480,
     "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0318",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1189",
+    "requestedEnergyKwh": 15.5,
+    "startOffsetMinutes": 900,
+    "durationMinutes": 180,
+    "source": "generated"
+  },
+  {
+    "id": "R-0319",
+    "registrationNumber": "KL85VF7569",
+    "stationId": "S-0836",
+    "requestedEnergyKwh": 25.5,
+    "startOffsetMinutes": 315,
+    "durationMinutes": 225,
+    "source": "generated"
+  },
+  {
+    "id": "R-0320",
+    "registrationNumber": "TN21KK3961",
+    "stationId": "S-1862",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 105,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0321",
+    "registrationNumber": "KA66WG7638",
+    "stationId": "S-0616",
+    "requestedEnergyKwh": 29.5,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0322",
+    "registrationNumber": "KL18BZ2622",
+    "stationId": "S-1273",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 990,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0323",
+    "registrationNumber": "TN96LG8770",
+    "stationId": "S-1809",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1125,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0324",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0133",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 240,
+    "source": "generated"
+  },
+  {
+    "id": "R-0325",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0326",
+    "registrationNumber": "DL10TP6732",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 22.5,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0327",
+    "registrationNumber": "KL43NS2016",
+    "stationId": "S-1287",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 45,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0328",
+    "registrationNumber": "KA23WD2288",
+    "stationId": "S-0465",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 45,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0329",
+    "registrationNumber": "KL09DE3144",
+    "stationId": "S-1249",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0330",
+    "registrationNumber": "OD24WG5000",
+    "stationId": "S-1489",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 420,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0331",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1642",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0332",
+    "registrationNumber": "KA10EH4119",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1185,
+    "durationMinutes": 150,
+    "source": "generated"
+  },
+  {
+    "id": "R-0333",
+    "registrationNumber": "KL35ZT5045",
+    "stationId": "S-1288",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 660,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0334",
+    "registrationNumber": "AP05PT9341",
+    "stationId": "S-0046",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0335",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0336",
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0341",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 165,
+    "source": "generated"
+  },
+  {
+    "id": "R-0337",
+    "registrationNumber": "KA50KG2236",
+    "stationId": "S-0409",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0338",
+    "registrationNumber": "KL23AS7990",
+    "stationId": "S-0893",
+    "requestedEnergyKwh": 31.0,
+    "startOffsetMinutes": 855,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0339",
+    "registrationNumber": "HR28XF8592",
+    "stationId": "S-0268",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0340",
+    "registrationNumber": "KA66RH8175",
+    "stationId": "S-0340",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0341",
+    "registrationNumber": "KA42TK2562",
+    "stationId": "S-0322",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0342",
+    "registrationNumber": "KA18ND8549",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0343",
+    "registrationNumber": "KL78CZ6552",
+    "stationId": "S-0956",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0344",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 180,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0345",
+    "registrationNumber": "KL35XC6172",
+    "stationId": "S-1241",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0346",
+    "registrationNumber": "KL09DE3144",
+    "stationId": "S-1227",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0347",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0110",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 480,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0348",
+    "registrationNumber": "KL10RB3503",
+    "stationId": "S-0999",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0349",
+    "registrationNumber": "DL05LH5801",
+    "stationId": "S-0189",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0350",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0616",
+    "requestedEnergyKwh": 21.5,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0351",
+    "registrationNumber": "KL62US4344",
+    "stationId": "S-0880",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0352",
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1141",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0353",
+    "registrationNumber": "KA13WC2388",
+    "stationId": "S-0443",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 1425,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0354",
+    "registrationNumber": "KL43NS2016",
+    "stationId": "S-1281",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0355",
+    "registrationNumber": "KA58GM8694",
+    "stationId": "S-0375",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 1395,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0356",
+    "registrationNumber": "KA10EH4119",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 15,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0357",
+    "registrationNumber": "KL13FB9311",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1425,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0358",
+    "registrationNumber": "WB56PR1095",
+    "stationId": "S-1964",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0359",
+    "registrationNumber": "DL05US2212",
+    "stationId": "S-0198",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 255,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0360",
+    "registrationNumber": "KL13FB9311",
+    "stationId": "S-1012",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1290,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0361",
+    "registrationNumber": "MH18UA9898",
+    "stationId": "S-1413",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 1395,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0362",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1182",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1185,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0363",
+    "registrationNumber": "KL16JV5463",
+    "stationId": "S-0761",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0364",
+    "registrationNumber": "KL35ZT5045",
+    "stationId": "S-1275",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0365",
+    "registrationNumber": "KL15FT6730",
+    "stationId": "S-0972",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 735,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0366",
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0880",
+    "requestedEnergyKwh": 22.5,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0367",
+    "registrationNumber": "KL66CE4479",
+    "stationId": "S-1249",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1365,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0368",
+    "registrationNumber": "KL77TE2408",
+    "stationId": "S-1003",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 690,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0369",
+    "registrationNumber": "KL01LZ6685",
+    "stationId": "S-0708",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 465,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0370",
+    "registrationNumber": "KL66CE4479",
+    "stationId": "S-1227",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 465,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0371",
+    "registrationNumber": "KL10LV2508",
+    "stationId": "S-0987",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 735,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0372",
+    "registrationNumber": "KL40AB7145",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 510,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0373",
+    "registrationNumber": "TN19UX7108",
+    "stationId": "S-1813",
+    "requestedEnergyKwh": 22.0,
+    "startOffsetMinutes": 900,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0374",
+    "registrationNumber": "CG08VP3790",
+    "stationId": "S-0072",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 780,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0375",
+    "registrationNumber": "KA66RH8175",
+    "stationId": "S-0436",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1170,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0376",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1632",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 870,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0377",
+    "registrationNumber": "TN81CK7536",
+    "stationId": "S-1642",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 390,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0378",
+    "registrationNumber": "KL08FF1715",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0379",
+    "registrationNumber": "KA33HE7144",
+    "stationId": "S-0322",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0380",
+    "registrationNumber": "KL01LZ6685",
+    "stationId": "S-0702",
+    "requestedEnergyKwh": 22.5,
+    "startOffsetMinutes": 1230,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0381",
+    "registrationNumber": "TN74RN4474",
+    "stationId": "S-1861",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 345,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0382",
+    "registrationNumber": "CG08VP3790",
+    "stationId": "S-0072",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 15,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0383",
+    "registrationNumber": "KL53KF6211",
+    "stationId": "S-1186",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1125,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0384",
+    "registrationNumber": "UP64FY4682",
+    "stationId": "S-1920",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0385",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1745",
+    "requestedEnergyKwh": 20.5,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0386",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1743",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0387",
+    "registrationNumber": "KA06NC6653",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 705,
+    "durationMinutes": 240,
+    "source": "generated"
+  },
+  {
+    "id": "R-0388",
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0601",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 150,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0389",
+    "registrationNumber": "MH18UA9898",
+    "stationId": "S-1408",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 45,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0390",
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0601",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0391",
+    "registrationNumber": "KA02EM6535",
+    "stationId": "S-0465",
+    "requestedEnergyKwh": 15.5,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0392",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1632",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0393",
+    "registrationNumber": "OD24WG5000",
+    "stationId": "S-1497",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0394",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0090",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0395",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1642",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 195,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0396",
+    "registrationNumber": "KL43NS2016",
+    "stationId": "S-1279",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0397",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1375",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0398",
+    "registrationNumber": "TN97NL1786",
+    "stationId": "S-1668",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0399",
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0595",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 585,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0400",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0181",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 825,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0401",
+    "registrationNumber": "KA66RH8175",
+    "stationId": "S-0473",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 1395,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0402",
+    "registrationNumber": "KL15FT6730",
+    "stationId": "S-0978",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 1155,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0403",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 930,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0404",
+    "registrationNumber": "DL05LH5801",
+    "stationId": "S-0205",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0405",
+    "registrationNumber": "OD30UM8369",
+    "stationId": "S-1492",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0406",
+    "registrationNumber": "KA55HH6697",
+    "stationId": "S-0412",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0407",
+    "registrationNumber": "KL62US4344",
+    "stationId": "S-0893",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 1185,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0408",
+    "registrationNumber": "KL10LV2508",
+    "stationId": "S-0980",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 210,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0409",
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1137",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 120,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0410",
+    "registrationNumber": "TN60TE9752",
+    "stationId": "S-1650",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 240,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0411",
+    "registrationNumber": "WB06BY5355",
+    "stationId": "S-1952",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0412",
+    "registrationNumber": "KL85VF7569",
+    "stationId": "S-0833",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 15,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0413",
+    "registrationNumber": "KA10MA3147",
+    "stationId": "S-0535",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 780,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0414",
+    "registrationNumber": "KL40AB7145",
+    "stationId": "S-0901",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0415",
+    "registrationNumber": "KL50KL7971",
+    "stationId": "S-0744",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 15,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0416",
+    "registrationNumber": "KL10RB3503",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 15.5,
+    "startOffsetMinutes": 690,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0417",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1957",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0418",
+    "registrationNumber": "TN81CK7536",
+    "stationId": "S-1638",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0419",
+    "registrationNumber": "KA03LJ6734",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 720,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0420",
+    "registrationNumber": "KA13WC2388",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 780,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0421",
+    "registrationNumber": "KL26YL5893",
+    "stationId": "S-1159",
+    "requestedEnergyKwh": 25.5,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0422",
+    "registrationNumber": "KL16NG5682",
+    "stationId": "S-0696",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0423",
+    "registrationNumber": "TN21KK3961",
+    "stationId": "S-1860",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 585,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0424",
+    "registrationNumber": "KA29GH5738",
+    "stationId": "S-0353",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0425",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1284",
+    "requestedEnergyKwh": 23.0,
+    "startOffsetMinutes": 1275,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0426",
+    "registrationNumber": "HR28XF8592",
+    "stationId": "S-0267",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 180,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0427",
+    "registrationNumber": "KA55HH6697",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 225,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0428",
+    "registrationNumber": "OD29AZ6694",
+    "stationId": "S-1489",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 900,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0429",
+    "registrationNumber": "KL15FT6730",
+    "stationId": "S-0970",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 45,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0430",
+    "registrationNumber": "DL06RM2720",
+    "stationId": "S-0110",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0431",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0620",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0432",
+    "registrationNumber": "KA23YE1012",
+    "stationId": "S-0626",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0433",
+    "registrationNumber": "WB56PR1095",
+    "stationId": "S-1957",
+    "requestedEnergyKwh": 15.5,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0434",
+    "registrationNumber": "KA02EM6535",
+    "stationId": "S-0410",
+    "requestedEnergyKwh": 23.5,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0435",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0159",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0436",
+    "registrationNumber": "UP64FY4682",
+    "stationId": "S-1915",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 480,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0437",
+    "registrationNumber": "KL43NS2016",
+    "stationId": "S-1275",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 975,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0438",
+    "registrationNumber": "TN96LG8770",
+    "stationId": "S-1813",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 240,
+    "source": "generated"
+  },
+  {
+    "id": "R-0439",
+    "registrationNumber": "KL19FX3375",
+    "stationId": "S-1242",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 495,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0440",
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 8.0,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0441",
+    "registrationNumber": "TN74RN4474",
+    "stationId": "S-1861",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0442",
+    "registrationNumber": "CG29LU6786",
+    "stationId": "S-0071",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1035,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0443",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1954",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 1365,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0444",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0924",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1365,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0445",
+    "registrationNumber": "TN97NL1786",
+    "stationId": "S-1660",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0446",
+    "registrationNumber": "KA46MT9613",
+    "stationId": "S-0550",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0447",
+    "registrationNumber": "KA69CK6321",
+    "stationId": "S-0340",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0448",
+    "registrationNumber": "KL35XC6172",
+    "stationId": "S-1236",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0449",
+    "registrationNumber": "TN60TE9752",
+    "stationId": "S-1659",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0450",
+    "registrationNumber": "KA56BD1497",
+    "stationId": "S-0442",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0451",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1273",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 1395,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0452",
+    "registrationNumber": "KA10EH4119",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 555,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0453",
+    "registrationNumber": "CG29LU6786",
+    "stationId": "S-0073",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0454",
+    "registrationNumber": "KL51FK5852",
+    "stationId": "S-0885",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 75,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0455",
+    "registrationNumber": "KL53KF6211",
+    "stationId": "S-1182",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 75,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0456",
+    "registrationNumber": "KA38YM2963",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0457",
+    "registrationNumber": "KA58GM8694",
+    "stationId": "S-0410",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0458",
+    "registrationNumber": "KL08FF1715",
+    "stationId": "S-0932",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0459",
+    "registrationNumber": "KA50KG2236",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 13.5,
+    "startOffsetMinutes": 1035,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0460",
+    "registrationNumber": "KL23AS7990",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1290,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0461",
+    "registrationNumber": "KL15BR3617",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 180,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0462",
+    "registrationNumber": "DL05LH5801",
+    "stationId": "S-0186",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 225,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0463",
+    "registrationNumber": "KL54KC4472",
+    "stationId": "S-1115",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0464",
+    "registrationNumber": "DL01GX7419",
+    "stationId": "S-0181",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 1155,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0465",
+    "registrationNumber": "TN74RN4474",
+    "stationId": "S-1861",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0466",
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0361",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0467",
+    "registrationNumber": "KA23YE1012",
+    "stationId": "S-0629",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 975,
+    "durationMinutes": 150,
+    "source": "generated"
+  },
+  {
+    "id": "R-0468",
+    "registrationNumber": "DL04RP3174",
+    "stationId": "S-0112",
+    "requestedEnergyKwh": 32.5,
+    "startOffsetMinutes": 1410,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0469",
+    "registrationNumber": "KL35XC6172",
+    "stationId": "S-1256",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 825,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0470",
+    "registrationNumber": "KL27MU6748",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0471",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1374",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0472",
+    "registrationNumber": "TN97NL1786",
+    "stationId": "S-1658",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 645,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0473",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0802",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0474",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1737",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0475",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0880",
+    "requestedEnergyKwh": 15.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0476",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1377",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0477",
+    "registrationNumber": "TN89BF1034",
+    "stationId": "S-1635",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0478",
+    "registrationNumber": "MH42VY3751",
+    "stationId": "S-1415",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0479",
+    "registrationNumber": "KL53KF6211",
+    "stationId": "S-1184",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 330,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0480",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1273",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0481",
+    "registrationNumber": "MH41WK5795",
+    "stationId": "S-1375",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0482",
+    "registrationNumber": "KL60YP4341",
+    "stationId": "S-0903",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0483",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0110",
+    "requestedEnergyKwh": 13.5,
+    "startOffsetMinutes": 945,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0484",
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1759",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0485",
+    "registrationNumber": "KL35XC6172",
+    "stationId": "S-1252",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0486",
+    "registrationNumber": "TN19UX7108",
+    "stationId": "S-1811",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 345,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0487",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1957",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0488",
+    "registrationNumber": "KA23YE1012",
+    "stationId": "S-0620",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0489",
+    "registrationNumber": "OD30UM8369",
+    "stationId": "S-1489",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0490",
+    "registrationNumber": "DL05US2212",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1275,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0491",
+    "registrationNumber": "KA69CK6321",
+    "stationId": "S-0383",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 615,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0492",
+    "registrationNumber": "KA33HE7144",
+    "stationId": "S-0326",
+    "requestedEnergyKwh": 22.0,
+    "startOffsetMinutes": 1200,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0493",
+    "registrationNumber": "OD29AZ6694",
+    "stationId": "S-1497",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 240,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0494",
+    "registrationNumber": "OD24WG5000",
+    "stationId": "S-1496",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 465,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0495",
+    "registrationNumber": "KL60YP4341",
+    "stationId": "S-0917",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 120,
+    "source": "generated"
+  },
+  {
+    "id": "R-0496",
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1139",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1290,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0497",
+    "registrationNumber": "DL03RF8825",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 285,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0498",
+    "registrationNumber": "KL09CN6083",
+    "stationId": "S-0701",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 630,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0499",
+    "registrationNumber": "KA10MA3147",
+    "stationId": "S-0542",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0500",
+    "registrationNumber": "KL16NG5682",
+    "stationId": "S-0688",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0501",
+    "registrationNumber": "DL06SN9770",
+    "stationId": "S-0199",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0502",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1182",
+    "requestedEnergyKwh": 27.0,
+    "startOffsetMinutes": 1260,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0503",
+    "registrationNumber": "KL15FT6730",
+    "stationId": "S-0976",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 360,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0504",
+    "registrationNumber": "KA10MA3147",
+    "stationId": "S-0541",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 1320,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0505",
+    "registrationNumber": "OD30UM8369",
+    "stationId": "S-1496",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 105,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0506",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0507",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 15.5,
+    "startOffsetMinutes": 435,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0508",
+    "registrationNumber": "KL27MU6748",
+    "stationId": "S-0795",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0509",
+    "registrationNumber": "KL35ZT5045",
+    "stationId": "S-1267",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1410,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0510",
+    "registrationNumber": "KA10MA3147",
+    "stationId": "S-0535",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0511",
+    "registrationNumber": "DL03KS2123",
+    "stationId": "S-0207",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 45,
+    "durationMinutes": 225,
+    "source": "generated"
+  },
+  {
+    "id": "R-0512",
+    "registrationNumber": "KL09DE3144",
+    "stationId": "S-1257",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0513",
+    "registrationNumber": "KL40BA7003",
+    "stationId": "S-1182",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 165,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0514",
+    "registrationNumber": "KA65AB2458",
+    "stationId": "S-0605",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 465,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0515",
+    "registrationNumber": "KL09CN6083",
+    "stationId": "S-0703",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 270,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0516",
+    "registrationNumber": "DL06EC8060",
+    "stationId": "S-0192",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0517",
+    "registrationNumber": "KL13FB9311",
+    "stationId": "S-1013",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 120,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0518",
+    "registrationNumber": "KL18BZ2622",
+    "stationId": "S-1289",
+    "requestedEnergyKwh": 18.5,
+    "startOffsetMinutes": 165,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0519",
+    "registrationNumber": "AP05PT9341",
+    "stationId": "S-0038",
+    "requestedEnergyKwh": 25.5,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0520",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1966",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 1140,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0521",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0110",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 165,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0522",
+    "registrationNumber": "KA11AD9458",
+    "stationId": "S-0398",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0523",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0121",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 1215,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0524",
+    "registrationNumber": "TN97NL1786",
+    "stationId": "S-1651",
+    "requestedEnergyKwh": 24.5,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0525",
+    "registrationNumber": "DL05AX4693",
+    "stationId": "S-0122",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 525,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0526",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1273",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 375,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0527",
+    "registrationNumber": "KL10RB3503",
+    "stationId": "S-1004",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 1425,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0528",
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1235",
+    "requestedEnergyKwh": 21.5,
+    "startOffsetMinutes": 570,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0529",
+    "registrationNumber": "TN37NX1027",
+    "stationId": "S-1863",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 750,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0530",
+    "registrationNumber": "DL05EJ2634",
+    "stationId": "S-0174",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 825,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0531",
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0532",
+    "registrationNumber": "KL78RW2724",
+    "stationId": "S-1142",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 30,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0533",
+    "registrationNumber": "KL16NG5682",
+    "stationId": "S-0690",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 210,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0534",
+    "registrationNumber": "TN81YA9361",
+    "stationId": "S-1741",
+    "requestedEnergyKwh": 14.5,
+    "startOffsetMinutes": 660,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0535",
+    "registrationNumber": "DL01GX7419",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 1380,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0536",
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1249",
+    "requestedEnergyKwh": 18.0,
+    "startOffsetMinutes": 1260,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0537",
+    "registrationNumber": "KL40AB7145",
+    "stationId": "S-0880",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0538",
+    "registrationNumber": "KL23AS7990",
+    "stationId": "S-0931",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0539",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0635",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 420,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0540",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0632",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 1260,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0541",
+    "registrationNumber": "KA23WD2288",
+    "stationId": "S-0394",
+    "requestedEnergyKwh": 13.0,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0542",
+    "registrationNumber": "KL56RG3926",
+    "stationId": "S-1236",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0543",
+    "registrationNumber": "TN37NX1027",
+    "stationId": "S-1867",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 15,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0544",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1961",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 810,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0545",
+    "registrationNumber": "DL11JG4421",
+    "stationId": "S-0197",
+    "requestedEnergyKwh": 13.5,
+    "startOffsetMinutes": 90,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0546",
+    "registrationNumber": "KA03LJ6734",
+    "stationId": "S-0353",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 855,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0547",
+    "registrationNumber": "KL52EP4223",
+    "stationId": "S-0694",
+    "requestedEnergyKwh": 16.5,
+    "startOffsetMinutes": 795,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0548",
+    "registrationNumber": "WB69UW1777",
+    "stationId": "S-1955",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 1020,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0549",
+    "registrationNumber": "DL05JS7897",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 435,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0550",
+    "registrationNumber": "DL10ZW7585",
+    "stationId": "S-0111",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 450,
+    "durationMinutes": 105,
+    "source": "generated"
+  },
+  {
+    "id": "R-0551",
+    "registrationNumber": "TN86HW4687",
+    "stationId": "S-1663",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1110,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0552",
+    "registrationNumber": "KL60YP4341",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 765,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0553",
+    "registrationNumber": "OD29AZ6694",
+    "stationId": "S-1487",
+    "requestedEnergyKwh": 4.5,
+    "startOffsetMinutes": 1095,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0554",
+    "registrationNumber": "KA20MH2305",
+    "stationId": "S-0621",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 1215,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0555",
+    "registrationNumber": "KL43NS2016",
+    "stationId": "S-1267",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1290,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0556",
+    "registrationNumber": "KA63RR3483",
+    "stationId": "S-0458",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0557",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0117",
+    "requestedEnergyKwh": 24.0,
+    "startOffsetMinutes": 1125,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0558",
+    "registrationNumber": "KL54KC4472",
+    "stationId": "S-1115",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 915,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0559",
+    "registrationNumber": "KL10LV2508",
+    "stationId": "S-0980",
+    "requestedEnergyKwh": 18.5,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0560",
+    "registrationNumber": "KL35ZT5045",
+    "stationId": "S-1271",
+    "requestedEnergyKwh": 10.5,
+    "startOffsetMinutes": 1035,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0561",
+    "registrationNumber": "KL16JV5463",
+    "stationId": "S-0762",
+    "requestedEnergyKwh": 11.5,
+    "startOffsetMinutes": 675,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0562",
+    "registrationNumber": "KL15FT6730",
+    "stationId": "S-0970",
+    "requestedEnergyKwh": 12.5,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0563",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1284",
+    "requestedEnergyKwh": 19.5,
+    "startOffsetMinutes": 585,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0564",
+    "registrationNumber": "KL72PC3844",
+    "stationId": "S-0802",
+    "requestedEnergyKwh": 19.0,
+    "startOffsetMinutes": 360,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0565",
+    "registrationNumber": "TN97NL1786",
+    "stationId": "S-1659",
+    "requestedEnergyKwh": 17.0,
+    "startOffsetMinutes": 1275,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0566",
+    "registrationNumber": "KA64JW3864",
+    "stationId": "S-0409",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0567",
+    "registrationNumber": "KA46MT9613",
+    "stationId": "S-0554",
+    "requestedEnergyKwh": 13.5,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0568",
+    "registrationNumber": "KL62ML2051",
+    "stationId": "S-0890",
+    "requestedEnergyKwh": 21.5,
+    "startOffsetMinutes": 1275,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0569",
+    "registrationNumber": "DL12PV5434",
+    "stationId": "S-0121",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 1230,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0570",
+    "registrationNumber": "KL50KL7971",
+    "stationId": "S-0737",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0571",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0142",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 345,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0572",
+    "registrationNumber": "KA58WC5045",
+    "stationId": "S-0454",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 165,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0573",
+    "registrationNumber": "WB06BY5355",
+    "stationId": "S-1953",
+    "requestedEnergyKwh": 27.5,
+    "startOffsetMinutes": 840,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0574",
+    "registrationNumber": "DL05ZY6525",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 11.0,
+    "startOffsetMinutes": 240,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0575",
+    "registrationNumber": "TN60TE9752",
+    "stationId": "S-1661",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 315,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0576",
+    "registrationNumber": "TN81CK7536",
+    "stationId": "S-1642",
+    "requestedEnergyKwh": 4.0,
+    "startOffsetMinutes": 1305,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0577",
+    "registrationNumber": "KA42TK2562",
+    "stationId": "S-0324",
+    "requestedEnergyKwh": 5.0,
+    "startOffsetMinutes": 135,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0578",
+    "registrationNumber": "KL16JV5463",
+    "stationId": "S-0767",
+    "requestedEnergyKwh": 6.5,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0579",
+    "registrationNumber": "DL03KW8506",
+    "stationId": "S-0124",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 60,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0580",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0933",
+    "requestedEnergyKwh": 22.5,
+    "startOffsetMinutes": 1065,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0581",
+    "registrationNumber": "KA66RH8175",
+    "stationId": "S-0438",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1260,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0582",
+    "registrationNumber": "KL62US4344",
+    "stationId": "S-0931",
+    "requestedEnergyKwh": 28.0,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0583",
+    "registrationNumber": "TN29UD9080",
+    "stationId": "S-1758",
+    "requestedEnergyKwh": 7.5,
+    "startOffsetMinutes": 435,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0584",
+    "registrationNumber": "OD24WG5000",
+    "stationId": "S-1489",
+    "requestedEnergyKwh": 17.5,
+    "startOffsetMinutes": 540,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0585",
+    "registrationNumber": "KA29GH5738",
+    "stationId": "S-0425",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0586",
+    "registrationNumber": "KA18ND8549",
+    "stationId": "S-0380",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 1410,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0587",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0931",
+    "requestedEnergyKwh": 14.0,
+    "startOffsetMinutes": 150,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0588",
+    "registrationNumber": "KL60YP4341",
+    "stationId": "S-0905",
+    "requestedEnergyKwh": 5.5,
+    "startOffsetMinutes": 255,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0589",
+    "registrationNumber": "DL08BG9147",
+    "stationId": "S-0121",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 600,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0590",
+    "registrationNumber": "DL03RF8825",
+    "stationId": "S-0104",
+    "requestedEnergyKwh": 12.0,
+    "startOffsetMinutes": 1335,
+    "durationMinutes": 195,
+    "source": "generated"
+  },
+  {
+    "id": "R-0591",
+    "registrationNumber": "KL66CE4479",
+    "stationId": "S-1240",
+    "requestedEnergyKwh": 10.0,
+    "startOffsetMinutes": 885,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0592",
+    "registrationNumber": "KA69DG3498",
+    "stationId": "S-0377",
+    "requestedEnergyKwh": 8.5,
+    "startOffsetMinutes": 960,
+    "durationMinutes": 90,
+    "source": "generated"
+  },
+  {
+    "id": "R-0593",
+    "registrationNumber": "KA50XN3275",
+    "stationId": "S-0634",
+    "requestedEnergyKwh": 7.0,
+    "startOffsetMinutes": 120,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0594",
+    "registrationNumber": "DL04RP3174",
+    "stationId": "S-0172",
+    "requestedEnergyKwh": 25.5,
+    "startOffsetMinutes": 1050,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0595",
+    "registrationNumber": "DL12PV5434",
+    "stationId": "S-0162",
+    "requestedEnergyKwh": 6.0,
+    "startOffsetMinutes": 1080,
+    "durationMinutes": 45,
+    "source": "generated"
+  },
+  {
+    "id": "R-0596",
+    "registrationNumber": "KL75CN1277",
+    "stationId": "S-1273",
+    "requestedEnergyKwh": 16.0,
+    "startOffsetMinutes": 1005,
+    "durationMinutes": 60,
+    "source": "generated"
+  },
+  {
+    "id": "R-0597",
+    "registrationNumber": "KA58GM8694",
+    "stationId": "S-0375",
+    "requestedEnergyKwh": 9.0,
+    "startOffsetMinutes": 480,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0598",
+    "registrationNumber": "TN96EY6971",
+    "stationId": "S-1737",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 30,
+    "source": "generated"
+  },
+  {
+    "id": "R-0599",
+    "registrationNumber": "DL05LH5801",
+    "stationId": "S-0191",
+    "requestedEnergyKwh": 9.5,
+    "startOffsetMinutes": 1350,
+    "durationMinutes": 75,
+    "source": "generated"
+  },
+  {
+    "id": "R-0600",
+    "registrationNumber": "KL06JM6237",
+    "stationId": "S-0887",
+    "requestedEnergyKwh": 20.0,
+    "startOffsetMinutes": 75,
+    "durationMinutes": 75,
     "source": "generated"
   }
 ]

@@ -58,9 +58,10 @@ class DemoDataSeederIT {
         assertThat(rowCounts()).isEqualTo(afterFirst);
         assertThat(jdbc.queryForList("select name from stations order by name", String.class))
                 .isEqualTo(namesAfterFirst);
-        // Committed dataset (seed 20261102): 36 OpenStreetMap stations, 78 connectors, 40 vehicles of 20 drivers,
-        // 120 requests.
-        assertThat(first).isEqualTo(new DemoDataSeeder.SeedSummary(21, 36, 78, 40, 120));
+        // Committed dataset (seed 20261102): 1971 Open Charge Map and OpenStreetMap stations across India, 4614
+        // connectors, 134 vehicles of 100 drivers, 600 requests.
+        assertThat(first).isEqualTo(new DemoDataSeeder.SeedSummary(101, 1971, 4614, 134, 600));
+        assertThat(count("select count(*) from stations where city is null or state is null")).isZero();
     }
 
     @Test
@@ -99,8 +100,8 @@ class DemoDataSeederIT {
 
         List<StationRecord> stations = new ArrayList<>(valid.stations());
         StationRecord s = stations.get(2);
-        stations.set(2, new StationRecord(s.id(), s.name(), s.address(), s.latitude(), s.longitude(),
-                new BigDecimal("-1.00"), s.status(), s.region(), s.source()));
+        stations.set(2, new StationRecord(s.id(), s.name(), s.address(), s.city(), s.state(), s.latitude(),
+                s.longitude(), new BigDecimal("-1.00"), s.status(), s.source()));
         DemoDataset negativeGrid = new DemoDataset(stations, valid.connectors(), valid.vehicles(), valid.requests());
         assertThatThrownBy(() -> seeder.reset(negativeGrid))
                 .isInstanceOf(DatasetValidationException.class)
@@ -117,7 +118,7 @@ class DemoDataSeederIT {
 
         assertThat(jdbc.queryForList("select distinct status from bookings", String.class)).containsExactly("PENDING");
         List<Map<String, Object>> windows = jdbc.queryForList("select requested_start, requested_end from bookings");
-        assertThat(windows).hasSize(120).allSatisfy(row -> {
+        assertThat(windows).hasSize(600).allSatisfy(row -> {
             Instant start = ((Timestamp) row.get("requested_start")).toInstant();
             Instant end = ((Timestamp) row.get("requested_end")).toInstant();
             assertThat(start.getEpochSecond() % 900).isZero();
@@ -138,7 +139,7 @@ class DemoDataSeederIT {
     }
 
     private static VehicleRecord withRegistration(VehicleRecord v, String registration) {
-        return new VehicleRecord(registration, v.ownerEmail(), v.ownerName(), v.homeRegion(), v.model(),
+        return new VehicleRecord(registration, v.ownerEmail(), v.ownerName(), v.homeCity(), v.homeState(), v.model(),
                 v.batteryCapacityKwh(), v.currentSoc(), v.maxChargingKw(), v.connectorTypes(), v.source());
     }
 }
